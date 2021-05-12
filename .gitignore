@@ -7,7 +7,9 @@ RemoteSystemsTempFiles/
 #*/**/.project
 
 # Files
-*/**/lib/classes.jar/*
-*/**/lib/resources.jar/*
-*/**/lib/test-classes.jar/*
+*/**/lib/classes.jar
+*/**/lib/resources.jar
+*/**/lib/classes.jar_/*
+*/**/lib/resources.jar_/*
+*/**/lib/test-classes.jar_/*
 */**/*.class
