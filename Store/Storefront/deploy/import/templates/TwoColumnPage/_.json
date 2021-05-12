@@ -1,0 +1,32 @@
+{
+    "@description": "${template.description}",
+    "@group": "Page",
+    "ecr:createDate": "2016-12-07T09:49:29.400Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": []
+    },
+    "typeInfo": {
+        "HeaderContent": {
+            "@propertyType": "ContentItemList",
+            "@group": "HeaderContent"
+        },
+        "MainContent": {
+            "@propertyType": "ContentItemList",
+            "@group": "MainContent"
+        },
+        "SecondaryContent": {
+            "@propertyType": "ContentItemList",
+            "@group": "SecondaryContent"
+        }
+    },
+    "defaultContentItem": {
+        "HeaderContent": [],
+        "@name": "Two-Column Page",
+        "MainContent": [],
+        "SecondaryContent": []
+    },
+    "locales": {}
+}

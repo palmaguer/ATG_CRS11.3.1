@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<gsa-template>
+  <item-descriptor name="storeImage"
+                   display-name-resource="image"
+                   display-property="name" xml-combine="append">
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="categoryStoreTranslationsPriority" value="25"/>
+
+    <table name="crs_store_image" type="primary" id-column-name="image_id">
+      <property name="name" xml-combine="remove"/>
+
+      <property name="nameDefault" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="nameDefault"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+    </table>
+
+    <property name="name" data-type="string"
+              category-resource="categoryBasics" display-name-resource="name"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>nameDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="nameDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <table name="crs_img_img_xlate" type="multi" multi-column-name="locale" id-column-names="image_id">
+      <property name="translations" data-type="map" column-name="translation_id" component-item-type="storeImageTranslation"
+                category-resource="categoryStoreTranslations" display-name-resource="translations">
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeImageTranslation" id-space-name="storeImageTranslation"
+                   display-name-resource="imageTranslation">
+
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <table name="crs_image_xlate" type="primary" id-column-name="translation_id">
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="5"/>
+      </property>
+      <property name="name" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="name"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeVideo" 
+                   display-name-resource="video"
+                   display-property="name" xml-combine="append">
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="categoryStoreTranslationsPriority" value="25"/>
+
+    <table name="crs_store_video" type="primary" id-column-name="video_id">
+      <property name="name" xml-combine="remove"/>
+
+      <property name="nameDefault" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="nameDefault"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+    </table>
+
+    <property name="name" data-type="string"
+              category-resource="categoryBasics" display-name-resource="name"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>nameDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="nameDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <table name="crs_vid_vid_xlate" type="multi" multi-column-name="locale" id-column-names="video_id">
+      <property name="translations" data-type="map" column-name="translation_id" component-item-type="storeVideoTranslation"
+                category-resource="categoryStoreTranslations" display-name-resource="translations">
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeVideoTranslation" id-space-name="storeVideoTranslation"
+                   display-name-resource="videoTranslation">
+
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <table name="crs_video_xlate" type="primary" id-column-name="translation_id">
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="5"/>
+      </property>
+      <property name="name" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="name"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeArticle"
+                   display-name-resource="article"
+                   display-property="name" xml-combine="append">
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="categoryStoreTranslationsPriority" value="25"/>
+
+    <table name="crs_store_article" type="primary" id-column-name="article_id">
+      <property name="headline" xml-combine="remove"/>
+      <property name="subheadline" xml-combine="remove"/>
+      <property name="abstract" xml-combine="remove"/>
+      <property name="body" xml-combine="remove"/>
+      <property name="author" xml-combine="remove"/>
+
+      <property name="headlineDefault" data-type="string" column-name="headline"
+                category-resource="categoryContent" display-name-resource="headlineDefault">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="subheadlineDefault" data-type="string" column-name="subheadline"
+                category-resource="categoryContent" display-name-resource="subheadlineDefault">
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+      <property name="abstractDefault" data-type="big string" column-name="abstract"
+                category-resource="categoryContent" display-name-resource="abstractDefault">
+        <attribute name="propertySortPriority" value="30"/>
+      </property>
+      <property name="bodyDefault" data-type="big string" column-name="article_body"
+                category-resource="categoryContent" display-name-resource="bodyDefault">
+        <attribute name="propertySortPriority" value="40"/>
+      </property>
+      <property name="authorDefault" data-type="string" column-name="author"
+                category-resource="categoryContent" display-name-resource="authorDefault">
+        <attribute name="propertySortPriority" value="60"/>
+      </property>
+
+    </table>
+
+    <property name="headline" data-type="string"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>headlineDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="headlineDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <property name="subheadline" data-type="string"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>subheadlineDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="subheadlineDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <property name="abstract" data-type="big string"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>abstractDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="abstractDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <property name="body" data-type="big string"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>bodyDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="bodyDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <property name="author" data-type="string"
+              writable="false" hidden="true" queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>authorDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="authorDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <table name="crs_art_art_xlate" type="multi" multi-column-name="locale" id-column-names="article_id">
+      <property name="translations" data-type="map" column-name="translation_id" component-item-type="storeArticleTranslation"
+                category-resource="categoryStoreTranslations" display-name-resource="translations">
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeArticleTranslation" id-space-name="storeArticleTranslation"
+                   display-name-resource="articleTranslation">
+
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="categoryBasicsPriority" value="10"/>
+    <attribute name="categoryContentPriority" value="20"/>
+
+    <table name="crs_article_xlate" type="primary" id-column-name="translation_id">
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="5"/>
+      </property>
+      <property name="headline" data-type="string" column-name="headline"
+                category-resource="categoryContent" display-name-resource="headline">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="subheadline" data-type="string" column-name="subheadline"
+                category-resource="categoryContent" display-name-resource="subheadline">
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+      <property name="abstract" data-type="big string" column-name="abstract"
+                category-resource="categoryContent" display-name-resource="abstract">
+        <attribute name="propertySortPriority" value="30"/>
+      </property>
+      <property name="body" data-type="big string" column-name="article_body"
+                category-resource="categoryContent" display-name-resource="body">
+        <attribute name="propertySortPriority" value="40"/>
+      </property>
+      <property name="author" data-type="string" column-name="author"
+                category-resource="categoryContent" display-name-resource="author">
+        <attribute name="propertySortPriority" value="50"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/International/config/atg/store/stores/storeContent.xml#1 $$Change: 1497274 $-->
+

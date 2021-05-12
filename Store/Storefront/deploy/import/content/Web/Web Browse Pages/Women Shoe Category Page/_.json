@@ -1,0 +1,83 @@
+{
+    "workflowState": "ACTIVE",
+    "workflowNote": "",
+    "ruleLimit": "1",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Two-Column Page",
+        "@type": "TwoColumnPage",
+        "HeaderContent": [{
+            "backgroundBannerURL": "",
+            "@name": "Category Header Banner",
+            "@type": "HeaderBanner-ATGCategory",
+            "promotionalContentId": "",
+            "headerTitle": ""
+        }],
+        "MainContent": [
+            {
+                "@name": "Category Products Grid",
+                "@type": "ProductList-ATGCategoryChildren",
+                "recordsPerPage": "12"
+            },
+            {
+                "@name": "Spotlight Records",
+                "maxNumRecords": "12",
+                "@type": "ContentSpotlight",
+                "itemsPerPage": "4",
+                "seeAllLinkText": "See All",
+                "showSeeAllLink": false,
+                "title": "generic_spotlightTitle_Articles",
+                "recordSelection": {
+                    "augment": "false",
+                    "@class": "com.endeca.infront.cartridge.RecordSpotlightSelection",
+                    "filterState": {
+                        "@class": "com.endeca.infront.navigation.model.FilterState",
+                        "navigationFilters": ["660600704"]
+                    }
+                }
+            },
+            {
+                "@name": "Recommendations",
+                "@type": "ProductSpotlight-ATGCategoryRecommendations",
+                "numberOfRecords": "4"
+            }
+        ],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "Breadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Guided Navigation",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Guided Navigation"]
+            },
+            {
+                "@name": "Promotional Content 1",
+                "@type": "PromotionalContent-ATGSlot",
+                "componentPath": "CategoryPromotionContent1",
+                "randomizeItems": true,
+                "itemCount": "1"
+            },
+            {
+                "@name": "Promotional Content 2",
+                "@type": "PromotionalContent-ATGSlot",
+                "componentPath": "CategoryPromotionContent2",
+                "randomizeItems": true,
+                "itemCount": "1"
+            }
+        ]
+    },
+    "userSegments": ["CategoryOnly"],
+    "mdexMerchRuleID": 5,
+    "previewable": true,
+    "priority": 20,
+    "triggers": [{
+        "exactLocation": false,
+        "dvalIDs": ["3081128387"]
+    }],
+}

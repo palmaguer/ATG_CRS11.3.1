@@ -1,0 +1,17 @@
+{
+    "@description": "${template.description}",
+    "@group": "Navigation",
+    "ecr:createDate": "2016-12-07T09:49:28.439Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": []
+    },
+    "typeInfo": {"geoProperty": {"@propertyType": "String"}},
+    "defaultContentItem": {
+        "@name": "GeoCode Property",
+        "geoProperty": "store.geocode"
+    },
+    "locales": {}
+}

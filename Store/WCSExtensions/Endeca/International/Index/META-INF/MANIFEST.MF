@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+ATG-Required: Store.WCSExtensions.Endeca.Index
+ATG-Config-Path: config/config.jar
+
+

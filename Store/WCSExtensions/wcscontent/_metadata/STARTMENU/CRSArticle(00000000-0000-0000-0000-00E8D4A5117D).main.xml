@@ -1,0 +1,107 @@
+<object-stream>
+  <com.fatwire.realtime.ResourceDataImpl>
+    <id class="string">1000000000381</id>
+    <resourceType>STARTMENU</resourceType>
+    <deps class="empty-set"/>
+    <data class="com.openmarket.xcelerate.startmenu.StartMenuItem">
+      <id>1000000000381</id>
+      <uid>00000000-0000-0000-0000-00E8D4A5117D</uid>
+      <name>CRS Article</name>
+      <assetType>CRSArticle</assetType>
+      <menuType>Search</menuType>
+      <legalSites class="com.openmarket.xcelerate.common.SiteList">
+        <hashtable>
+          <entry>
+            <long>1000000000377</long>
+            <long>1000000000377</long>
+          </entry>
+        </hashtable>
+      </legalSites>
+      <legalRoles class="com.openmarket.xcelerate.common.RoleList">
+        <hashtable>
+          <entry>
+            <string>SitesUser</string>
+            <string>SitesUser</string>
+          </entry>
+        </hashtable>
+      </legalRoles>
+      <processInputForm>0</processInputForm>
+      <participantInputForm>0</participantInputForm>
+      <siteAffinityInputForm>0</siteAffinityInputForm>
+      <legalArguments class="com.openmarket.xcelerate.startmenu.InputArgList">
+        <hashtable>
+          <entry>
+            <string>subtype</string>
+            <com.openmarket.xcelerate.startmenu.InputArgList_-InputArg>
+              <argName>subtype</argName>
+              <isRequired>false</isRequired>
+              <outer-class reference="../../../.."/>
+            </com.openmarket.xcelerate.startmenu.InputArgList_-InputArg>
+          </entry>
+          <entry>
+            <string>Group_%</string>
+            <com.openmarket.xcelerate.startmenu.InputArgList_-InputArg>
+              <argName>Group_%</argName>
+              <isRequired>false</isRequired>
+              <outer-class reference="../../../.."/>
+            </com.openmarket.xcelerate.startmenu.InputArgList_-InputArg>
+          </entry>
+        </hashtable>
+      </legalArguments>
+      <workflowChoices class="com.openmarket.xcelerate.startmenu.ProcessList">
+        <hashtable/>
+      </workflowChoices>
+      <participantChoices class="com.openmarket.xcelerate.startmenu.ParticipantList">
+        <required class="com.openmarket.xcelerate.workflow.Participants">
+          <rolesHash class="java.util.Collections$SynchronizedMap" serialization="custom">
+            <java.util.Collections_-SynchronizedMap>
+              <default>
+                <m class="tree-map"/>
+                <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+              </default>
+            </java.util.Collections_-SynchronizedMap>
+          </rolesHash>
+          <usersHash/>
+        </required>
+        <optional class="com.openmarket.xcelerate.workflow.Participants">
+          <rolesHash class="java.util.Collections$SynchronizedMap" serialization="custom">
+            <java.util.Collections_-SynchronizedMap>
+              <default>
+                <m class="tree-map"/>
+                <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+              </default>
+            </java.util.Collections_-SynchronizedMap>
+          </rolesHash>
+          <usersHash/>
+        </optional>
+      </participantChoices>
+      <siteChoices class="com.openmarket.xcelerate.common.SiteList">
+        <hashtable>
+          <entry>
+            <long>1000000000377</long>
+            <long>1000000000377</long>
+          </entry>
+        </hashtable>
+      </siteChoices>
+      <arguments class="com.openmarket.xcelerate.startmenu.InputArgListMv" serialization="custom">
+        <com.openmarket.xcelerate.common.ArgumentList>
+          <int>1</int>
+          <int>0</int>
+        </com.openmarket.xcelerate.common.ArgumentList>
+      </arguments>
+    </data>
+  </com.fatwire.realtime.ResourceDataImpl>
+</object-stream>
+<!--==================___ METADATA ___================
+<dependencies>
+  <list/>
+</dependencies>
+==================______________________==================
+#
+#Thu Jun 20 11:12:16 UTC 2013
+key=@STARTMENU-00000000-0000-0000-0000-00E8D4A5117D
+type=STARTMENU
+sites=@@SITE_NAME@@
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/STARTMENU/CRSArticle(00000000-0000-0000-0000-00E8D4A5117D).main.xml#1 $$Change: 1497274 $-->

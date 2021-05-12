@@ -1,0 +1,4 @@
+ATG-Product: The Mobile Commerce Store International module
+Manifest-Version: 1.0
+ATG-Config-Path: config/config.jar
+ATG-Required: Store.Mobile Store.EStore

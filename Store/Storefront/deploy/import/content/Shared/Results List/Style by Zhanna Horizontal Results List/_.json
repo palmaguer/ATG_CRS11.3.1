@@ -1,0 +1,53 @@
+{
+    "mdexMerchRuleID": 1,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.970Z",
+    "priority": 10,
+    "triggers": [
+        {
+            "exactLocation": true,
+            "dvalIDs": ["4294967041"]
+        },
+        {
+            "searchTermExpansions": {
+                "2": {"zhanna": ["zhanna"]},
+                "1": {"by": ["by"]},
+                "0": {"style": ["styles"]}
+            },
+            "exactLocation": true,
+            "searchTerms": "Style by Zhanna",
+            "matchmode": "MATCHEXACT"
+        }
+    ],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "buryStrata": [],
+        "@name": "Style by Zhanna Horizontal Results List",
+        "@type": "HorizontalResultsList",
+        "recordsPerPage": "12",
+        "relRank": "nterms,maxfield,glom,exact,static(sku.activePrice,descending),static(product.displayName,ascending)",
+        "sortOption": {
+            "@class": "com.endeca.infront.navigation.model.SortOption",
+            "label": "Price (Descending)",
+            "sorts": [{
+                "@class": "com.endeca.infront.navigation.model.SortSpec",
+                "key": "sku.activePrice",
+                "descending": "true"
+            }]
+        },
+        "boostStrata": [{
+            "@class": "com.endeca.infront.navigation.model.CollectionFilter",
+            "innerFilter": {
+                "@class": "com.endeca.infront.navigation.model.AndFilter",
+                "operands": [{
+                    "@class": "com.endeca.infront.navigation.model.DimensionFilter",
+                    "dvalId": "4294967041",
+                    "dimensionName": "product.brand"
+                }]
+            }
+        }]
+    },    
+    "ruleLimit": "1",
+    "userSegments": ["NoPriceRange"]
+}

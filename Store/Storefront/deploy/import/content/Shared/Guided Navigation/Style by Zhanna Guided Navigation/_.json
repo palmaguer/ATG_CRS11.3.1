@@ -1,0 +1,65 @@
+{
+    "mdexMerchRuleID": 7,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.951Z",
+    "priority": 10,
+    "triggers": [
+        {
+            "exactLocation": true,
+            "dvalIDs": ["4294967041"]
+        },
+        {
+            "searchTermExpansions": {
+                "2": {"zhanna": ["zhanna"]},
+                "1": {"by": ["by"]},
+                "0": {"style": ["styles"]}
+            },
+            "exactLocation": true,
+            "searchTerms": "Style by Zhanna",
+            "matchmode": "MATCHEXACT"
+        }
+    ],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Guided Navigation",
+        "@type": "GuidedNavigation",
+        "navigation": [
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Category",
+                "dimensionId": "10011",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": false,
+                "dimensionName": "product.category",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "@name": "Price",
+                "priceProperty": "sku.activePrice",
+                "@type": "PriceSlider"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Feature",
+                "dimensionId": "10007",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "product.features.displayName",
+                "displayNamePropertyAlias": "displayName"
+            }
+        ]
+    },
+    "ruleLimit": "1",
+    "userSegments": ["NoPriceRange"]
+}

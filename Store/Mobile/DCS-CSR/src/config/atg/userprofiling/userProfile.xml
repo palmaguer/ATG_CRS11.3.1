@@ -1,0 +1,48 @@
+<gsa-template>
+  <header>
+    <name>iBeacon Related Profile Additions</name>
+    <author>ATG</author>
+  </header>
+
+  <item-descriptor name="inStoreDeviceUser" display-name-resource="inStoreDeviceUserItemDescriptor">
+    <attribute name="resourceBundle" value="atg.projects.store.userprofiling.UserProfileResources"/>
+
+    <table name="crs_instore_user" type="primary" id-column-name="id">
+      <property name="id" data-type="string" column-name="id" display-name-resource="inStoreDeviceUserId"
+                category-resource="inStoreShoppers" required="true">
+        <attribute name="propertySortPriority" value="5"/>
+      </property>
+      <property name="profileId" data-type="string" column-name="user_id" display-name-resource="inStoreDeviceUserProfileId"
+       category-resource="inStoreShoppers" required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="store" column-name="location_id" display-name-resource="inStoreDeviceUserStore"
+                category-resource="inStoreShoppers" required="true" data-type="string">
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+      <property name="beacon" column-name="ibeacon_id" data-type="string"
+        display-name-resource="inStoreDeviceUserBeacon" category-resource="inStoreShoppers">
+        <attribute name="propertySortPriority" value="30"/>
+      </property>
+      <property name="lastSeen" data-type="timestamp" column-name="last_seen_date" display-name-resource="inStoreDeviceUserLastSeen"
+                category-resource="inStoreShoppers" required="true">
+        <attribute name="propertySortPriority" value="40"/>
+      </property>
+      <property name="helpRequested" data-type="boolean" column-name="help_requested" default="false"
+                display-name-resource="inStoreDeviceUserHelpRequested" category-resource="inStoreShoppers" required="true">
+        <attribute name="propertySortPriority" value="50"/>
+      </property>
+      <property name="helpRequestTimestamp" data-type="timestamp" column-name="help_request_date"
+                display-name-resource="inStoreDeviceUserHelpRequestDate" category-resource="inStoreShoppers">
+        <attribute name="propertySortPriority" value="60"/>
+      </property>
+      <property name="userDisplayName" data-type="string" column-name="displayed_user_name"
+        display-name-resource="inStoreDeviceUserUserName" category-resource="inStoreShoppers">
+        <attribute name="propertySortPriority" value="70"/>
+      </property>
+    </table>
+
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/config/atg/userprofiling/userProfile.xml#1 $$Change: 1497274 $-->

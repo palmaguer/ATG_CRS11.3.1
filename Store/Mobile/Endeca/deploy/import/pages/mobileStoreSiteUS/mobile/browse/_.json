@@ -1,0 +1,12 @@
+{
+    "contentType": "Page",
+    "contentItem": {
+        "ruleLimit": "1",
+        "@name": "Mobile Browse Page Slot",
+        "templateTypes": ["Page"],
+        "templateIds": [],
+        "@type": "PageSlot",
+        "contentPaths": ["/content/Mobile/Web Browse Pages"]
+    },
+    "ecr:type": "page"
+}

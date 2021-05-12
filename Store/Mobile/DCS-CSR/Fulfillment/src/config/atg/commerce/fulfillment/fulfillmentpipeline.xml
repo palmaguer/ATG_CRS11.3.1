@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pipelinemanager
+  PUBLIC "-//Art Technology Group, Inc.//DTD Dynamo Pipeline Manager//EN"
+  'http://www.atg.com/dtds/pipelinemanager/pipelinemanager_1.0.dtd'>
+
+<pipelinemanager>
+  <!-- InStoreSaleFulfiller processes a fulfillOrderFragment message -->
+  <pipelinechain name="handleInStoreSaleFulfillOrderFragment" transaction="TX_REQUIRED" headlink="extractOrderId200">
+    <pipelinelink name="extractOrderId200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ExtractOrderId"/>
+      <transition returnvalue="1" link="handleRetrieveOrder200"/>
+    </pipelinelink>
+    <pipelinelink name="handleRetrieveOrder200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/HandleRetrieveOrder"/>
+      <transition returnvalue="1" link="loadSaveOrder200"/>
+      <transition returnvalue="2" link="loadOrder200"/>
+    </pipelinelink>
+    <pipelinelink name="loadSaveOrder200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/LoadSaveOrderRepository"/>
+      <transition returnvalue="1" link="processInStoreSaleGroupsChain"/>
+    </pipelinelink>
+    <pipelinelink name="loadOrder200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/LoadOrderRepository"/>
+      <transition returnvalue="1" link="processInStoreSaleGroupsChain"/>
+    </pipelinelink>
+    <pipelinelink name="processInStoreSaleGroupsChain" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ProcessInStoreSaleGroupsChain"/>
+      <transition returnvalue="1" link="updateOrderRepository200"/>
+    </pipelinelink>
+    <pipelinelink name="updateOrderRepository200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/UpdateOrderRepository"/>
+      <transition returnvalue="1" link="sendModifyOrderNotification200"/>
+    </pipelinelink>
+    <pipelinelink name="sendModifyOrderNotification200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/SendModifyOrderNotification"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- InStoreSaleFulfiller processes its shipping groups (fulfills) -->
+  <pipelinechain name="processInStoreSaleGroup" transaction="TX_REQUIRED" headlink="verifyShippingGroupForFulfillment200">
+    <pipelinelink name="verifyShippingGroupForFulfillment200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/VerifyShippingGroupForFulfillment"/>
+      <transition returnvalue="1" link="allocateShippingGroupChain200"/>
+    </pipelinelink>
+    <pipelinelink name="allocateShippingGroupChain200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/AllocateInStoreSaleShippingGroupChain"/>
+      <transition returnvalue="1" link="extractShippingGroupId"/>
+    </pipelinelink>
+    <pipelinelink name="extractShippingGroupId" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ExtractShippingGroupIdChain"/>
+      <transition returnvalue="1" link="shippingGroupHasShippedChain200"/>
+    </pipelinelink>
+    <pipelinelink name="shippingGroupHasShippedChain200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ShippingGroupHasShippedChain"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- The InStoreSaleFulfiller fulfills straightaway, so it doesn't care about updateInventory messages -->
+  <pipelinechain name="handleInStoreSaleUpdateInventory" transaction="TX_REQUIRED" headlink="modificationNotSupported200">
+    <pipelinelink name="modificationNotSupported200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ModificationNotSupported"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- HardgoodFulfiller removes a shipping group -->
+  <pipelinechain name="removeInStoreSaleGroup" transaction="TX_REQUIRED" headlink="verifyShippingGroupForRemoval200">
+    <pipelinelink name="verifyShippingGroupForRemoval200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/VerifyShippingGroupForRemoval"/>
+      <transition returnvalue="1" link="removeShipItemRelsFromShipGroupChain200"/>
+    </pipelinelink>
+    <pipelinelink name="removeShipItemRelsFromShipGroupChain200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/RemoveShipItemRelsFromShipGroupChain"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <pipelinechain name="removeShipItemRelsFromShipGroup" transaction="TX_REQUIRED" headlink="verifyShipItemRelationshipForRemoval200">
+    <pipelinelink name="verifyShipItemRelationshipForRemoval200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/VerifyShipItemRelationshipForRemoval"/>
+      <transition returnvalue="1" link="removeShipItemRelationship"/>
+    </pipelinelink>
+    <pipelinelink name="removeShipItemRelationship" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/RemoveShipItemRelationship"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- InStorePickupFulfiller processes an shipping group update -->
+  <pipelinechain name="updateInStoreSaleGroup" transaction="TX_REQUIRED" headlink="handleShippingGroupState200">
+    <pipelinelink name="handleShippingGroupState200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/HandleShippingGroupState"/>
+      <transition returnvalue="4" link="shippingGroupHasShippedChain201"/>
+      <transition returnvalue="5" link="modificationNotSupported201"/>
+    </pipelinelink>
+    <pipelinelink name="shippingGroupHasShippedChain201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ShippingGroupHasShippedChain"/>
+    </pipelinelink>
+    <pipelinelink name="modificationNotSupported201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ModificationNotSupported"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- InStorePickupFulfiller processes a modifyOrder message -->
+  <pipelinechain name="handleInStoreSaleModifyOrder" transaction="TX_REQUIRED" headlink="extractOrderId201">
+    <pipelinelink name="extractOrderId201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ExtractOrderId"/>
+      <transition returnvalue="1" link="loadOrder201"/>
+    </pipelinelink>
+    <pipelinelink name="loadOrder201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/LoadOrderRepository"/>
+      <transition returnvalue="1" link="handleModificationClassType200"/>
+    </pipelinelink>
+    <pipelinelink name="handleModificationClassType200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/HandleModificationClassType"/>
+      <transition returnvalue="1" link="updateOrderRepository201"/>
+    </pipelinelink>
+    <pipelinelink name="updateOrderRepository201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/UpdateOrderRepository"/>
+      <transition returnvalue="1" link="sendModifyOrderNotification201"/>
+    </pipelinelink>
+    <pipelinelink name="sendModifyOrderNotification201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/SendModifyOrderNotification"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- This chain processes a modifyOrderNotification message received by InStoreSaleFulfiller -->
+  <pipelinechain name="handleInStoreSaleModifyOrderNotification" transaction="TX_REQUIRED" headlink="extractOrderId202">
+    <pipelinelink name="extractOrderId202" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ExtractOrderId"/>
+      <transition returnvalue="1" link="loadOrder202"/>
+    </pipelinelink>
+    <pipelinelink name="loadOrder202" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/LoadOrderRepository"/>
+      <transition returnvalue="1" link="handleModificationClassType201"/>
+    </pipelinelink>
+    <pipelinelink name="handleModificationClassType201" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/HandleModificationClassType"/>
+      <transition returnvalue="1" link="updateOrderRepository202"/>
+    </pipelinelink>
+    <pipelinelink name="updateOrderRepository202" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/UpdateOrderRepository"/>
+      <transition returnvalue="1" link="sendModifyOrderNotification202"/>
+    </pipelinelink>
+    <pipelinelink name="sendModifyOrderNotification202" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/SendModifyOrderNotification"/>
+    </pipelinelink>
+  </pipelinechain>
+
+  <!-- InStorePickupfiller processes a shippingGroupUpdate modification forwarded by the OrderFulfiller -->
+  <pipelinechain name="handleInStoreSaleUpdateModification" transaction="TX_REQUIRED" headlink="extractShippingGroupIds200">
+    <pipelinelink name="extractShippingGroupIds200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ExtractShippingGroupIds"/>
+      <transition returnvalue="1" link="processInStoreSaleGroupsChain200"/>
+    </pipelinelink>
+    <pipelinelink name="processInStoreSaleGroupsChain200" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/fulfillment/processor/ProcessInStoreSaleGroupsChain"/>
+    </pipelinelink>
+  </pipelinechain>
+
+
+</pipelinemanager>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/Fulfillment/config/atg/commerce/fulfillment/fulfillmentpipeline.xml#1 $$Change: 1497274 $-->

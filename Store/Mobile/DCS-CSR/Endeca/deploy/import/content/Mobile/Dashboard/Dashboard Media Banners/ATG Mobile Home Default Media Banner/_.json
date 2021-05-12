@@ -1,0 +1,17 @@
+{
+    "mdexMerchRuleID": 14,
+    "workflowState": "ACTIVE",
+    "priority": 10,
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Default Media Banner - CRS Mobile Home",
+        "@type": "MediaBanner",
+        "imageURL": "/crsdocroot/content/mobile/images/ASADashboard_CRSMobileHome_en.png",
+        "link": {"@class": "com.endeca.infront.cartridge.model.LinkBuilder"}
+    },
+    "userSegments": ["site.mobileHomeSite"]
+}

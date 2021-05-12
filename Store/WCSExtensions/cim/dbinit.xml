@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database-initializer SYSTEM "http://www.atg.com/dtds/dbinit_1_0.dtd">
+<database-initializer>
+
+  <schema id="storeContentSchema">
+    <sql>
+      <path>
+        <create>
+        sql/db_components/${database}/storecontent_ddl.sql
+        </create>
+      <drop>
+        sql/uninstall/${database}/drop_storecontent_ddl.sql
+      </drop>
+      </path>
+    </sql>
+  </schema>
+
+  <server-instance-type id="production">
+
+    <datasource id="nonswitchingCore">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+    <datasource id="switchingA">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+    <datasource id="switchingB">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+  <server-instance-type id="staging">
+
+    <datasource id="stagingnonswitchingCore">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingA">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingB">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+  <server-instance-type id="svcagent">
+
+    <datasource id="svcagent">
+      <schema id="storeContentSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+</database-initializer>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/cim/dbinit.xml#1 $$Change: 1497274 $-->

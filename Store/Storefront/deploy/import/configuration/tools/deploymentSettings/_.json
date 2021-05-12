@@ -1,0 +1,4 @@
+{
+    "ecr:type": "deployment-settings",
+    "authoringApplicationExportDirectory": "@@AUTHORING_APPLICATION_EXPORT_DIRECTORY@@"
+}

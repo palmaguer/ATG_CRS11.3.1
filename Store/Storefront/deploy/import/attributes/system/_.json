@@ -1,0 +1,62 @@
+{
+    "ecr:lastModifiedBy": "admin",
+    "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+    "ecr:createDate": "2016-03-31T02:25:32.971-07:00",
+    "ecr:type": "attributes-owner-folder",
+    "article.repositoryId": {
+        "ecr:lastModifiedBy": "admin",
+        "isRollupKey": true,
+        "isRecordFilterable": true,
+        "propertyDataType": "ALPHA",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "mergeAction": "UPDATE",
+        "ecr:createDate": "2016-03-31T02:25:32.973-07:00",
+        "ecr:type": "property"
+    },
+    "content.repositoryId": {
+        "ecr:lastModifiedBy": "admin",
+        "isRollupKey": true,
+        "isRecordFilterable": true,
+        "propertyDataType": "ALPHA",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "mergeAction": "UPDATE",
+        "ecr:createDate": "2016-03-31T02:25:32.971-07:00",
+        "ecr:type": "property"
+    },
+    "product.repositoryId": {
+        "ecr:lastModifiedBy": "admin",
+        "isRollupKey": true,
+        "isRecordFilterable": true,
+        "propertyDataType": "ALPHA",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "mergeAction": "UPDATE",
+        "ecr:createDate": "2016-03-31T02:25:32.972-07:00",
+        "ecr:type": "property"
+    },
+    "record.id": {
+        "ecr:lastModifiedBy": "admin",
+        "isRecordFilterable": true,
+        "propertyDataType": "ALPHA",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "ecr:createDate": "2016-03-31T02:25:32.971-07:00",
+        "ecr:type": "property"
+    },
+    "sku.margin": {
+        "ecr:lastModifiedBy": "admin",
+        "propertyDataType": "DOUBLE",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "mergeAction": "UPDATE",
+        "ecr:createDate": "2016-03-31T02:25:32.973-07:00",
+        "ecr:type": "property"
+    },
+    "store.repositoryId": {
+        "ecr:lastModifiedBy": "admin",
+        "isRollupKey": true,
+        "isRecordFilterable": true,
+        "propertyDataType": "ALPHA",
+        "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+        "mergeAction": "UPDATE",
+        "ecr:createDate": "2016-03-31T02:25:32.972-07:00",
+        "ecr:type": "property"
+    }
+}

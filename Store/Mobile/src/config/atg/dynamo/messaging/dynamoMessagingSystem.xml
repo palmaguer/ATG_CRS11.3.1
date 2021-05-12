@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<dynamo-message-system>
+  <patchbay>
+    <message-source>
+      <nucleus-name>
+        /atg/commerce/locations/BeaconMessageSource
+      </nucleus-name>
+      <output-port>
+        <port-name>
+          atg.projects.store.mobile.ibeacon
+        </port-name>
+        <output-destination>
+          <provider-name>
+            local
+          </provider-name>
+          <destination-name>
+            localdms:/local/MobileTopic/LocationEvents
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+        </output-destination>
+      </output-port>
+    </message-source>
+
+    <message-sink>
+      <nucleus-name>
+        /atg/scenario/ScenarioManager
+      </nucleus-name>
+      <input-port>
+        <port-name>
+          IndividualEvents
+        </port-name>
+        <input-destination>
+          <provider-name>
+            local
+          </provider-name>
+          <destination-name>
+            localdms:/local/MobileTopic/LocationEvents
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+        </input-destination>
+      </input-port>
+    </message-sink>
+  </patchbay>
+
+  <!-- message registry definitions -->
+  <message-registry>
+    <message-family>
+      <message-family-name>
+        ibeacon
+      </message-family-name>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.EnteredBeaconMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.EnteredBeaconMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Entered Beacon Range
+        </display-name>
+        <description>
+          Generated when user enters the range of an iBeacon
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.ExitedBeaconMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.ExitedBeaconMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Exited Beacon Range
+        </display-name>
+        <description>
+          Generated when user exits the range of an iBeacon
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.UpdatedBeaconRangeMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.UpdatedBeaconRangeMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Updated Beacon Range
+        </display-name>
+        <description>
+          Generated when client updates the state of beacon ranging
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.EnteredStoreMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.EnteredStoreMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Entered Store
+        </display-name>
+        <description>
+          Generated when user enters the store
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.ExitedStoreMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.ExitedStoreMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Exited Store
+        </display-name>
+        <description>
+          Generated when user exits the store
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.RequestedHelpMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.RequestedHelpMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Requested Help
+        </display-name>
+        <description>
+          Generated when user requests help
+        </description>
+      </message-type>
+
+      <message-type>
+        <jms-type>
+          atg.projects.store.mobile.ibeacon.CancelledHelpMessage
+        </jms-type>
+        <message-class>
+          atg.projects.store.mobile.ibeacon.CancelledHelpMessage
+        </message-class>
+        <message-context>
+          request
+        </message-context>
+        <display-name>
+          Cancelled Help Request
+        </display-name>
+        <description>
+          Generated when user cancels the help request
+        </description>
+      </message-type>
+    </message-family>
+  </message-registry>
+
+
+  <local-jms>
+    <jndi-prefix>/local</jndi-prefix>
+    <topic-name>/MobileTopic/LocationEvents</topic-name>
+  </local-jms>
+
+</dynamo-message-system>
+  <!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/dynamo/messaging/dynamoMessagingSystem.xml#1 $$Change: 1497274 $-->

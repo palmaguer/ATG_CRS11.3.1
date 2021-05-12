@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor-template xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                default-chain-id="createOrUpdateDevice">
+
+  <!--   public RepositoryItem createOrUpdateDevice(String pUniqueId, String pPushToken, int pOS, String pOSVersion, int pApp, String pAppVersion) -->
+  <actor-chain id="createOrUpdateDevice" transaction="TX_REQUIRED" >
+    <component id="deviceManager"
+               name="/atg/commerce/device/DeviceManager"
+               method="createOrUpdateDevice"
+               method-return-var="device"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pUniqueId"   class-name="java.lang.String" value="${param.uniqueId}"/>
+      <input name="pPushToken"  class-name="java.lang.String" value="${param.pushToken}"/>
+      <input name="pOS"         class-name="java.lang.String" value="${param.os}"/>
+      <input name="pOSVersion"  class-name="java.lang.String" value="${param.osVersion}"/>
+      <input name="pApp"        class-name="java.lang.String" value="${param.app}"/>
+      <input name="pAppVersion" class-name="java.lang.String" value="${param.appVersion}"/>
+
+      <output id="device" name="device" value="${device}" />
+    </component>
+  </actor-chain>
+
+  <!--   public RepositoryItem setPushToken(String pUniqueId, String pPushToken) -->
+  <actor-chain id="setDevicePushToken" transaction="TX_REQUIRED" >
+    <component id="deviceManager"
+               name="/atg/commerce/device/DeviceManager"
+               method="setDevicePushToken"
+               method-return-var="device"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pUniqueId"   class-name="java.lang.String" value="${param.uniqueId}"/>
+      <input name="pPushToken"  class-name="java.lang.String" value="${param.pushToken}"/>
+
+      <output id="device" name="device" value="${device}" />
+    </component>
+  </actor-chain>
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/commerce/device/deviceManagerActor.xml#1 $$Change: 1497274 $-->

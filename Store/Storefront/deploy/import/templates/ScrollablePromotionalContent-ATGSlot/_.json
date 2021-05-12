@@ -1,0 +1,47 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:29.191Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.generalSettings.label}"
+            },
+            {
+                "editor": "editors/StringEditor",
+                "propertyName": "componentPath",
+                "bottomLabel": "${property.componantPath.bottomLabel}",
+                "label": "${property.componantPath.label}"
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "minValue": 1,
+                "propertyName": "itemCount",
+                "maxValue": 5,
+                "label": "${property.itemCount.label}"
+            },
+            {
+                "editor": "editors/BooleanEditor",
+                "propertyName": "randomizeItems",
+                "label": "${property.randomizeItems.label}",
+                "enabled": true
+            }
+        ]
+    },
+    "typeInfo": {
+        "componentPath": {"@propertyType": "String"},
+        "randomizeItems": {"@propertyType": "Boolean"},
+        "itemCount": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "@name": "ScrollablePromotionalContent-ATGSlot",
+        "componentPath": "",
+        "randomizeItems": true,
+        "itemCount": "3"
+    },
+    "locales": {}
+}

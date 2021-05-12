@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE item PUBLIC "-//Art Technology Group, Inc.//DTD Repository Ouput Specifier 1.0//EN" "http://www.atg.com/dtds/search/indexing-dependency-schema.dtd">
+<!--
+  Indexing Dependency Schema for Endeca Integration
+
+  @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Endeca/International/Index/config/atg/content/endeca/index/article-output-config.xml#2 $$Change: 1536476 $
+  @updated $DateTime: 2018/04/13 08:11:14 $$Author: releng $
+-->
+<item item-descriptor-name="article" is-document="true">
+  <title property-name="name"/>
+  <properties>
+    <property name="headline" type="string" property-accessor="languagePropertyAccessor" text-searchable="true"/>
+    <property name="body" type="string" property-accessor="languagePropertyAccessor" text-searchable="true"/>
+    <property name="abstract" type="string" property-accessor="languagePropertyAccessor" text-searchable="true"/>
+    <property name="language" is-dimension="true" type="string" property-accessor="/atg/endeca/index/accessor/LanguageNameAccessor" output-name="content.language" is-non-repository-property="true"/>
+  </properties>
+
+</item>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Endeca/International/Index/config/atg/content/endeca/index/article-output-config.xml#2 $$Change: 1536476 $-->

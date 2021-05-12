@@ -1,0 +1,59 @@
+{
+    "mdexMerchRuleID": 6,
+    "workflowState": "ACTIVE",
+    "previewable": true,
+    "priority": 40,
+    "triggers": [{"exactLocation": false}],
+    "workflowNote": "",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "HeaderContent": [],
+        "@name": "Two-Column Page",
+        "@type": "TwoColumnPage",
+        "MainContent": [
+            {
+                "@name": "Search Adjustments",
+                "@type": "SearchAdjustments",
+                "spellSuggestionEnabled": true
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Results List",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Shared/Results List"]
+            }
+        ],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "Breadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Guided Navigation",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Guided Navigation"]
+            },
+            {
+                "@name": "Promotional Content 1",
+                "@type": "PromotionalContent-ATGSlot",
+                "componentPath": "CategoryPromotionContent1",
+                "randomizeItems": true,
+                "itemCount": "1"
+            },
+            {
+                "@name": "Promotional Content 2",
+                "@type": "PromotionalContent-ATGSlot",
+                "componentPath": "CategoryPromotionContent2",
+                "randomizeItems": true,
+                "itemCount": "1"
+            }
+        ]
+    },
+    "userSegments": []
+}

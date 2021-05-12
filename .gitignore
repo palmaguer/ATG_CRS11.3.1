@@ -1,0 +1,13 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# Eclipse Settings
+.metadata/
+.recommenders/
+.externalToolBuilders
+RemoteSystemsTempFiles/
+#*/**/.project
+
+# Files
+*/**/lib/classes.jar/*
+*/**/lib/resources.jar/*
+*/**/lib/test-classes.jar/*
+*/**/*.class

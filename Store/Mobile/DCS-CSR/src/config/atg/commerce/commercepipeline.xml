@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pipelinemanager
+        PUBLIC "-//Art Technology Group, Inc.//DTD Dynamo Pipeline Manager//EN"
+        'http://www.atg.com/dtds/pipelinemanager/pipelinemanager_1.0.dtd'>
+
+<!-- $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/config/atg/commerce/commercepipeline.xml#1 $$Change: 1497274 $ -->
+<!-- This commerce pipeline configuration file defines the              -->
+<!-- chains used for B2C commerce applications.                         -->
+
+<pipelinemanager>
+
+<!-- This chain is called by ValidateShippingGroup to validate one shipping group -->
+
+  <pipelinechain name="validateShippingGroup">
+    <pipelinelink name="dispatchOnSGType" transaction="TX_MANDATORY">
+      <processor jndi="/atg/commerce/order/processor/ValidateShippingGroupByType"/>
+        <transition returnvalue="200" link="validateInStoreSaleSG"/>
+      </pipelinelink>
+    <pipelinelink name="validateInStoreSaleSG" transaction="TX_MANDATORY">
+        <processor jndi="/atg/commerce/order/processor/ValidateInStoreSaleShippingGroup"/>
+      </pipelinelink>
+  </pipelinechain>
+
+</pipelinemanager>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/config/atg/commerce/commercepipeline.xml#1 $$Change: 1497274 $ -->

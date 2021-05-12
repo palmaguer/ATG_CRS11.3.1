@@ -1,0 +1,33 @@
+{
+    "services": [
+        {
+            "name": "dataservice",
+            "host": "@@HOST@@",
+            "port": "@@AUTHORING_DGRAPH_PORT@@",
+            "recordSpecName": "common.id",
+            "aggregationKey": "product.repositoryId",
+            "recordFilter": "",
+            "wildcardSearchEnabled": false,
+            "recordNameField": "product.displayName",
+            "fields": {
+                "product.displayName": "plain",
+                "sku.activePrice": "currency",
+                "product.briefDescription": ""
+            }
+        },
+        {
+            "name": "productdataservice",
+            "recDisplayNameProp" : "product.displayName",
+            "recSpecProp": "common.id",
+            "recAggregationKey": "product.repositoryId",
+            "recFilter": "",
+            "recImgUrlProp" : "",
+            "recDisplayProps": [ "product.displayName", "sku.activePrice", "product.briefDescription" ],
+            "textSearchKey": "All",
+            "textSearchMatchMode" : "ALLPARTIAL"
+        }
+    ],
+    "profileGroupsConnectionUrl": "http://@@USER_SEGMENTS_HOST@@:@@USER_SEGMENTS_PORT@@/rest/model/atg/userprofiling/ProfileGroupsActor/getAllProfileGroups?atg-rest-output=json&atg-preview=false",
+    "ecr:type": "configuration-xmgr"
+}
+

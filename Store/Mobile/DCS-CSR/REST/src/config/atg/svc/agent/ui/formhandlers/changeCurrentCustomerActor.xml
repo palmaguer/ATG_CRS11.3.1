@@ -1,0 +1,34 @@
+<actor-template>
+
+<!-- Change the current customer to a new anonymous profile -->
+ <actor-chain id="newCustomer" transaction="TX_SUPPORTS">
+    <form id="newCustomerFormHandler" name="/atg/svc/agent/ui/formhandlers/ChangeCurrentCustomer"
+          var="newCustomerFormHandler" handle="changeEnvironment">
+      <input name="environmentChangeKey" value="newCustomer"/>
+      <input name="doWarnings" value="${param.doWarnings}"/>
+      <input name="doTicketDispositionPrompt" value="${param.doTicketDispositionPrompt}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.dispositionOption" value="${param.dispositionOption}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.reasonCode" value="${param.reasonCode}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.ticketNote" value="${param.ticketNote}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.publicNote" value="${param.publicNote}"/>
+
+      <input name="errorURL" value="${errorURL != null ? errorURL : '/model/atg/svc/agent/ui/formhandlers/ChangeCurrentCustomerActor/selectCustomer-error'}"/>
+      <input name="successURL" value="${successURL != null ? successURL : '/model/atg/svc/agent/ui/formhandlers/ChangeCurrentCustomerActor/selectCustomer-success'}"/>
+      <input name="confirmURL" value="${confirmURL != null ? confirmURL : '/model/atg/svc/agent/ui/formhandlers/ChangeCurrentCustomerActor/selectCustomer-confirm'}"/>
+    </form>
+  </actor-chain>
+
+  <!-- When a new customer has been selected we need all of their profile and order information.  Rather than request this
+       on-demand, we take the hit here since we're already making a request and return it all so it can
+       be cached on the client. -->
+  <actor-chain id="selectCustomer-success" transaction="TX_SUPPORTS">
+    <actor id="profileActor" name="/atg/userprofiling/ActiveCustomerProfileActor" chain-id="summary" return-model-var="profile">
+      <output id="profile" add-map-children="true" value="${profile}"/>
+    </actor>
+    <actor id="viewOrderActor" name="/atg/commerce/custsvc/order/ViewOrderActor" chain-id="loadAllOrders" return-model-var="allOrders">
+      <output id="allOrders" add-map-children="true" value="${allOrders}"/>
+    </actor>
+  </actor-chain>
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/svc/agent/ui/formhandlers/changeCurrentCustomerActor.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE gsa-template
+  PUBLIC "-//Art Technology Group, Inc.//DTD General SQL Adapter//EN"
+  "http://www.atg.com/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+
+  <header>
+    <name>Mobile Location Additions</name>
+    <author>ATG</author>
+  </header>
+
+  <!--///////////////////////////////-->
+  <!--          ibeaconAlert          -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="ibeaconAlert"  display-name-resource="itemDescriptorIBeaconAlert" display-property="name">
+    <table name="crs_ibeacon_alert" id-column-name="alert_id" type="primary" >
+      <property name="name" column-name="name" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeaconAlert.name">
+        <attribute name="propertySortPriority" value="110"/>
+      </property>
+      <property name="text" column-name="alert_text" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeaconAlert.text">
+        <attribute name="propertySortPriority" value="120"/>
+      </property>
+      <property name="textKey" column-name="alert_key" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeaconAlert.textKey">
+        <attribute name="propertySortPriority" value="120"/>
+      </property>
+      <property name="isPushNotification" column-name="is_push" data-type="boolean" default="false"
+                category-resource="categoryDetails" display-name-resource="ibeaconAlert.isPushNotification">
+        <attribute name="propertySortPriority" value="-3"/>
+      </property>
+      <property name="linkUrl" column-name="link_url" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeaconAlert.linkUrl">
+        <attribute name="propertySortPriority" value="130"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <!--///////////////////////////////-->
+  <!--            ibeacon            -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="ibeacon"
+                   display-name-resource="itemDescriptorIBeacon" display-property="name">
+    <table name="crs_ibeacon" id-column-name="ibeacon_id" type="primary">
+      <property name="name" column-name="name" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeacon.name">
+        <attribute name="propertySortPriority" value="110"/>
+      </property>
+      <property name="UUID" column-name="uuid" data-type="string" required="true"
+                category-resource="categoryDetails" display-name-resource="ibeacon.uuid">
+        <attribute name="propertySortPriority" value="120"/>
+      </property>
+      <property name="major" column-name="major" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeacon.major">
+        <attribute name="propertySortPriority" value="130"/>
+      </property>
+      <property name="minor" column-name="minor" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeacon.minor">
+        <attribute name="propertySortPriority" value="140"/>
+      </property>
+      <property name="identifier" column-name="identifier" data-type="string"
+                category-resource="categoryDetails" display-name-resource="ibeacon.identifier">
+        <attribute name="propertySortPriority" value="150"/>
+      </property>
+    </table>
+
+    <table name="crs_ibcn_stores" type="auxiliary" id-column-name="ibeacon_id" shared-table-sequence="1">
+      <property name="store" column-name="location_id" item-type="store" />
+    </table>
+
+    <table name="crs_ibcnalrt_entr" type="multi" id-column-name="ibeacon_id" multi-column-name="sequence_num">
+      <property name="enterAlerts" data-type="list" component-item-type="ibeaconAlert"
+                column-name="alert_id" queryable="true" cascade="update"
+                category-resource="categoryCategoryRelated" display-name-resource="ibeacon.enterAlerts">
+        <attribute name="propertySortPriority" value="180"/>
+        <attribute name="references" value="true"/>
+      </property>
+    </table>
+
+    <table name="crs_ibcnalrt_exit" type="multi" id-column-name="ibeacon_id" multi-column-name="sequence_num">
+      <property name="exitAlerts" data-type="list" component-item-type="ibeaconAlert"
+                column-name="alert_id" queryable="true" cascade="update"
+                category-resource="categoryCategoryRelated" display-name-resource="ibeacon.exitAlerts">
+        <attribute name="propertySortPriority" value="190"/>
+        <attribute name="references" value="true"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="store" xml-combine="append">
+    <table name="crs_ibcn_stores" type="multi" id-column-name="location_id" shared-table-sequence="2">
+      <property name="ibeacons" data-type="set" column-name="ibeacon_id"
+                component-item-type="ibeacon" cascade="update,delete" display-name-resource="store.ibeacons">
+        <attribute name="uiwritable" value="false"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/commerce/locations/locationRepository.xml#1 $$Change: 1497274 $-->

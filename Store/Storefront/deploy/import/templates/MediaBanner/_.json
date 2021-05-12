@@ -1,0 +1,43 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:28.486Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.media.label}"
+            },
+            {
+                "editor": "editors/StringEditor",
+                "propertyName": "imageURL",
+                "bottomLabel": "${property.media.bottomLabel}",
+                "label": "${property.media.label}",
+                "enabled": true
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.linkSettings.label}"
+            },
+            {
+                "editor": "editors/LinkBuilderEditor",
+                "propertyName": "link",
+                "label": "${property.link.label}",
+                "enabled": true
+            }
+        ]
+    },
+    "typeInfo": {
+        "imageURL": {"@propertyType": "String"},
+        "link": {"@propertyType": "Item"}
+    },
+    "defaultContentItem": {
+        "@name": "Media Banner",
+        "imageURL": "",
+        "link": {"@class": "com.endeca.infront.cartridge.model.LinkBuilder"}
+    },
+    "locales": {}
+}

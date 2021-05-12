@@ -1,0 +1,11 @@
+{
+    "spellingDictMaxWordLength": 16,
+    "ecr:lastModifiedBy": "admin",
+    "ecr:lastModified": "2016-03-31T02:25:33.024-07:00",
+    "spellingDictMinNumWordOccurrences": 4,
+    "spellingDictMinWordLength": 3,
+    "ecr:createDate": "2016-03-31T02:25:32.974-07:00",
+    "isWildcardEnabledInDimensionSearch": true,
+    "ecr:type": "search-index-config",
+    "defaultLocale" : "@@LANGUAGE_ID@@"
+}

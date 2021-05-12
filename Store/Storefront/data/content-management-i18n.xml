@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+  <import-items>
+    <add-item id="m008" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Workout wow]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_workout_wow.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Workout wow]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Workout wow]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate008,es=es_xlate008]]></set-property>
+    </add-item>
+    <add-item id="m009" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Gear Update]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/gear_upgrade.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Gear Update]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Gear Update]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate009,es=es_xlate009]]></set-property>
+    </add-item>
+    <add-item id="m013" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Spring Sprung]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/spring_sprung.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate013,es=es_xlate013]]></set-property>
+    </add-item>
+    <add-item id="m004" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Marathon mania]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_marathon_mania.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate004,es=es_xlate004]]></set-property>
+    </add-item>
+    <add-item id="m014" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Travelling light]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/traveling_light.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Travelling light]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Travelling light]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate014,es=es_xlate014]]></set-property>
+    </add-item>
+    <add-item id="m005" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Sizzling Style]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_sizzling_style.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate005,es=es_xlate005]]></set-property>
+    </add-item>
+    <add-item id="m011" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Marathon mania]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/marathon_mania.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate011,es=es_xlate011]]></set-property>
+    </add-item>
+    <add-item id="m006" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Spring Sprung]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_spring_sprung.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate006,es=es_xlate006]]></set-property>
+    </add-item>
+    <add-item id="m012" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Sizzling Style]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/sizzling_style.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate012,es=es_xlate012]]></set-property>
+    </add-item>
+    <add-item id="m007" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Travelling light]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_traveling_light.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Travelling light]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Travelling light]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate007,es=es_xlate007]]></set-property>
+    </add-item>
+    <add-item id="m001" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Budget Conscious]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_budget_conscious.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate001,es=es_xlate001]]></set-property>
+    </add-item>
+    <add-item id="m015" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Workout wow]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/workout_wow.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Workout wow]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Workout wow]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate015,es=es_xlate015]]></set-property>
+    </add-item>
+    <add-item id="m002" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Gear Update]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_gear_upgrade.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Gear Update]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Gear Update]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate002,es=es_xlate002]]></set-property>
+    </add-item>
+    <add-item id="m016" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Budget Conscious]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/budget_conscious.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate016,es=es_xlate016]]></set-property>
+    </add-item>
+    <add-item id="m003" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Golden Fiber]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/spot_golden_fiber.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate003,es=es_xlate003]]></set-property>
+    </add-item>
+    <add-item id="m010" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository">
+      <set-property name="mediaType"><![CDATA[Image]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="descriptionDefault"><![CDATA[Golden Fiber]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url"><![CDATA[/crsdocroot/content/images/articles/banner/golden_fiber.jpg]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="titleDefault"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="translations"><![CDATA[de=de_xlate010,es=es_xlate010]]></set-property>
+    </add-item>
+    <add-item id="a001" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Traveling Light]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m007]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m014]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle001,de=de_xlatearticle001]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod2522,xprod2517,xprod1064,prod10002,prod20002,prod20012]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Traveling Light]]></set-property>
+    </add-item>
+    <add-item id="a002" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Workout Wow]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m008]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m015]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle002,de=de_xlatearticle002]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod1039,xprod1044,xprod2527,xprod2530,xprod1006,prod20006]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Workout Wow]]></set-property>
+    </add-item>
+    <add-item id="a003" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[The Golden Fiber]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m003]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m010]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle003,de=de_xlatearticle003]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod1067,xprod2503,xprod2510,xprod2070,xprod2504,xprod1069]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Golden Fiber]]></set-property>
+    </add-item>
+    <add-item id="a004" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Marathon Mania]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m004]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m011]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle004,de=de_xlatearticle004]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod1039,xprod1044,xprod2527,xprod2530,xprod1006,prod20006]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Marathon Mania]]></set-property>
+    </add-item>
+    <add-item id="a005" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Spring has Sprung]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m006]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m013]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle005,de=de_xlatearticle005]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod2019,xprod1060,xprod2101,xprod1011,xprod2077,prod20006]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Spring has Sprung]]></set-property>
+    </add-item>
+    <add-item id="a006" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m005]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m012]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle006,de=de_xlatearticle006]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod2109,xprod2046,prod20006,prod20009,xprod2503,xprod1038]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Sizzling Style]]></set-property>
+    </add-item>
+    <add-item id="a007" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m001]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m016]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle007,de=de_xlatearticle007]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod1045,xprod1042,xprod1002,xprod2077,xprod2035,xprod2126]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Budget Conscious]]></set-property>
+    </add-item>
+    <add-item id="a008" item-descriptor="article" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headlineDefault"><![CDATA[Gear Upgrade]]></set-property>
+      <set-property name="thumbnailImage"><![CDATA[m002]]></set-property>
+      <set-property name="abstractDefault"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="bodyDefault"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage"><![CDATA[m009]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="translations"><![CDATA[es=es_xlatearticle008,de=de_xlatearticle008]]></set-property>
+      <set-property name="relatedProducts"><![CDATA[xprod2099,xprod1004,xprod1011,xprod2504,prod20019,xprod1043]]></set-property>
+      <set-property name="author"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name"><![CDATA[Gear Upgrade]]></set-property>
+    </add-item>
+    <add-item id="t001" item-descriptor="tag" repository="/atg/content/ContentManagementRepository">
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="tag"><![CDATA[Shoes]]></set-property>
+    </add-item>
+    <add-item id="t002" item-descriptor="tag" repository="/atg/content/ContentManagementRepository">
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="tag"><![CDATA[Women's Shoes]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle001"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Ligero de equipaje]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle001"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Mit leichtem Gepäck reisen]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle002"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Fantástico para entrenamiento]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle002"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Workout - Wow]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle003"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[La fibra de oro]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle003"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Die goldene Faser]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle004"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Fanáticos del maratón]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle004"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Marathonfieber]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle005"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Aires de primavera]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle005"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Der Frühling ist da]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle006"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Estilo sugerente]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle006"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Heißes Design]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle007"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Conscientes del presupuesto]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle007"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Budgetbewusst]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="es_xlatearticle008"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Renovación del equipamiento]]></set-property>
+      <set-property name="abstract"><![CDATA[Este párrafo es un ejemplo de un resumen de artículo. Un resumen de artículo es una breve descripción del contenido del artículo.]]></set-property>
+      <set-property name="body"><![CDATA[Este es un ejemplo del cuerpo de un artículo. El cuerpo es el contenido principal del artículo.]]></set-property>
+    </add-item>
+    <add-item id="de_xlatearticle008"
+      item-descriptor="articleTranslation" repository="/atg/content/ContentManagementRepository">
+      <set-property name="headline"><![CDATA[Gear-Upgrade]]></set-property>
+      <set-property name="abstract"><![CDATA[Dieser Abschnitt ist ein Beispiel für eine Artikelkurzbeschreibung. Eine Artikelkurzbeschreibung bietet eine kurze Zusammenfassung darüber, worum es in dem Artikel geht.]]></set-property>
+      <set-property name="body"><![CDATA[Dies ist ein Beispiel für den Text eines Artikels. Dabei handelt es sich um den Hauptinhalt eines Artikels.]]></set-property>
+    </add-item>
+    <add-item id="imageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Images]]></set-property>
+      <set-property name="name"><![CDATA[Images]]></set-property>
+    </add-item>
+    <add-item id="messageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Messages]]></set-property>
+      <set-property name="name"><![CDATA[Messages]]></set-property>
+    </add-item>
+    <add-item id="productImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <set-property name="parentFolder"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Images/Product]]></set-property>
+      <set-property name="name"><![CDATA[Product]]></set-property>
+    </add-item>
+    <add-item id="promoContentImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <set-property name="parentFolder"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Images/Promotional Content]]></set-property>
+      <set-property name="name"><![CDATA[Promotional Content]]></set-property>
+    </add-item>
+    <add-item id="promoContentMessageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <set-property name="parentFolder"><![CDATA[messageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Messages/Promotional Content]]></set-property>
+      <set-property name="name"><![CDATA[Promotional Content]]></set-property>
+    </add-item>
+    <add-item id="swatchImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <set-property name="parentFolder"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Images/Swatches]]></set-property>
+      <set-property name="name"><![CDATA[Swatches]]></set-property>
+    </add-item>
+    <add-item id="templateFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path"><![CDATA[Templates]]></set-property>
+      <set-property name="name"><![CDATA[Templates]]></set-property>
+    </add-item>
+    <add-item id="de_xlate008" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Workout - Wow]]></set-property>
+      <set-property name="title"><![CDATA[Workout - Wow]]></set-property>
+    </add-item>
+    <add-item id="de_xlate009" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Gear-Update]]></set-property>
+      <set-property name="title"><![CDATA[Gear-Update]]></set-property>
+    </add-item>
+    <add-item id="de_xlate013" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Der Frühling ist da]]></set-property>
+      <set-property name="title"><![CDATA[Der Frühling ist da]]></set-property>
+    </add-item>
+    <add-item id="de_xlate004" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Marathonfieber]]></set-property>
+      <set-property name="title"><![CDATA[Marathonfieber]]></set-property>
+    </add-item>
+    <add-item id="de_xlate014" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Mit leichtem Gepäck reisen]]></set-property>
+      <set-property name="title"><![CDATA[Mit leichtem Gepäck reisen]]></set-property>
+    </add-item>
+    <add-item id="de_xlate005" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Heißes Design]]></set-property>
+      <set-property name="title"><![CDATA[Heißes Design]]></set-property>
+    </add-item>
+    <add-item id="de_xlate011" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Marathonfieber]]></set-property>
+      <set-property name="title"><![CDATA[Marathonfieber]]></set-property>
+    </add-item>
+    <add-item id="de_xlate006" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Der Frühling ist da]]></set-property>
+      <set-property name="title"><![CDATA[Der Frühling ist da]]></set-property>
+    </add-item>
+    <add-item id="de_xlate012" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Heißes Design]]></set-property>
+      <set-property name="title"><![CDATA[Heißes Design]]></set-property>
+    </add-item>
+    <add-item id="de_xlate007" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Mit leichtem Gepäck reisen]]></set-property>
+      <set-property name="title"><![CDATA[Mit leichtem Gepäck reisen]]></set-property>
+    </add-item>
+    <add-item id="de_xlate001" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Budgetbewusst]]></set-property>
+      <set-property name="title"><![CDATA[Budgetbewusst]]></set-property>
+    </add-item>
+    <add-item id="de_xlate002" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Gear-Update]]></set-property>
+      <set-property name="title"><![CDATA[Gear-Update]]></set-property>
+    </add-item>
+    <add-item id="de_xlate015" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Workout - Wow]]></set-property>
+      <set-property name="title"><![CDATA[Workout - Wow]]></set-property>
+    </add-item>
+    <add-item id="de_xlate003" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Die goldene Faser]]></set-property>
+      <set-property name="title"><![CDATA[Die goldene Faser]]></set-property>
+    </add-item>
+    <add-item id="de_xlate016" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Budgetbewusst]]></set-property>
+      <set-property name="title"><![CDATA[Budgetbewusst]]></set-property>
+    </add-item>
+    <add-item id="de_xlate010" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Die goldene Faser]]></set-property>
+      <set-property name="title"><![CDATA[Die goldene Faser]]></set-property>
+    </add-item>
+    <add-item id="es_xlate008" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fantástico para entrenamiento]]></set-property>
+      <set-property name="title"><![CDATA[Fantástico para entrenamiento]]></set-property>
+    </add-item>
+    <add-item id="es_xlate009" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Renovación del equipamiento]]></set-property>
+      <set-property name="title"><![CDATA[Renovación del equipamiento]]></set-property>
+    </add-item>
+    <add-item id="es_xlate013" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Aires de primavera]]></set-property>
+      <set-property name="title"><![CDATA[Aires de primavera]]></set-property>
+    </add-item>
+    <add-item id="es_xlate004" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fanáticos del maratón]]></set-property>
+      <set-property name="title"><![CDATA[Fanáticos del maratón]]></set-property>
+    </add-item>
+    <add-item id="es_xlate014" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Ligero de equipaje]]></set-property>
+      <set-property name="title"><![CDATA[Ligero de equipaje]]></set-property>
+    </add-item>
+    <add-item id="es_xlate005" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Estilo sugerente]]></set-property>
+      <set-property name="title"><![CDATA[Estilo sugerente]]></set-property>
+    </add-item>
+    <add-item id="es_xlate011" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fanáticos del maratón]]></set-property>
+      <set-property name="title"><![CDATA[Fanáticos del maratón]]></set-property>
+    </add-item>
+    <add-item id="es_xlate006" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Aires de primavera]]></set-property>
+      <set-property name="title"><![CDATA[Aires de primavera]]></set-property>
+    </add-item>
+    <add-item id="es_xlate012" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Estilo sugerente]]></set-property>
+      <set-property name="title"><![CDATA[Estilo sugerente]]></set-property>
+    </add-item>
+    <add-item id="es_xlate007" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Ligero de equipaje]]></set-property>
+      <set-property name="title"><![CDATA[Ligero de equipaje]]></set-property>
+    </add-item>
+    <add-item id="es_xlate001" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Conscientes del presupuesto]]></set-property>
+      <set-property name="title"><![CDATA[Conscientes del presupuesto]]></set-property>
+    </add-item>
+    <add-item id="es_xlate002" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Renovación del equipamiento]]></set-property>
+      <set-property name="title"><![CDATA[Renovación del equipamiento]]></set-property>
+    </add-item>
+    <add-item id="es_xlate015" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fantástico para entrenamiento]]></set-property>
+      <set-property name="title"><![CDATA[Fantástico para entrenamiento]]></set-property>
+    </add-item>
+    <add-item id="es_xlate003" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fibra de oro]]></set-property>
+      <set-property name="title"><![CDATA[Fibra de oro]]></set-property>
+    </add-item>
+    <add-item id="es_xlate016" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Conscientes del presupuesto]]></set-property>
+      <set-property name="title"><![CDATA[Conscientes del presupuesto]]></set-property>
+    </add-item>
+    <add-item id="es_xlate010" item-descriptor="mediaContentTranslation">
+      <set-property name="description"><![CDATA[Fibra de oro]]></set-property>
+      <set-property name="title"><![CDATA[Fibra de oro]]></set-property>
+    </add-item>
+  </import-items>
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/data/content-management-i18n.xml#1 $$Change: 1497274 $-->

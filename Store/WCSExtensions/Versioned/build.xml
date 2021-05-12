@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="estore.versioned" default="all" basedir=".">
+
+  <property name="global.dir" value="${basedir}/../.."/>
+  <import file="${global.dir}/buildtools/common.xml"/>
+  
+  <!-- 
+    Development mode extenstion of 'all' target in order to generate DDL SQL for the project
+    and compile Flex elements.
+  -->
+  <target name="all"
+          depends="clean,build,install"
+          description="Cleans, builds, checks and installs the project." />
+  
+</project>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/Versioned/build-base.xml#1 $$Change: 1497274 $-->

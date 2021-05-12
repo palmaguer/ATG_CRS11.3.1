@@ -1,0 +1,29 @@
+{
+    "mdexMerchRuleID": 2,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.969Z",
+    "priority": "20",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "buryStrata": [],
+        "@name": "Results List",
+        "boostStrata": [],
+        "@type": "ResultsList",
+        "recordsPerPage": "12",
+        "relRank": "nterms,maxfield,glom,exact,static(sku.margin,descending),static(product.displayName,ascending)",
+        "sortOption": {
+            "@class": "com.endeca.infront.navigation.model.SortOption",
+            "label": "Default",
+            "sorts": [{
+                "@class": "com.endeca.infront.navigation.model.SortSpec",
+                "key": "sku.margin",
+                "descending": "true"
+            }]
+        }
+    }    
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actor-template default-chain-id="priceListSearch"
+  xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!--
+      Forwards to the error chain in order to output errors from the
+      form handler. This overrides CSC's configuration in order to
+      include error output.
+  -->
+  <actor-chain id="priceListSearch-error" transaction="TX_SUPPORTS">
+    <actor id="error" name="/atg/commerce/custsvc/pricing/priceLists/PriceListSearchActor" chain-id="error" return-model-var="model">
+      <output id="model" add-map-children="true" value="${model}"/>
+    </actor>
+  </actor-chain>
+  
+  <!--
+      Outputs the search results. This overrides CSC's configuration
+      in order to include the search results.
+  -->
+  <actor-chain id="priceListSearch-success" transaction="TX_SUPPORTS">
+    <component id="priceListSearchFormHandler" name="/atg/commerce/custsvc/pricing/priceLists/MorePriceListsSearch" component-var="priceListSearchFormHandler"/>
+    <output id="searchResults" name="searchResults" value="${priceListSearchFormHandler.searchResults}"/>
+  </actor-chain>
+
+  <!--  Outputs any formhandler errors.  Use a different transaction in case the current transaction was rolled back -->
+  <actor-chain id="error" transaction="TX_SUPPORTS">
+    <component id="fh" name="/atg/commerce/custsvc/pricing/priceLists/MorePriceListsSearch" component-var="fh">
+      <output id="formError" name="formError" value="${fh.formError}"/>
+      <output id="formExceptions" name="formExceptions" value="${fh.formExceptions}"/>
+    </component>
+  </actor-chain>
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/commerce/custsvc/pricing/priceLists/priceListSearchActor.xml#1 $$Change: 1497274 $ -->

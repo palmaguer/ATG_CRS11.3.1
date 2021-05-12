@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="*">
+    <install xmlns="">
+        <product name="CRS Store" version="11.3.1">
+            <configure>false</configure>
+        </product>
+    </install>
+    <systemEnv xmlns="">
+        <dynamoRoot>O:\ATG\ATG11.3.2</dynamoRoot>
+        <baseLevel>${build.dist.CommerceReferenceStore.basename}</baseLevel>
+        <rootDir>O:\ATG\ATG11.3.2\CommerceReferenceStore</rootDir>
+    </systemEnv>
+</config>

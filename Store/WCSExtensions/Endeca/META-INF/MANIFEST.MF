@@ -1,0 +1,3 @@
+ATG-Product: The Commerce Reference Store WCSExtensions Endeca
+ATG-Required: WCSExtensions.Endeca
+Manifest-Version: 1.0

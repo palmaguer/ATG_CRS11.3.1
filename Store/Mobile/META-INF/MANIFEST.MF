@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 20.1-b02-383 (Apple Inc.)
+ATG-Product: Mobile Storefront Fashion Commerce
+ATG-Client-Class-Path: lib/classes.jar lib/commons-io-2.6.jar
+ATG-Class-Path: lib/classes.jar lib/commons-io-2.6.jar
+ATG-Config-Path: config/config.jar
+ATG-Required: Store.Storefront
+ATG-Required-If-Present: Store.Storefront.NoPublishing Store.Storefront.NoPublishing.International
+
+Name: lib/classes.jar
+ATG-Client-Update-File: true
+
+Name: lib/commons-io-2.6.jar
+ATG-Client-Update-File: true

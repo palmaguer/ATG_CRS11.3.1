@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:assetBean xmlns:ns2="http://www.fatwire.com/schema/rest/1.0">
+    <id>CRSContentParentDef:1000000000055</id>
+    <name>Category</name>
+    <createdby>fwadmin</createdby>
+    <createddate>2013-07-25T12:53:34.905Z</createddate>
+    <description></description>
+    <publist>@@SITE_NAME@@</publist>
+    <status>PL</status>
+    <subtype></subtype>
+    <updatedby>fwadmin</updatedby>
+    <updateddate>2013-07-25T12:53:34.905Z</updateddate>
+    <attribute>
+        <name>startdate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>enddate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>filename</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>path</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>template</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldoc</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>externaldoctype</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldocxml</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>fw_uid</name>
+        <data>
+            <stringValue>00000000-0000-0000-0000-00E8D4A51037</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>id</name>
+        <data>
+            <longValue>1000000000055</longValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>fwtags</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>style</name>
+        <data>
+            <stringValue>S</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>Attributes</name>
+        <data>
+            <listValue/>
+        </data>
+    </attribute>
+    <attribute>
+        <name>Groups</name>
+        <data>
+            <listValue/>
+        </data>
+    </attribute>
+    <attribute>
+        <name>Filters</name>
+        <data/>
+    </attribute>
+    <associations>
+        <href>myPathassociations</href>
+    </associations>
+</ns2:assetBean>
+
+<!--==================___ METADATA ___================
+<dependencies>
+  <list>
+    <dependency>
+      <depType>N</depType>
+      <resType>CRSContentParentDef</resType>
+      <resId>1000000000055</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51037</uid>
+    </dependency>
+    <dependency>
+      <depType>E</depType>
+      <resType>@ASSET_TYPE</resType>
+      <resId>CRSContentParentDef</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51047</uid>
+    </dependency>
+  </list>
+</dependencies>
+==================______________________==================
+#
+#Thu Jun 20 11:11:11 UTC 2013
+key=CRSContentParentDef-00000000-0000-0000-0000-00E8D4A51037
+type=ASSETDATA
+sites=@@SITE_NAME@@
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ASSET/CRSContentParentDef/Category(00000000-0000-0000-0000-00E8D4A51037).main.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,29 @@
+{
+    "@description": "${template.description}",
+    "@group": "SecondaryContent",
+    "ecr:createDate": "2016-12-08T14:22:37.066Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.generalSettings.label}"
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "minValue": 1,
+                "propertyName": "itemCount",
+                "maxValue": 100,
+                "label": "${property.itemCount.label}"
+            }
+        ]
+    },
+    "typeInfo": {"itemCount": {"@propertyType": "String"}},
+    "defaultContentItem": {
+        "@name": "StoreAnnouncements",
+        "itemCount": "5"
+    },
+    "locales": {}
+}

@@ -1,0 +1,28 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:29.362Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.generalSettings.label}"
+            },
+            {
+                "editor": "editors/StringEditor",
+                "propertyName": "storeImagePath",
+                "bottomLabel": "${property.storeImagePath.bottomLabel}",
+                "label": "${property.storeImagePath.label}"
+            }
+        ]
+    },
+    "typeInfo": {"storeImagePath": {"@propertyType": "String"}},
+    "defaultContentItem": {
+        "@name": "Store Detail",
+        "storeImagePath": ""
+    },
+    "locales": {}
+}

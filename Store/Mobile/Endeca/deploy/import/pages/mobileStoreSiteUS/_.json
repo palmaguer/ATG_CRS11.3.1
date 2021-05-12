@@ -1,0 +1,7 @@
+{
+    "urlPattern": "",
+    "description": "",
+    "displayName": "Mobile Store US",
+    "ecr:type": "site-home",
+	"linkServiceUrl": "http://@@PREVIEW_HOST@@:@@PREVIEW_PORT@@/@@PREVIEW_CONTEXT_ROOT@@/link.json?pushSite=mobileStoreSiteUS"
+}

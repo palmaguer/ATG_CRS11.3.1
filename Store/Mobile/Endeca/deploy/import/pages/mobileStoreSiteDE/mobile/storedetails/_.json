@@ -1,0 +1,12 @@
+{
+    "contentType": "Page",
+    "contentItem": {
+        "ruleLimit": "1",
+        "@name": "Static Location Page Slot",
+        "templateTypes": ["Page"],
+        "templateIds": [],
+        "@type": "LocationPageSlot",
+        "contentPaths": ["/content/Mobile/Store Details"]
+    },
+    "ecr:type": "page"
+}

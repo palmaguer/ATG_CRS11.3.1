@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+
+  <!-- Update HomePage items with mobile images and text -->
+  <update-item id="storeHeroFashionista1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/shoes_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/shoes_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/shoes_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/shoes_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/shoes_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroFashionista2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="storeHeroFashionista3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/accessorize_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/accessorize_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/accessorize_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/accessorize_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/accessorize_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroMenOnly1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/moreheadLTD_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/moreheadLTD_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/moreheadLTD_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/moreheadLTD_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/moreheadLTD_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroMenOnly2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="storeHeroMenOnly3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/shirt_style_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/shirt_style_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/shirt_style_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/shirt_style_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/shirt_style_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroWomenOnly1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/jackets_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/jackets_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/jackets_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/jackets_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/jackets_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroWomenOnly2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="storeHeroWomenOnly3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/accessorize_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/accessorize_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/accessorize_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/accessorize_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/accessorize_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroEveryone1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/trend_watch_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/trend_watch_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/trend_watch_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/trend_watch_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/trend_watch_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="storeHeroEveryone2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="storeHeroEveryone3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/sbZhanna_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/sbZhanna_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/sbZhanna_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/sbZhanna_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/sbZhanna_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroFashionista1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/sofa_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/sofa_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/sofa_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/sofa_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/sofa_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroFashionista2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="homeHeroFashionista3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/universal_access_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/universal_access_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/universal_access_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/universal_access_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/universal_access_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroMenOnly1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/handcrafted_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/handcrafted_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/handcrafted_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/handcrafted_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/handcrafted_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroMenOnly2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="homeHeroMenOnly3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/solid_wood_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/solid_wood_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/solid_wood_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/solid_wood_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/solid_wood_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroWomenOnly1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/dining_tables_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/dining_tables_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/dining_tables_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/dining_tables_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/dining_tables_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroWomenOnly2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="homeHeroWomenOnly3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/universal_access_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/universal_access_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/universal_access_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/universal_access_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/universal_access_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroEveryone1" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/register_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/register_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/register_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/register_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/register_{language}@2x.jpg]]></set-property>
+  </update-item>
+  <update-item id="homeHeroEveryone2" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/scan_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/scan_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/scan_{language}@2x.jpg]]></set-property>
+    <set-property name="mobileLinkUrls" add="false" remove="false"><![CDATA[iOSMobile=ocrsiua://ScanAndGo,iPhone=ocrsiua://ScanAndGo,iPhoneRetina=ocrsiua://ScanAndGo,iPad=ocrsiua://ScanAndGo,iPadRetina=ocrsiua://ScanAndGo]]></set-property>
+  </update-item>
+  <update-item id="homeHeroEveryone3" item-descriptor="promotionalContent">
+    <set-property name="mobileImages" add="false" remove="false"><![CDATA[iOSMobile=/crsdocroot/content/mobile/images/homepage/web/solid_wood_{language}.jpg,iPhone=/crsdocroot/content/mobile/images/homepage/iPhone/solid_wood_{language}.jpg,iPhoneRetina=/crsdocroot/content/mobile/images/homepage/iPhone/solid_wood_{language}@2x.jpg,iPad=/crsdocroot/content/mobile/images/homepage/iPad/solid_wood_{language}.jpg,iPadRetina=/crsdocroot/content/mobile/images/homepage/iPad/solid_wood_{language}@2x.jpg]]></set-property>
+  </update-item>
+
+</gsa-template><!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/data/promotionalContent-i18n.xml#1 $$Change: 1497274 $-->

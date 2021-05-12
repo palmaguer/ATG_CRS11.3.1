@@ -1,0 +1,44 @@
+{
+    "workflowState": "ACTIVE",
+    "priority": "20",
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "MobilePage",
+        "@type": "MobilePage",
+        "MainContent": [
+            {
+                "ruleLimit": "1",
+                "@name": "Featured Items",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Shared/Spotlights"]
+            },
+            {
+                "@name": "Category Products Grid",
+                "@type": "ProductList-ATGCategoryChildren",
+                "recordsPerPage": "12"
+            }
+        ],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "Breadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Guided Navigation",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Guided Navigation"]
+            }
+        ]
+    },
+    "userSegments": ["CategoryOnly"]
+}

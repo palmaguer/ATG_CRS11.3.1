@@ -1,0 +1,39 @@
+{
+    "contentType": "Page",
+    "contentItem": {
+        "@name": "MobilePage",
+        "@type": "MobilePage",
+        "MainContent": [
+            {
+                "ruleLimit": "1",
+                "@name": "Media Banner Slot",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Mobile/Dashboard/Dashboard Media Banners"]
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Personalized Recommended Products Slot",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Mobile/Dashboard/Dashboard Personalized Recommended Products"]
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Gift Ideas Slot",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Mobile/Dashboard/Dashboard Gift Ideas"]
+            }
+        ],
+        "SecondaryContent": [{
+            "@name": "StoreAnnouncements",
+            "@type": "SecondaryContent-StoreAnnouncements",
+            "itemCount": "5"
+        }]
+    },
+    "ecr:type": "page"
+}

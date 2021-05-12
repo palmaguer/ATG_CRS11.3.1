@@ -1,0 +1,43 @@
+{
+    "workflowState": "ACTIVE",
+    "priority": "30",
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "MobilePage",
+        "@type": "MobilePage",
+        "MainContent": [
+            {
+                "@name": "Search Adjustments",
+                "@type": "SearchAdjustments",
+                "spellSuggestionEnabled": true
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Results List",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Shared/Results List"]
+            }
+        ],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "Breadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Guided Navigation",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Guided Navigation"]
+            }
+        ]
+    }
+}

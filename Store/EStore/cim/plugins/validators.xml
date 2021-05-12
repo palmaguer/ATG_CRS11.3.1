@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators SYSTEM "http://www.atg.com/dtds/validator_1_0.dtd">
+<validators>
+  <validator id="CRSEnabledValidator" class="atg.cim.worker.common.ProductSelectionAddOnValidator">
+    <property name="addOnIds">
+      <value>storefront_demo</value>
+    </property>
+  </validator>
+  <!--
+  Perform the KeyStoreValidation if the configured addOnIds have been selected. If they have not
+  then the valifator will always return true.
+-->
+  <validator id="PreDatabaseConfigValidator" class="atg.cim.keystore.KeyStoreValidator">
+    <property name="addOnIds">
+      <value>storefront_demo</value>
+    </property>
+  </validator>
+</validators>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/EStore/cim/plugins/validators.xml#1 $$Change: 1497274 $-->

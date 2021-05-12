@@ -1,0 +1,17 @@
+{
+    "mdexMerchRuleID": 13,
+    "workflowState": "ACTIVE",
+    "priority": 10,
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Default Media Banner - CRS Mobile Store",
+        "@type": "MediaBanner",
+        "imageURL": "/crsdocroot/content/mobile/images/ASADashboard_CRSMobileStore_en.png",
+        "link": {"@class": "com.endeca.infront.cartridge.model.LinkBuilder"}
+    },
+    "userSegments": ["site.mobileStoreSiteUS"]
+}

@@ -1,0 +1,25 @@
+{
+    "@description": "${template.description}",
+    "@group": "SecondaryContent",
+    "ecr:createDate": "2016-12-07T09:49:27.800Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [{"editor": "editors/DynamicSlotEditor"}]
+    },
+    "typeInfo": {
+        "ruleLimit": {"@propertyType": "String"},
+        "templateTypes": {"@propertyType": "List"},
+        "templateIds": {"@propertyType": "List"},
+        "contentPaths": {"@propertyType": "List"}
+    },
+    "defaultContentItem": {
+        "@name": "Secondary Content Slot",
+        "ruleLimit": "1",
+        "templateTypes": ["SecondaryContent"],
+        "templateIds": [],
+        "contentPaths": []
+    },
+    "locales": {}
+}

@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+<import-items>
+<add-item item-descriptor="store" id="CRSHome-SanAntonio185">
+  <set-property name="postalCode"><![CDATA[78232]]></set-property>
+  <set-property name="city"><![CDATA[San Antonio]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-98.4812067]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 270]]></set-property>
+  <set-property name="address1"><![CDATA[13750 San Pedro Rd.]]></set-property>
+  <set-property name="latitude"><![CDATA[29.566603]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[185]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - San Antonio #185]]></set-property>
+  <set-property name="email"><![CDATA[store185@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Rutherford152">
+  <set-property name="postalCode"><![CDATA[7073]]></set-property>
+  <set-property name="city"><![CDATA[Rutherford]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-74.0828776]]></set-property>
+  <set-property name="address2"><![CDATA[14th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[Metropolitan Center 1 Meadowlands Plaza]]></set-property>
+  <set-property name="latitude"><![CDATA[40.8136818]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[152]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NJ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Rutherford #152]]></set-property>
+  <set-property name="email"><![CDATA[store152@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-NewYork158">
+  <set-property name="postalCode"><![CDATA[10017]]></set-property>
+  <set-property name="city"><![CDATA[New York]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.9697762]]></set-property>
+  <set-property name="address2"><![CDATA[26th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[120 Park Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[40.7519874]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[158]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - New York #158]]></set-property>
+  <set-property name="email"><![CDATA[store158@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Fairborn169">
+  <set-property name="postalCode"><![CDATA[45324]]></set-property>
+  <set-property name="city"><![CDATA[Fairborn]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.0598214]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 385]]></set-property>
+  <set-property name="address1"><![CDATA[2900 Presidential Drive Suite]]></set-property>
+  <set-property name="latitude"><![CDATA[39.7753211]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[169]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Fairborn #169]]></set-property>
+  <set-property name="email"><![CDATA[store169@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-NewYork159">
+  <set-property name="postalCode"><![CDATA[10022]]></set-property>
+  <set-property name="city"><![CDATA[New York]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.9697743]]></set-property>
+  <set-property name="address2"><![CDATA[4th Floor OU - 3rd Floor]]></set-property>
+  <set-property name="address1"><![CDATA[540 Madison Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[40.7593977]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[159]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - New York #159]]></set-property>
+  <set-property name="email"><![CDATA[store159@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Bloomington142">
+  <set-property name="postalCode"><![CDATA[55437]]></set-property>
+  <set-property name="city"><![CDATA[Bloomington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-93.3439209]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 700]]></set-property>
+  <set-property name="address1"><![CDATA[8000 Norman Center Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[44.8251167]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[142]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MN]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Bloomington #142]]></set-property>
+  <set-property name="email"><![CDATA[store142@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Tampa126">
+  <set-property name="postalCode"><![CDATA[33607]]></set-property>
+  <set-property name="city"><![CDATA[Tampa]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-82.5704705]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 600]]></set-property>
+  <set-property name="address1"><![CDATA[2502 Rocky Point Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[27.9630267]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[126]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Tampa #126]]></set-property>
+  <set-property name="email"><![CDATA[store126@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Brookfield191">
+  <set-property name="postalCode"><![CDATA[53005]]></set-property>
+  <set-property name="city"><![CDATA[Brookfield]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-88.0852854]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 450]]></set-property>
+  <set-property name="address1"><![CDATA[13890 Bishops Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[43.0291674]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[191]]></set-property>
+  <set-property name="stateAddress"><![CDATA[WI]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Brookfield #191]]></set-property>
+  <set-property name="email"><![CDATA[store191@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Bozeman147">
+  <set-property name="postalCode"><![CDATA[59718]]></set-property>
+  <set-property name="city"><![CDATA[Bozeman]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-111.0218765]]></set-property>
+  <set-property name="address1"><![CDATA[40 Enterprise Blvd]]></set-property>
+  <set-property name="latitude"><![CDATA[45.6589504]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[147]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Bozeman #147]]></set-property>
+  <set-property name="email"><![CDATA[store147@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Phoenix100">
+  <set-property name="postalCode"><![CDATA[85016]]></set-property>
+  <set-property name="city"><![CDATA[Phoenix]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-112.0318559]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 950]]></set-property>
+  <set-property name="address1"><![CDATA[2355 East Camelback Road]]></set-property>
+  <set-property name="latitude"><![CDATA[33.5071977]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[100]]></set-property>
+  <set-property name="stateAddress"><![CDATA[AZ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Phoenix #100]]></set-property>
+  <set-property name="email"><![CDATA[store100@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-SantaClara114">
+  <set-property name="postalCode"><![CDATA[95054]]></set-property>
+  <set-property name="city"><![CDATA[Santa Clara]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-121.9784918]]></set-property>
+  <set-property name="address1"><![CDATA[5450 Great America Parkway]]></set-property>
+  <set-property name="latitude"><![CDATA[37.4128684]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[114]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Santa Clara #114]]></set-property>
+  <set-property name="email"><![CDATA[store114@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-FortLauderdale120">
+  <set-property name="postalCode"><![CDATA[33309]]></set-property>
+  <set-property name="city"><![CDATA[Fort Lauderdale]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-80.1763435]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 500]]></set-property>
+  <set-property name="address1"><![CDATA[550 West Cypress Creek Road]]></set-property>
+  <set-property name="latitude"><![CDATA[26.1889286]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[120]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Fort Lauderdale #120]]></set-property>
+  <set-property name="email"><![CDATA[store120@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-ColoradoSprings116">
+  <set-property name="postalCode"><![CDATA[80921]]></set-property>
+  <set-property name="city"><![CDATA[Colorado Springs]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-104.8188696]]></set-property>
+  <set-property name="address1"><![CDATA[12320 Oracle Blvd.]]></set-property>
+  <set-property name="latitude"><![CDATA[39.0103361]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[116]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CO]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Colorado Springs #116]]></set-property>
+  <set-property name="email"><![CDATA[store116@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Lexington135">
+  <set-property name="postalCode"><![CDATA[40504]]></set-property>
+  <set-property name="city"><![CDATA[Lexington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.5513194]]></set-property>
+  <set-property name="address1"><![CDATA[2333 Alexandria Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[38.0187954]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[135]]></set-property>
+  <set-property name="stateAddress"><![CDATA[KY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Lexington #135]]></set-property>
+  <set-property name="email"><![CDATA[store135@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Bozeman146">
+  <set-property name="postalCode"><![CDATA[59718]]></set-property>
+  <set-property name="city"><![CDATA[Bozeman]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-111.0504935]]></set-property>
+  <set-property name="address1"><![CDATA[77 Discovery Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[45.6834608]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[146]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Bozeman #146]]></set-property>
+  <set-property name="email"><![CDATA[store146@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Rochester161">
+  <set-property name="postalCode"><![CDATA[14625]]></set-property>
+  <set-property name="city"><![CDATA[Rochester]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-77.5046027]]></set-property>
+  <set-property name="address2"><![CDATA[3rd Floor]]></set-property>
+  <set-property name="address1"><![CDATA[400 Linden Oaks 3rd]]></set-property>
+  <set-property name="latitude"><![CDATA[43.1528877]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[161]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Rochester #161]]></set-property>
+  <set-property name="email"><![CDATA[store161@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Frisco184">
+  <set-property name="postalCode"><![CDATA[75034]]></set-property>
+  <set-property name="city"><![CDATA[Frisco]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-96.8202753]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 300]]></set-property>
+  <set-property name="address1"><![CDATA[7460 Warren Parkway]]></set-property>
+  <set-property name="latitude"><![CDATA[33.1083344]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[184]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Frisco #184]]></set-property>
+  <set-property name="email"><![CDATA[store184@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Itasca132">
+  <set-property name="postalCode"><![CDATA[60143]]></set-property>
+  <set-property name="city"><![CDATA[Itasca]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-88.0072884]]></set-property>
+  <set-property name="address2"><![CDATA[17th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[Two Pierce Place]]></set-property>
+  <set-property name="latitude"><![CDATA[41.9750349]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[132]]></set-property>
+  <set-property name="stateAddress"><![CDATA[IL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Itasca #132]]></set-property>
+  <set-property name="email"><![CDATA[store132@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Cordova179">
+  <set-property name="postalCode"><![CDATA[38018]]></set-property>
+  <set-property name="city"><![CDATA[Cordova]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-89.7960048]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 104]]></set-property>
+  <set-property name="address1"><![CDATA[57 Germantown Ct.]]></set-property>
+  <set-property name="latitude"><![CDATA[35.1307223]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[179]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TN]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Cordova #179]]></set-property>
+  <set-property name="email"><![CDATA[store179@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-CulverCity102">
+  <set-property name="postalCode"><![CDATA[90230]]></set-property>
+  <set-property name="city"><![CDATA[Culver City]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-118.3857182]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 200]]></set-property>
+  <set-property name="address1"><![CDATA[5750 Hannum Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[33.9872536]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[102]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Culver City #102]]></set-property>
+  <set-property name="email"><![CDATA[store102@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Houston183">
+  <set-property name="postalCode"><![CDATA[77002]]></set-property>
+  <set-property name="city"><![CDATA[Houston]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-95.3708566]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 1500]]></set-property>
+  <set-property name="address1"><![CDATA[Two Allen Center 1200 Smith St.]]></set-property>
+  <set-property name="latitude"><![CDATA[29.7566496]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[183]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Houston #183]]></set-property>
+  <set-property name="email"><![CDATA[store183@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Tarrytown162">
+  <set-property name="postalCode"><![CDATA[10591]]></set-property>
+  <set-property name="city"><![CDATA[Tarrytown]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.8393601]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 315]]></set-property>
+  <set-property name="address1"><![CDATA[560 White Plains Road]]></set-property>
+  <set-property name="latitude"><![CDATA[41.0610269]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[162]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Tarrytown #162]]></set-property>
+  <set-property name="email"><![CDATA[store162@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Mineola160">
+  <set-property name="postalCode"><![CDATA[11501]]></set-property>
+  <set-property name="city"><![CDATA[Mineola]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.6453244]]></set-property>
+  <set-property name="address1"><![CDATA[330 Old Country Road]]></set-property>
+  <set-property name="latitude"><![CDATA[40.7381959]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[160]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Mineola #160]]></set-property>
+  <set-property name="email"><![CDATA[store160@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Broomfield115">
+  <set-property name="postalCode"><![CDATA[80021]]></set-property>
+  <set-property name="city"><![CDATA[Broomfield]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-105.1141932]]></set-property>
+  <set-property name="address1"><![CDATA[500 Eldorado Blvd.]]></set-property>
+  <set-property name="latitude"><![CDATA[39.8925234]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[115]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CO]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Broomfield #115]]></set-property>
+  <set-property name="email"><![CDATA[store115@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Pleasanton109">
+  <set-property name="postalCode"><![CDATA[94588]]></set-property>
+  <set-property name="city"><![CDATA[Pleasanton]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-121.8746761]]></set-property>
+  <set-property name="address1"><![CDATA[5805 Owens Drive Pleasanton]]></set-property>
+  <set-property name="latitude"><![CDATA[37.6624386]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[109]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Pleasanton #109]]></set-property>
+  <set-property name="email"><![CDATA[store109@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Bridgewater151">
+  <set-property name="postalCode"><![CDATA[8807]]></set-property>
+  <set-property name="city"><![CDATA[Bridgewater]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-74.6283276]]></set-property>
+  <set-property name="address2"><![CDATA[6th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[400 Crossing Boulevard 6th]]></set-property>
+  <set-property name="latitude"><![CDATA[40.5971529]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[151]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NJ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Bridgewater #151]]></set-property>
+  <set-property name="email"><![CDATA[store151@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Irving182">
+  <set-property name="postalCode"><![CDATA[75039]]></set-property>
+  <set-property name="city"><![CDATA[Irving]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-96.9693627]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 900]]></set-property>
+  <set-property name="address1"><![CDATA[6031 Connection Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[32.8958888]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[182]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Irving #182]]></set-property>
+  <set-property name="email"><![CDATA[store182@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Corvallis170">
+  <set-property name="postalCode"><![CDATA[97330]]></set-property>
+  <set-property name="city"><![CDATA[Corvallis]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-123.2777365]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 100]]></set-property>
+  <set-property name="address1"><![CDATA[2420 NW Professional Dr]]></set-property>
+  <set-property name="latitude"><![CDATA[44.5912961]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[170]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OR]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Corvallis #170]]></set-property>
+  <set-property name="email"><![CDATA[store170@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-BalaCynwyd174">
+  <set-property name="postalCode"><![CDATA[19004]]></set-property>
+  <set-property name="city"><![CDATA[Bala Cynwyd]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-75.2195213]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 700]]></set-property>
+  <set-property name="address1"><![CDATA[3 Bala Plaza Suite]]></set-property>
+  <set-property name="latitude"><![CDATA[40.0087717]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[174]]></set-property>
+  <set-property name="stateAddress"><![CDATA[PA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Bala Cynwyd #174]]></set-property>
+  <set-property name="email"><![CDATA[store174@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Irvine107">
+  <set-property name="postalCode"><![CDATA[92614]]></set-property>
+  <set-property name="city"><![CDATA[Irvine]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-117.8498266]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 800]]></set-property>
+  <set-property name="address1"><![CDATA[17901 Von Karman Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[33.6828144]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[107]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Irvine #107]]></set-property>
+  <set-property name="email"><![CDATA[store107@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Independence167">
+  <set-property name="postalCode"><![CDATA[44131]]></set-property>
+  <set-property name="city"><![CDATA[Independence]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-81.6545671]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 350]]></set-property>
+  <set-property name="address1"><![CDATA[4 Summit Park Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[41.393371]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[167]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Independence #167]]></set-property>
+  <set-property name="email"><![CDATA[store167@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Harrisburg175">
+  <set-property name="postalCode"><![CDATA[17101]]></set-property>
+  <set-property name="city"><![CDATA[Harrisburg]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-76.8861261]]></set-property>
+  <set-property name="address1"><![CDATA[403 N. 2nd Street]]></set-property>
+  <set-property name="latitude"><![CDATA[40.2626711]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[175]]></set-property>
+  <set-property name="stateAddress"><![CDATA[PA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Harrisburg #175]]></set-property>
+  <set-property name="email"><![CDATA[store175@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Portland171">
+  <set-property name="postalCode"><![CDATA[97204]]></set-property>
+  <set-property name="city"><![CDATA[Portland]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.6799438]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 800]]></set-property>
+  <set-property name="address1"><![CDATA[1211 SW 5th Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[45.5152258]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[171]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OR]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Portland #171]]></set-property>
+  <set-property name="email"><![CDATA[store171@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Indianapolis133">
+  <set-property name="postalCode"><![CDATA[46268]]></set-property>
+  <set-property name="city"><![CDATA[Indianapolis]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-86.2195417]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 100]]></set-property>
+  <set-property name="address1"><![CDATA[8777 Purdue Road]]></set-property>
+  <set-property name="latitude"><![CDATA[39.9142684]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[133]]></set-property>
+  <set-property name="stateAddress"><![CDATA[IN]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Indianapolis #133]]></set-property>
+  <set-property name="email"><![CDATA[store133@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Orlando123">
+  <set-property name="postalCode"><![CDATA[32822]]></set-property>
+  <set-property name="city"><![CDATA[Orlando]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-81.3036554]]></set-property>
+  <set-property name="address2"><![CDATA[7453 TG Lee Blvd]]></set-property>
+  <set-property name="address1"><![CDATA[Lakefront Building]]></set-property>
+  <set-property name="latitude"><![CDATA[28.4576381]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[123]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Orlando #123]]></set-property>
+  <set-property name="email"><![CDATA[store123@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Jacksonville121">
+  <set-property name="postalCode"><![CDATA[32256]]></set-property>
+  <set-property name="city"><![CDATA[Jacksonville]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-81.5435681]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 100]]></set-property>
+  <set-property name="address1"><![CDATA[7660 Centurion Parkway]]></set-property>
+  <set-property name="latitude"><![CDATA[30.2374234]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[121]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Jacksonville #121]]></set-property>
+  <set-property name="email"><![CDATA[store121@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-ElSegundo103">
+  <set-property name="postalCode"><![CDATA[90245]]></set-property>
+  <set-property name="city"><![CDATA[El Segundo]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-118.3958145]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 400]]></set-property>
+  <set-property name="address1"><![CDATA[200 N. Sepulveda Blvd.]]></set-property>
+  <set-property name="latitude"><![CDATA[33.9182431]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[103]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - El Segundo #103]]></set-property>
+  <set-property name="email"><![CDATA[store103@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Burlington140">
+  <set-property name="postalCode"><![CDATA[01803-5146]]></set-property>
+  <set-property name="city"><![CDATA[Burlington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-71.2008223]]></set-property>
+  <set-property name="address2"><![CDATA[Burlington]]></set-property>
+  <set-property name="address1"><![CDATA[10 Van de Graaff Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[42.4814145]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[140]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Burlington #140]]></set-property>
+  <set-property name="email"><![CDATA[store140@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Minneapolis143">
+  <set-property name="postalCode"><![CDATA[55402]]></set-property>
+  <set-property name="city"><![CDATA[Minneapolis]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-93.2718777]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 900]]></set-property>
+  <set-property name="address1"><![CDATA[900 Second Avenue South]]></set-property>
+  <set-property name="latitude"><![CDATA[44.9736758]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[143]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MN]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Minneapolis #143]]></set-property>
+  <set-property name="email"><![CDATA[store143@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Bellevue188">
+  <set-property name="postalCode"><![CDATA[98004]]></set-property>
+  <set-property name="city"><![CDATA[Bellevue]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.1965423]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 900]]></set-property>
+  <set-property name="address1"><![CDATA[411 108th Avenue NE]]></set-property>
+  <set-property name="latitude"><![CDATA[47.6140209]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[188]]></set-property>
+  <set-property name="stateAddress"><![CDATA[WA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Bellevue #188]]></set-property>
+  <set-property name="email"><![CDATA[store188@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-BlueAsh165">
+  <set-property name="postalCode"><![CDATA[45242]]></set-property>
+  <set-property name="city"><![CDATA[Blue Ash]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.3782717]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 250]]></set-property>
+  <set-property name="address1"><![CDATA[9987 Carver Road]]></set-property>
+  <set-property name="latitude"><![CDATA[39.2320069]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[165]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Blue Ash #165]]></set-property>
+  <set-property name="email"><![CDATA[store165@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Tucson101">
+  <set-property name="postalCode"><![CDATA[85747]]></set-property>
+  <set-property name="city"><![CDATA[Tucson]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-110.9538288]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 1950]]></set-property>
+  <set-property name="address1"><![CDATA[9070 South Rita Rd.]]></set-property>
+  <set-property name="latitude"><![CDATA[32.2453677]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[101]]></set-property>
+  <set-property name="stateAddress"><![CDATA[AZ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Tucson #101]]></set-property>
+  <set-property name="email"><![CDATA[store101@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Monrovia108">
+  <set-property name="postalCode"><![CDATA[91016]]></set-property>
+  <set-property name="city"><![CDATA[Monrovia]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-117.9872008]]></set-property>
+  <set-property name="address1"><![CDATA[800 Royal Oaks Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[34.1430465]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[108]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Monrovia #108]]></set-property>
+  <set-property name="email"><![CDATA[store108@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Atlanta127">
+  <set-property name="postalCode"><![CDATA[30328]]></set-property>
+  <set-property name="city"><![CDATA[Atlanta]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.3857385]]></set-property>
+  <set-property name="address2"><![CDATA[Bldg 500 Suite 1120]]></set-property>
+  <set-property name="address1"><![CDATA[1100 Abernathy Road Northpark Town Center]]></set-property>
+  <set-property name="latitude"><![CDATA[33.9253056]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[127]]></set-property>
+  <set-property name="stateAddress"><![CDATA[GA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Atlanta #127]]></set-property>
+  <set-property name="email"><![CDATA[store127@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Atlanta128">
+  <set-property name="postalCode"><![CDATA[30303]]></set-property>
+  <set-property name="city"><![CDATA[Atlanta]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.3919994]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 1700]]></set-property>
+  <set-property name="address1"><![CDATA[101 Marietta Street]]></set-property>
+  <set-property name="latitude"><![CDATA[33.7569959]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[128]]></set-property>
+  <set-property name="stateAddress"><![CDATA[GA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Atlanta #128]]></set-property>
+  <set-property name="email"><![CDATA[store128@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Denver117">
+  <set-property name="postalCode"><![CDATA[80237]]></set-property>
+  <set-property name="city"><![CDATA[Denver]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-104.8999046]]></set-property>
+  <set-property name="address1"><![CDATA[7604 Technology Way]]></set-property>
+  <set-property name="latitude"><![CDATA[39.6318554]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[117]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CO]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Denver #117]]></set-property>
+  <set-property name="email"><![CDATA[store117@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Chicago130">
+  <set-property name="postalCode"><![CDATA[60606]]></set-property>
+  <set-property name="city"><![CDATA[Chicago]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-87.637141]]></set-property>
+  <set-property name="address2"><![CDATA[45th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[233 South Wacker Dr.]]></set-property>
+  <set-property name="latitude"><![CDATA[41.8817836]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[130]]></set-property>
+  <set-property name="stateAddress"><![CDATA[IL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Chicago #130]]></set-property>
+  <set-property name="email"><![CDATA[store130@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-SanFrancisco113">
+  <set-property name="postalCode"><![CDATA[94111]]></set-property>
+  <set-property name="city"><![CDATA[San Francisco]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.3999985]]></set-property>
+  <set-property name="address2"><![CDATA[15th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[475 Sansome Street]]></set-property>
+  <set-property name="latitude"><![CDATA[37.79594]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[113]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - San Francisco #113]]></set-property>
+  <set-property name="email"><![CDATA[store113@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Columbus168">
+  <set-property name="postalCode"><![CDATA[43215]]></set-property>
+  <set-property name="city"><![CDATA[Columbus]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-82.9997071]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 1100]]></set-property>
+  <set-property name="address1"><![CDATA[500 South Front Street]]></set-property>
+  <set-property name="latitude"><![CDATA[39.9517835]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[168]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Columbus #168]]></set-property>
+  <set-property name="email"><![CDATA[store168@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Chicago131">
+  <set-property name="postalCode"><![CDATA[60611]]></set-property>
+  <set-property name="city"><![CDATA[Chicago]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-87.6161637]]></set-property>
+  <set-property name="address2"><![CDATA[24th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[330 N. Wabash]]></set-property>
+  <set-property name="latitude"><![CDATA[41.8925103]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[131]]></set-property>
+  <set-property name="stateAddress"><![CDATA[IL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Chicago #131]]></set-property>
+  <set-property name="email"><![CDATA[store131@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Bozeman148">
+  <set-property name="postalCode"><![CDATA[59718]]></set-property>
+  <set-property name="city"><![CDATA[Bozeman]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-111.0218803]]></set-property>
+  <set-property name="address1"><![CDATA[110 Enterprise Blvd]]></set-property>
+  <set-property name="latitude"><![CDATA[45.6589507]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[148]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Bozeman #148]]></set-property>
+  <set-property name="email"><![CDATA[store148@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Denver118">
+  <set-property name="postalCode"><![CDATA[80237]]></set-property>
+  <set-property name="city"><![CDATA[Denver]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-104.900711]]></set-property>
+  <set-property name="address1"><![CDATA[7700 Technology Way]]></set-property>
+  <set-property name="latitude"><![CDATA[39.6324339]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[118]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CO]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Denver #118]]></set-property>
+  <set-property name="email"><![CDATA[store118@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Austin181">
+  <set-property name="postalCode"><![CDATA[78727]]></set-property>
+  <set-property name="city"><![CDATA[Austin]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-97.7305286]]></set-property>
+  <set-property name="address2"><![CDATA[Building B]]></set-property>
+  <set-property name="address1"><![CDATA[5300 Riata Park Court]]></set-property>
+  <set-property name="latitude"><![CDATA[30.430921]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[181]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Austin #181]]></set-property>
+  <set-property name="email"><![CDATA[store181@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-MoonTownship177">
+  <set-property name="postalCode"><![CDATA[15108]]></set-property>
+  <set-property name="city"><![CDATA[Moon Township]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-80.2020308]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 400]]></set-property>
+  <set-property name="address1"><![CDATA[1550 Coraopolis Heights]]></set-property>
+  <set-property name="latitude"><![CDATA[40.5024461]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[177]]></set-property>
+  <set-property name="stateAddress"><![CDATA[PA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Moon Township #177]]></set-property>
+  <set-property name="email"><![CDATA[store177@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Onalaska192">
+  <set-property name="postalCode"><![CDATA[54650]]></set-property>
+  <set-property name="city"><![CDATA[Onalaska]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-91.2237554]]></set-property>
+  <set-property name="address1"><![CDATA[115 10th Avenue South]]></set-property>
+  <set-property name="latitude"><![CDATA[43.883639]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[192]]></set-property>
+  <set-property name="stateAddress"><![CDATA[WI]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Onalaska #192]]></set-property>
+  <set-property name="email"><![CDATA[store192@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Bozeman145">
+  <set-property name="postalCode"><![CDATA[59718]]></set-property>
+  <set-property name="city"><![CDATA[Bozeman]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-111.0218758]]></set-property>
+  <set-property name="address1"><![CDATA[136 Enterprise Blvd]]></set-property>
+  <set-property name="latitude"><![CDATA[45.6589496]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[145]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Bozeman #145]]></set-property>
+  <set-property name="email"><![CDATA[store145@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Albuquerque156">
+  <set-property name="postalCode"><![CDATA[87110]]></set-property>
+  <set-property name="city"><![CDATA[Albuquerque]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-106.5707517]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 200]]></set-property>
+  <set-property name="address1"><![CDATA[6565 Americas Parkway]]></set-property>
+  <set-property name="latitude"><![CDATA[35.1006083]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[156]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NM]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Albuquerque #156]]></set-property>
+  <set-property name="email"><![CDATA[store156@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-SanDiego112">
+  <set-property name="postalCode"><![CDATA[92121]]></set-property>
+  <set-property name="city"><![CDATA[San Diego]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-117.0393813]]></set-property>
+  <set-property name="address2"><![CDATA[9525 Towne Center Drive]]></set-property>
+  <set-property name="address1"><![CDATA[Eastgate Technology Park]]></set-property>
+  <set-property name="latitude"><![CDATA[32.5523875]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[112]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - San Diego #112]]></set-property>
+  <set-property name="email"><![CDATA[store112@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-OverlandPark134">
+  <set-property name="postalCode"><![CDATA[66210]]></set-property>
+  <set-property name="city"><![CDATA[Overland Park]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-94.6917779]]></set-property>
+  <set-property name="address2"><![CDATA[9200 Indian Creek Pkwy Suite 560]]></set-property>
+  <set-property name="address1"><![CDATA[9 Corporate Woods]]></set-property>
+  <set-property name="latitude"><![CDATA[38.9329861]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[134]]></set-property>
+  <set-property name="stateAddress"><![CDATA[KS]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Overland Park #134]]></set-property>
+  <set-property name="email"><![CDATA[store134@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Raleigh164">
+  <set-property name="postalCode"><![CDATA[27617]]></set-property>
+  <set-property name="city"><![CDATA[Raleigh]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-78.7810192]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 270]]></set-property>
+  <set-property name="address1"><![CDATA[8081 Arco Corporate Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[35.9021775]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[164]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NC]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Raleigh #164]]></set-property>
+  <set-property name="email"><![CDATA[store164@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Burlington139">
+  <set-property name="postalCode"><![CDATA[1803]]></set-property>
+  <set-property name="city"><![CDATA[Burlington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-71.1994803]]></set-property>
+  <set-property name="address2"><![CDATA[Burlington]]></set-property>
+  <set-property name="address1"><![CDATA[8 Van de Graaff Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[42.4806828]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[139]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Burlington #139]]></set-property>
+  <set-property name="email"><![CDATA[store139@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Columbia137">
+  <set-property name="postalCode"><![CDATA[21046]]></set-property>
+  <set-property name="city"><![CDATA[Columbia]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-76.811701]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 150]]></set-property>
+  <set-property name="address1"><![CDATA[7120 Samuel Morse Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[39.1666616]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[137]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MD]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Columbia #137]]></set-property>
+  <set-property name="email"><![CDATA[store137@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Cincinnati166">
+  <set-property name="postalCode"><![CDATA[45203]]></set-property>
+  <set-property name="city"><![CDATA[Cincinnati]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.5169899]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 202]]></set-property>
+  <set-property name="address1"><![CDATA[1404 Race Street]]></set-property>
+  <set-property name="latitude"><![CDATA[39.1105581]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[166]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Cincinnati #166]]></set-property>
+  <set-property name="email"><![CDATA[store166@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Omaha149">
+  <set-property name="postalCode"><![CDATA[68154]]></set-property>
+  <set-property name="city"><![CDATA[Omaha]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-96.0932397]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 101]]></set-property>
+  <set-property name="address1"><![CDATA[11516 Miracle Hills Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[41.2679332]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[149]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NE]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Omaha #149]]></set-property>
+  <set-property name="email"><![CDATA[store149@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Hillsboro173">
+  <set-property name="postalCode"><![CDATA[97124]]></set-property>
+  <set-property name="city"><![CDATA[Hillsboro]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.8943933]]></set-property>
+  <set-property name="address1"><![CDATA[3295 NW 211th Terrace]]></set-property>
+  <set-property name="latitude"><![CDATA[45.543588]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[173]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OR]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Hillsboro #173]]></set-property>
+  <set-property name="email"><![CDATA[store173@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Chesterfield144">
+  <set-property name="postalCode"><![CDATA[63017]]></set-property>
+  <set-property name="city"><![CDATA[Chesterfield]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-90.5103007]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 200]]></set-property>
+  <set-property name="address1"><![CDATA[424 South Woods Mill Road]]></set-property>
+  <set-property name="latitude"><![CDATA[38.6454675]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[144]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MO]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Chesterfield #144]]></set-property>
+  <set-property name="email"><![CDATA[store144@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Charlotte163">
+  <set-property name="postalCode"><![CDATA[28277]]></set-property>
+  <set-property name="city"><![CDATA[Charlotte]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-80.8539892]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 500]]></set-property>
+  <set-property name="address1"><![CDATA[15800 John J. Delaney Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[35.0585037]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[163]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NC]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Charlotte #163]]></set-property>
+  <set-property name="email"><![CDATA[store163@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Hillsboro172">
+  <set-property name="postalCode"><![CDATA[97124]]></set-property>
+  <set-property name="city"><![CDATA[Hillsboro]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.8967964]]></set-property>
+  <set-property name="address1"><![CDATA[3380 NW 215th Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[45.544469]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[172]]></set-property>
+  <set-property name="stateAddress"><![CDATA[OR]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Hillsboro #172]]></set-property>
+  <set-property name="email"><![CDATA[store172@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Encino104">
+  <set-property name="postalCode"><![CDATA[91436]]></set-property>
+  <set-property name="city"><![CDATA[Encino]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-118.4765695]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 1400]]></set-property>
+  <set-property name="address1"><![CDATA[15760 Ventura Blvd.]]></set-property>
+  <set-property name="latitude"><![CDATA[34.1548005]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[104]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Encino #104]]></set-property>
+  <set-property name="email"><![CDATA[store104@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Boise129">
+  <set-property name="postalCode"><![CDATA[83702]]></set-property>
+  <set-property name="city"><![CDATA[Boise]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-116.2006519]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 830]]></set-property>
+  <set-property name="address1"><![CDATA[250 South Fifth Street]]></set-property>
+  <set-property name="latitude"><![CDATA[43.6122012]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[129]]></set-property>
+  <set-property name="stateAddress"><![CDATA[ID]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Boise #129]]></set-property>
+  <set-property name="email"><![CDATA[store129@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Sunrise124">
+  <set-property name="postalCode"><![CDATA[33323]]></set-property>
+  <set-property name="city"><![CDATA[Sunrise]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-80.3101665]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 320]]></set-property>
+  <set-property name="address1"><![CDATA[1300 Concord Terrace]]></set-property>
+  <set-property name="latitude"><![CDATA[26.1512565]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[124]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Sunrise #124]]></set-property>
+  <set-property name="email"><![CDATA[store124@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-SanDiego111">
+  <set-property name="postalCode"><![CDATA[92121]]></set-property>
+  <set-property name="city"><![CDATA[San Diego]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-117.0393769]]></set-property>
+  <set-property name="address2"><![CDATA[9515 Towne Center Drive]]></set-property>
+  <set-property name="address1"><![CDATA[Eastgate Technology Park (Main Building)]]></set-property>
+  <set-property name="latitude"><![CDATA[32.5523848]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[111]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - San Diego #111]]></set-property>
+  <set-property name="email"><![CDATA[store111@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-LibertyCorner153">
+  <set-property name="postalCode"><![CDATA[7938]]></set-property>
+  <set-property name="city"><![CDATA[Liberty Corner]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-74.5785908]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 300]]></set-property>
+  <set-property name="address1"><![CDATA[150 Allen Road Suite]]></set-property>
+  <set-property name="latitude"><![CDATA[40.6651999]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[153]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NJ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Liberty Corner #153]]></set-property>
+  <set-property name="email"><![CDATA[store153@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Stamford119">
+  <set-property name="postalCode"><![CDATA[6902]]></set-property>
+  <set-property name="city"><![CDATA[Stamford]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.5647921]]></set-property>
+  <set-property name="address1"><![CDATA[900 Long Ridge Road]]></set-property>
+  <set-property name="latitude"><![CDATA[41.0997245]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[119]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Stamford #119]]></set-property>
+  <set-property name="email"><![CDATA[store119@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Austin180">
+  <set-property name="postalCode"><![CDATA[78759]]></set-property>
+  <set-property name="city"><![CDATA[Austin]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-97.7525318]]></set-property>
+  <set-property name="address2"><![CDATA[Seventh Floor]]></set-property>
+  <set-property name="address1"><![CDATA[9600 North Mopac]]></set-property>
+  <set-property name="latitude"><![CDATA[30.4013588]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[180]]></set-property>
+  <set-property name="stateAddress"><![CDATA[TX]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Austin #180]]></set-property>
+  <set-property name="email"><![CDATA[store180@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Washington190">
+  <set-property name="postalCode"><![CDATA[20036]]></set-property>
+  <set-property name="city"><![CDATA[Washington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-77.0429122]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 600]]></set-property>
+  <set-property name="address1"><![CDATA[1111 19th Street NW]]></set-property>
+  <set-property name="latitude"><![CDATA[38.9044084]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[190]]></set-property>
+  <set-property name="stateAddress"><![CDATA[DC]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Washington #190]]></set-property>
+  <set-property name="email"><![CDATA[store190@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Miami122">
+  <set-property name="postalCode"><![CDATA[33126]]></set-property>
+  <set-property name="city"><![CDATA[Miami]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-80.2962348]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 400]]></set-property>
+  <set-property name="address1"><![CDATA[6505 Blue Lagoon Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[25.7786504]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[122]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Miami #122]]></set-property>
+  <set-property name="email"><![CDATA[store122@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Sandy186">
+  <set-property name="postalCode"><![CDATA[84070]]></set-property>
+  <set-property name="city"><![CDATA[Sandy]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-111.8876983]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 600]]></set-property>
+  <set-property name="address1"><![CDATA[9350 South 150 East]]></set-property>
+  <set-property name="latitude"><![CDATA[40.5818461]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[186]]></set-property>
+  <set-property name="stateAddress"><![CDATA[UT]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Sandy #186]]></set-property>
+  <set-property name="email"><![CDATA[store186@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Rocklin110">
+  <set-property name="postalCode"><![CDATA[95765]]></set-property>
+  <set-property name="city"><![CDATA[Rocklin]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-121.2860614]]></set-property>
+  <set-property name="address1"><![CDATA[1001 Sunset Boulevard Rocklin]]></set-property>
+  <set-property name="latitude"><![CDATA[38.8174895]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[110]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Rocklin #110]]></set-property>
+  <set-property name="email"><![CDATA[store110@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-KingofPrussia176">
+  <set-property name="postalCode"><![CDATA[19406]]></set-property>
+  <set-property name="city"><![CDATA[King of Prussia]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-75.3835496]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 300]]></set-property>
+  <set-property name="address1"><![CDATA[1016 West 9th Avenue]]></set-property>
+  <set-property name="latitude"><![CDATA[40.1012928]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[176]]></set-property>
+  <set-property name="stateAddress"><![CDATA[PA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - King of Prussia #176]]></set-property>
+  <set-property name="email"><![CDATA[store176@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Princeton155">
+  <set-property name="postalCode"><![CDATA[8530]]></set-property>
+  <set-property name="city"><![CDATA[Princeton]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-74.8857941]]></set-property>
+  <set-property name="address1"><![CDATA[104 Carnegie Center #301]]></set-property>
+  <set-property name="latitude"><![CDATA[40.3731125]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[155]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NJ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Princeton #155]]></set-property>
+  <set-property name="email"><![CDATA[store155@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Albany157">
+  <set-property name="postalCode"><![CDATA[12211]]></set-property>
+  <set-property name="city"><![CDATA[Albany]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-73.7712373]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 201]]></set-property>
+  <set-property name="address1"><![CDATA[7 Southwoods Boulevard]]></set-property>
+  <set-property name="latitude"><![CDATA[42.68374]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[157]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NY]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Albany #157]]></set-property>
+  <set-property name="email"><![CDATA[store157@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-MtLaurel154">
+  <set-property name="postalCode"><![CDATA[8054]]></set-property>
+  <set-property name="city"><![CDATA[Mt Laurel]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-74.9506541]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 100]]></set-property>
+  <set-property name="address1"><![CDATA[330 Fellowship Road Suite]]></set-property>
+  <set-property name="latitude"><![CDATA[39.9449122]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[154]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NJ]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Mt Laurel #154]]></set-property>
+  <set-property name="email"><![CDATA[store154@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Troy141">
+  <set-property name="postalCode"><![CDATA[48084]]></set-property>
+  <set-property name="city"><![CDATA[Troy]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-83.1936404]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 300]]></set-property>
+  <set-property name="address1"><![CDATA[3290 West Big Beaver Rd.]]></set-property>
+  <set-property name="latitude"><![CDATA[42.5620915]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[141]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MI]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Troy #141]]></set-property>
+  <set-property name="email"><![CDATA[store141@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Fullerton105">
+  <set-property name="postalCode"><![CDATA[92831]]></set-property>
+  <set-property name="city"><![CDATA[Fullerton]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-117.8911854]]></set-property>
+  <set-property name="address1"><![CDATA[2320 E. Valencia Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[33.8659098]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[105]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Fullerton #105]]></set-property>
+  <set-property name="email"><![CDATA[store105@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Tallahassee125">
+  <set-property name="postalCode"><![CDATA[32308]]></set-property>
+  <set-property name="city"><![CDATA[Tallahassee]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-84.2377524]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 204]]></set-property>
+  <set-property name="address1"><![CDATA[2039 Centre Pointe Blvd.]]></set-property>
+  <set-property name="latitude"><![CDATA[30.473483]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[125]]></set-property>
+  <set-property name="stateAddress"><![CDATA[FL]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Tallahassee #125]]></set-property>
+  <set-property name="email"><![CDATA[store125@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-Conshohocken178">
+  <set-property name="postalCode"><![CDATA[19428]]></set-property>
+  <set-property name="city"><![CDATA[Conshohocken]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-75.3162864]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 400]]></set-property>
+  <set-property name="address1"><![CDATA[5 Tower Bridge 300 Barr Harbor Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[40.0698381]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[178]]></set-property>
+  <set-property name="stateAddress"><![CDATA[PA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Conshohocken #178]]></set-property>
+  <set-property name="email"><![CDATA[store178@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Washington189">
+  <set-property name="postalCode"><![CDATA[20005]]></set-property>
+  <set-property name="city"><![CDATA[Washington]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-77.034234]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 250]]></set-property>
+  <set-property name="address1"><![CDATA[1015 15th Street NW]]></set-property>
+  <set-property name="latitude"><![CDATA[38.9028858]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[189]]></set-property>
+  <set-property name="stateAddress"><![CDATA[DC]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Washington #189]]></set-property>
+  <set-property name="email"><![CDATA[store189@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Nashua150">
+  <set-property name="postalCode"><![CDATA[3062]]></set-property>
+  <set-property name="city"><![CDATA[Nashua]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-71.4596004]]></set-property>
+  <set-property name="address1"><![CDATA[One Oracle Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[42.7093991]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[150]]></set-property>
+  <set-property name="stateAddress"><![CDATA[NH]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Nashua #150]]></set-property>
+  <set-property name="email"><![CDATA[store150@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-GlenAllen187">
+  <set-property name="postalCode"><![CDATA[23060]]></set-property>
+  <set-property name="city"><![CDATA[Glen Allen]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-77.5063697]]></set-property>
+  <set-property name="address2"><![CDATA[Suite 101]]></set-property>
+  <set-property name="address1"><![CDATA[4870 Sadler Rd.]]></set-property>
+  <set-property name="latitude"><![CDATA[37.6659833]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[187]]></set-property>
+  <set-property name="stateAddress"><![CDATA[VA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Glen Allen #187]]></set-property>
+  <set-property name="email"><![CDATA[store187@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSStore-RedwoodShores106">
+  <set-property name="postalCode"><![CDATA[94065]]></set-property>
+  <set-property name="city"><![CDATA[Redwood Shores]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-122.2455331]]></set-property>
+  <set-property name="address1"><![CDATA[500 Oracle Parkway Redwood]]></set-property>
+  <set-property name="latitude"><![CDATA[37.5364151]]></set-property>
+  <set-property name="sites"><![CDATA[storeSiteUS]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[106]]></set-property>
+  <set-property name="stateAddress"><![CDATA[CA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Store - Redwood Shores #106]]></set-property>
+  <set-property name="email"><![CDATA[store106@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-AnnapolisJunction136">
+  <set-property name="postalCode"><![CDATA[20701]]></set-property>
+  <set-property name="city"><![CDATA[Annapolis Junction]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-76.7985617]]></set-property>
+  <set-property name="address2"><![CDATA[Fourth Floor]]></set-property>
+  <set-property name="address1"><![CDATA[Junction 306 Sentinel Drive]]></set-property>
+  <set-property name="latitude"><![CDATA[39.1266204]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[136]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MD]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Annapolis Junction #136]]></set-property>
+  <set-property name="email"><![CDATA[store136@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="CRSHome-Boston138">
+  <set-property name="postalCode"><![CDATA[2108]]></set-property>
+  <set-property name="city"><![CDATA[Boston]]></set-property>
+  <set-property name="country"><![CDATA[USA]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[(617) 386-1200]]></set-property>
+  <set-property name="longitude"><![CDATA[-71.0661126]]></set-property>
+  <set-property name="address2"><![CDATA[4th Floor]]></set-property>
+  <set-property name="address1"><![CDATA[One Beacon Street]]></set-property>
+  <set-property name="latitude"><![CDATA[42.3548622]]></set-property>
+  <set-property name="sites"><![CDATA[homeSite]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[138]]></set-property>
+  <set-property name="stateAddress"><![CDATA[MA]]></set-property>
+  <set-property name="hours"><![CDATA[Mon - Sat 10AM - 7PM Sun 11AM - 6 PM]]></set-property>
+  <set-property name="distance"><![CDATA[__NULL__]]></set-property>
+  <set-property name="type"><![CDATA[store]]></set-property>
+  <set-property name="name"><![CDATA[CRS Home - Boston #138]]></set-property>
+  <set-property name="email"><![CDATA[store138@example.com]]></set-property>
+  <set-property name="faxNumber"><![CDATA[(617) 386-1200]]></set-property>
+</add-item>
+
+</import-items>
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/data/stores.xml#1 $$Change: 1497274 $-->

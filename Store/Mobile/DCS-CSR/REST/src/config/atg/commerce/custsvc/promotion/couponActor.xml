@@ -1,0 +1,12 @@
+<actor-template>
+
+  <!-- Add ASA required behavior -->
+  <actor-chain id="claimCoupon" transaction="TX_SUPPORTS">
+    <form id="claimCoupon">
+      <input name="claimCouponSuccessURL"
+             value="${param.cart == 'true' ? '/model/atg/commerce/custsvc/order/ShoppingCartActor/summary' : '/model/atg/commerce/custsvc/order/ConfirmOrderActor/confirmOrder'}"/>
+    </form>
+  </actor-chain>
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/commerce/custsvc/promotion/couponActor.xml#1 $$Change: 1497274 $-->

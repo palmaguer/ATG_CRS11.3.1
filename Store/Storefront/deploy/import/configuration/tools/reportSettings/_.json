@@ -1,0 +1,6 @@
+{
+    "ecr:type": "report-settings",
+    "runDailyReports": true,
+    "runWeeklyReports": true,
+    "dayOfTheWeek": 1
+}

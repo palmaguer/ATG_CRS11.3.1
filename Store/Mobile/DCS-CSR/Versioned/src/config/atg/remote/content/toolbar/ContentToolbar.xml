@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<toolbar xml-combine="append">
+
+ <!-- Toolbar customisations for the CRS-defined items in Merchandising -->
+
+  <!-- ===================== -->
+  <!-- Browse operation menu -->
+  <!-- ===================== -->
+
+
+ <operation-menu id="storeAnnouncementItemsOperationMenu">
+      <toolbar-scope asset-area="storeAnnouncementItems"
+                     pane-id="browse"/>
+      <operation-menu-item id="edit" />
+      <operation-menu-item divider="true" />
+      <operation-menu-item id="move"/>
+      <operation-menu-item id="duplicate" />
+      <operation-menu-item id="delete" />
+      <operation-menu-item divider="true" />
+      <operation-menu-item id="addToProject" />
+      <operation-menu-item id="addToWorkbench" /> 		
+      <operation-menu-item id="export" />
+  </operation-menu> 
+
+
+  <!-- ===================== -->
+  <!-- Find operation menu -->
+  <!-- ===================== -->
+
+
+ <operation-menu id="findStoreAnnouncementsOperationMenu">
+      <toolbar-scope asset-area="storeAnnouncements"
+                     pane-id="find"/>
+      <operation-menu-item id="edit" />
+      <operation-menu-item divider="true" />
+      <operation-menu-item id="duplicate" />
+      <operation-menu-item divider="true" />
+      <operation-menu-item id="addToProject" />
+      <operation-menu-item id="addToWorkbench" /> 		
+      <operation-menu-item id="export" />
+  </operation-menu>
+  
+</toolbar>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/Versioned/config/atg/remote/content/toolbar/ContentToolbar.xml#1 $$Change: 1497274 $-->

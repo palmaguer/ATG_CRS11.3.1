@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:assetBean xmlns:ns2="http://www.fatwire.com/schema/rest/1.0">
+    <id>DimensionSet:1000000000065</id>
+    <name>@@SITE_NAME@@Global</name>
+    <createdby>fwadmin</createdby>
+    <createddate>2013-07-25T12:53:34.905Z</createddate>
+    <description>@@SITE_NAME@@ Global Dimension Set</description>
+    <publist>@@SITE_NAME@@</publist>
+    <status>PL</status>
+    <subtype></subtype>
+    <updatedby>fwadmin</updatedby>
+    <updateddate>2013-07-25T12:53:34.905Z</updateddate>
+    <attribute>
+        <name>startdate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>enddate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>filename</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>path</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>template</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldoc</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>externaldoctype</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldocxml</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>fw_uid</name>
+        <data>
+            <stringValue>00000000-0000-0000-0000-00E8D4A51041</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>id</name>
+        <data>
+            <longValue>1000000000065</longValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>fwtags</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>Webreference</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>cs_dfilterclass</name>
+        <data>
+            <stringValue>com.openmarket.xcelerate.asset.SimpleLookupDimensionFilterInstance</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>cs_drulectxclass</name>
+        <data>
+            <stringValue>com.openmarket.xcelerate.asset.NoopDimensionRuleContextInstance</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>EnabledDimension</name>
+        <data>
+            <stringList>Dimension:1000000000061</stringList>
+            <stringList>Dimension:1000000000062</stringList>
+            <stringList>Dimension:1000000000063</stringList>
+        </data>
+    </attribute>
+    <associations>
+        <href>myPathassociations</href>
+    </associations>
+</ns2:assetBean>
+
+<!--==================___ METADATA ___================
+<dependencies>
+  <linked-hash-set>
+    <dependency>
+      <depType>E</depType>
+      <resType>Dimension</resType>
+      <resId>1000000000062</resId>
+      <uid>Dimension-en</uid>
+    </dependency>
+    <dependency>
+      <depType>E</depType>
+      <resType>Dimension</resType>
+      <resId>1000000000063</resId>
+      <uid>Dimension-es</uid>
+    </dependency>
+    <dependency>
+      <depType>E</depType>
+      <resType>Dimension</resType>
+      <resId>1000000000061</resId>
+      <uid>Dimension-de</uid>
+    </dependency>
+    <dependency>
+      <depType>N</depType>
+      <resType>DimensionSet</resType>
+      <resId>1000000000065</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51041</uid>
+    </dependency>
+  </linked-hash-set>
+</dependencies>
+==================______________________==================
+#
+key=DimensionSet-00000000-0000-0000-0000-00E8D4A51041
+type=ASSETDATA
+sites=@@SITE_NAME@@
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ASSET/DimensionSet/%40%40SITE_NAME%40%40Global(00000000-0000-0000-0000-00E8D4A51041).main.xml#2 $$Change: 1505503 $-->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE process SYSTEM "dynamosystemresource:/atg/dtds/pdl/pdl_1.0.dtd">
+<process author="admin" creation-time="1411568987619" enabled="true" last-modified-by="admin" modification-time="1417620922507">
+  <segment migrate-from="1411568998424,1411658098680,1411660327611,1411660664721,1411660664721,1411660664721,1411660664721,1411666527837,1411666589874,1415312497552,1415312497552,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415313048217,1415314146430,1415314242861,1415379304731,1417620720753,1417620774120,1417620821049" migrate-subjects="true">
+    <segment-name>EnteredBeacon</segment-name>
+    <fork id="1">
+      <branch id="1.1">
+        <!--================================-->
+        <!--== Entered Beacon Range beaconId is beacon001  -->
+        <!--================================-->
+        <event id="1.1.1">
+          <event-name>atg.projects.store.mobile.ibeacon.EnteredBeaconMessage</event-name>
+          <filter construct="event-property-filter" operator="eq">
+            <event-property construct="event-property">
+              <property-name>beaconId</property-name>
+            </event-property>
+            <constant>beacon001</constant>
+          </filter>
+        </event>
+        <!--================================-->
+        <!--== Give promotion promotions: 10% off Order  -->
+        <!--================================-->
+        <action id="1.1.2">
+          <action-name>promotion</action-name>
+          <action-param name="promotions">
+            <array type="java.lang.String[]">
+              <constant>abandonedOrderDiscount</constant>
+            </array>
+          </action-param>
+        </action>
+        <!--================================-->
+        <!--== Log a message message: 10% off Order granted! logTriggeringEvent: true  -->
+        <!--================================-->
+        <action id="1.1.3">
+          <action-name>Log a message</action-name>
+          <action-param name="message">
+            <constant>10% off Order granted!</constant>
+          </action-param>
+          <action-param name="logTriggeringEvent">
+            <constant type="java.lang.Boolean">true</constant>
+          </action-param>
+        </action>
+      </branch>
+      <branch id="1.2">
+        <!--================================-->
+        <!--== Entered Beacon Range beaconId is not beacon001  -->
+        <!--================================-->
+        <event id="1.2.1">
+          <event-name>atg.projects.store.mobile.ibeacon.EnteredBeaconMessage</event-name>
+          <filter construct="event-property-filter" operator="ne">
+            <event-property construct="event-property">
+              <property-name>beaconId</property-name>
+            </event-property>
+            <constant>beacon001</constant>
+          </filter>
+        </event>
+      </branch>
+    </fork>
+    <!--================================-->
+    <!--== Enter Beacon Push Notification Action  -->
+    <!--================================-->
+    <action id="2">
+      <action-name>Enter Beacon Push Notification Action</action-name>
+    </action>
+  </segment>
+</process>

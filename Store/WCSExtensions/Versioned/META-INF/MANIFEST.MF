@@ -1,0 +1,4 @@
+ATG-Product: The Commerce Reference Store WCSExtensions
+ATG-Config-Path: config/config.jar
+ATG-Required: Store.EStore.Versioned Store.WCSExtensions
+Manifest-Version: 1.0

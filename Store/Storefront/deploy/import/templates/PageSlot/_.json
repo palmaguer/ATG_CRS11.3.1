@@ -1,0 +1,25 @@
+{
+    "@description": "${template.description}",
+    "@group": "Page",
+    "ecr:createDate": "2016-12-07T09:49:28.584Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [{"editor": "editors/DynamicSlotEditor"}]
+    },
+    "typeInfo": {
+        "ruleLimit": {"@propertyType": "String"},
+        "templateTypes": {"@propertyType": "List"},
+        "templateIds": {"@propertyType": "List"},
+        "contentPaths": {"@propertyType": "List"}
+    },
+    "defaultContentItem": {
+        "@name": "Static Page Slot",
+        "ruleLimit": "1",
+        "templateTypes": ["Page"],
+        "templateIds": [],
+        "contentPaths": []
+    },
+    "locales": {}
+}

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE item PUBLIC "-//Art Technology Group, Inc.//DTD Repository Ouput Specifier 1.0//EN" "http://www.atg.com/dtds/search/indexing-dependency-schema.dtd">
+
+<item item-descriptor-name="storeArticle" is-document="true">
+  <title property-name="name"/>
+  <properties>
+    <property name="language" type="string" output-name="storeContent.language"
+              is-non-repository-property="true" is-dimension="true"              
+              property-accessor="/atg/endeca/index/accessor/LanguageNameAccessor"/>
+
+    <property name="$repositoryId" type="string" output-name="article.repositoryId"
+              text-searchable="true" filter="unique"/>
+    <property name="headline" type="string" output-name="article.headline"
+              text-searchable="true"/>
+    <property name="subheadline" type="string" output-name="article.subheadline"
+              text-searchable="true"/>
+    <property name="abstract" type="string" output-name="article.abstract"
+              text-searchable="true"/>
+    <property name="body" type="string" output-name="article.body"
+              text-searchable="true"/>
+    <property name="author" type="string" output-name="article.author"
+              text-searchable="true" is-dimension="true"/>
+    <property name="postDate" type="date" output-name="article.postDate"/>
+    <property name="startDate" type="date" default-value="0"/>
+    <property name="endDate" type="date" default-value="32506394714894"/>
+  </properties>
+
+  <item property-name="mainImage">
+    <properties>
+      <property name="$itemDescriptor.itemDescriptorName" suppress="true"/>
+      <property name="$repository.repositoryName" suppress="true"/> 
+      <property name="$repositoryId" suppress="true"/> 
+
+      <property name="name" type="string" output-name="article.mainImageName"
+                text-searchable="true"/>
+      <property name="url" type="string" output-name="article.mainImageURL"/>
+    </properties>
+  </item>
+</item>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/Endeca/Index/config/atg/commerce/endeca/index/store-content-article-output-config.xml#1 $$Change: 1497274 $-->

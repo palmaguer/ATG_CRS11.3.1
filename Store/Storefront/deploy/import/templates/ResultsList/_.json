@@ -1,0 +1,124 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:29.065Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "editors/NumericStepperEditor",
+                "minValue": 10,
+                "propertyName": "recordsPerPage",
+                "maxValue": 100,
+                "label": "${property.recordsPerPage.label}"
+            },
+            {
+                "editor": "editors/BoostBuryRecordEditor",
+                "buryProperty": "buryStrata",
+                "propertyName": "boostStrata",
+                "label": "${property.boostBury.label}"
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.searchResultSettings.label}"
+            },
+            {
+                "editor": "editors/ChoiceEditor",
+                "propertyName": "relRank",
+                "label": "${property.relRankStrategy.label}",
+                "choices": [
+                    {
+                        "label": "${property.relRankStrategy.marginBias.label}",
+                        "value": "nterms,maxfield,glom,exact,static(sku.margin,descending),static(product.displayName,ascending)"
+                    },
+                    {
+                        "label": "${property.relRankStrategy.priceBias.label}",
+                        "value": "nterms,maxfield,glom,exact,static(sku.activePrice,descending),static(product.displayName,ascending)"
+                    }
+                ]
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.navigationResultSettings.label}"
+            },
+            {
+                "editor": "editors/SortEditor",
+                "propertyName": "sortOption",
+                "label": "${property.sortOption.label}",
+                "sortOptions": [
+                    {
+                        "@class": "com.endeca.infront.navigation.model.SortOption",
+                        "label": "${property.sortOption.default.label}",
+                        "sorts": [{
+                            "@class": "com.endeca.infront.navigation.model.SortSpec",
+                            "key": "sku.margin",
+                            "descending": "true"
+                        }]
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.SortOption",
+                        "label": "${property.sortOption.nameAscending.label}",
+                        "sorts": [{
+                            "@class": "com.endeca.infront.navigation.model.SortSpec",
+                            "key": "product.displayName",
+                            "descending": "false"
+                        }]
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.SortOption",
+                        "label": "${property.sortOption.nameDescending.label}",
+                        "sorts": [{
+                            "@class": "com.endeca.infront.navigation.model.SortSpec",
+                            "key": "product.displayName",
+                            "descending": "true"
+                        }]
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.SortOption",
+                        "label": "${property.sortOption.priceAscending.label}",
+                        "sorts": [{
+                            "@class": "com.endeca.infront.navigation.model.SortSpec",
+                            "key": "sku.activePrice",
+                            "descending": "false"
+                        }]
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.SortOption",
+                        "label": "${property.sortOption.priceDescending.label}",
+                        "sorts": [{
+                            "@class": "com.endeca.infront.navigation.model.SortSpec",
+                            "key": "sku.activePrice",
+                            "descending": "true"
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    "typeInfo": {
+        "buryStrata": {"@propertyType": "List"},
+        "sortOption": {"@propertyType": "Item"},
+        "boostStrata": {"@propertyType": "List"},
+        "recordsPerPage": {"@propertyType": "String"},
+        "relRank": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "buryStrata": [],
+        "@name": "Results List",
+        "boostStrata": [],
+        "recordsPerPage": "12",
+        "relRank": "nterms,maxfield,glom,exact,static(sku.margin,descending),static(product.displayName,ascending)",
+        "sortOption": {
+            "@class": "com.endeca.infront.navigation.model.SortOption",
+            "label": "Default",
+            "sorts": [{
+                "@class": "com.endeca.infront.navigation.model.SortSpec",
+                "key": "sku.margin",
+                "descending": "true"
+            }]
+        }
+    },
+    "locales": {}
+}

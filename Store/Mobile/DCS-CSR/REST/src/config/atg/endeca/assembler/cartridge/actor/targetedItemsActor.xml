@@ -1,0 +1,10 @@
+<actor-template>
+    <actor-chain id="getProductInfo">
+      <!-- Override the source of the locale value -->
+      <droplet id="currencyCodeDroplet">
+        <input name="locale" value="${nucleus['/atg/commerce/custsvc/environment/CurrentPriceListHolder'].currentPriceList.locale}" />
+      </droplet>
+    </actor-chain>
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/MobileCommerce/dev/10.2/server/MobileCommerce/config/atg/store/mobile/rest/actors/profile.xml#1 
+  $$Change: 1497274 $ -->

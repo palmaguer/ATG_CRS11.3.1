@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE process-manager-configuration
+  PUBLIC "-//Art Technology Group, Inc.//DTD Process Manager//EN"
+  'http://www.atg.com/dtds/processmanager/processmanager_1.0.dtd'>
+
+<process-manager-configuration>
+
+  <event-registry>
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.EnteredBeaconMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.EnteredBeaconMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Entered Beacon Range
+      </display-name>
+      <description>
+        Generated when user enters the range of an iBeacon
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.ExitedBeaconMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.ExitedBeaconMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Exited Beacon Range
+      </display-name>
+      <description>
+        Generated when user exits the range of an iBeacon
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.UpdatedBeaconRangeMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.UpdatedBeaconRangeMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Exited Beacon Range
+      </display-name>
+      <description>
+        Generated when client updates the state of beacon ranging
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.EnteredStoreMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.EnteredStoreMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Entered Store
+      </display-name>
+      <description>
+        Generated when user enters the store
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.ExitedStoreMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.ExitedStoreMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Exited Store
+      </display-name>
+      <description>
+        Generated when user exits the store
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.RequestedHelpMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.RequestedHelpMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Requested Help
+      </display-name>
+      <description>
+        Generated when user requests help
+      </description>
+    </event>
+
+    <event>
+      <jms-type>
+        atg.projects.store.mobile.ibeacon.CancelledHelpMessage
+      </jms-type>
+      <message-class>
+        atg.projects.store.mobile.ibeacon.CancelledHelpMessage
+      </message-class>
+      <message-context>
+        request
+      </message-context>
+      <message-scope>
+        individual
+      </message-scope>
+      <display-name>
+        Cancelled Help Request
+      </display-name>
+      <description>
+        Generated when user cancels the help request
+      </description>
+    </event>
+  </event-registry>
+
+  <action-registry>
+    <action>
+      <action-name>
+        Enter Beacon Push Notification Action
+      </action-name>
+      <action-class>
+        atg.projects.store.mobile.push.EnterBeaconPushNotificationAction
+      </action-class>
+      <action-configuration>
+        /atg/commerce/push/EnterBeaconPushNotificationConfiguration
+      </action-configuration>
+      <description>
+      	Loops through the beacon's enterAlerts and, for each alert that has isPushEnabled set to true, pushes a notification
+      	to the provided device.  The notification has the message ibeaconAlert.text, the loc-key ibeaconAlert.textKey and the  link
+      	ibeaconAlert.linkUrl.
+      </description>
+      <action-execution-policy>
+        individual
+      </action-execution-policy>
+      <action-error-response>
+        continue
+      </action-error-response>
+    </action>
+  </action-registry>
+
+</process-manager-configuration>
+  <!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/scenario/scenarioManager.xml#1 $$Change: 1497274 $ -->

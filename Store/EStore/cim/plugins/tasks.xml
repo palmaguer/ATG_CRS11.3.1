@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tasks SYSTEM "http://www.atg.com/dtds/task_2_0.dtd">
+<tasks>
+  <secure-task id="KeyStorePasswordTask" map-name="refStoreKeystoreMap" key-name="ref-keystore" credential-type="GENERIC"
+               class="atg.cim.keystore.KeyStorePasswordTask">
+    <property name="STcredential">
+      <input type="credential">
+        <label resource-key="keyStorePasswordTask.xml.storePassword.label" resource-bundle="atg.cim.ProductResources">
+          Enter password for key store
+        </label>
+        <validator id="CannotBeBlankValidator" phase="POSTINPUT">
+          <if-false>
+            <command type="DISPLAY_TEXT" value="This property cannot be blank"
+                     resource-key="keyStorePasswordTask.xml.error.blank" 
+                     resource-bundle="atg.cim.ProductResources"/>
+            <command type="REDO_INPUT"/>
+          </if-false>
+        </validator>
+      </input>
+    </property>
+  </secure-task>
+  <secure-task id="EncryptKeyPasswordTask" map-name="refStoreKeystoreMap" key-name="ref-creditcardkey" credential-type="GENERIC"
+               class="atg.cim.keystore.KeyStorePasswordTask">
+    <property name="STcredential">
+      <input type="credential">
+        <label resource-key="keyStorePasswordTask.xml.keyPassword.label" resource-bundle="atg.cim.ProductResources">
+          Enter password for encrypt/decrypt key in key store
+        </label>
+        <validator id="CannotBeBlankValidator" phase="POSTINPUT">
+          <if-false>
+            <command type="DISPLAY_TEXT" value="This property cannot be blank"
+                     resource-key="keyStorePasswordTask.xml.error.blank" 
+                     resource-bundle="atg.cim.ProductResources"/>
+            <command type="REDO_INPUT"/>
+          </if-false>
+        </validator>
+      </input>
+    </property>
+  </secure-task>
+</tasks>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/EStore/cim/plugins/tasks.xml#1 $$Change: 1497274 $-->

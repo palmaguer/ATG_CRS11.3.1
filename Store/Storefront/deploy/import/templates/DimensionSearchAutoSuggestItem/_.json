@@ -1,0 +1,59 @@
+{
+    "@description": "${template.description}",
+    "@group": "AutoSuggest",
+    "ecr:createDate": "2016-12-07T09:49:27.911Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.displaySettings.label}"
+            },
+            {
+                "editor": "editors/StringEditor",
+                "propertyName": "title",
+                "label": "${property.title.label}",
+                "enabled": true
+            },
+            {
+                "editor": "editors/BooleanEditor",
+                "propertyName": "displayImage",
+                "label": "${property.displayImage.label}",
+                "enabled": true
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "propertyName": "maxResults",
+                "maxValue": 100,
+                "label": "${property.maxResults.label}",
+                "enabled": true
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.searchConfiguration.label}"
+            },
+            {
+                "editor": "editors/DimensionListEditor",
+                "propertyName": "dimensionList",
+                "label": "${property.dimensionList.label}",
+                "enabled": true
+            }
+        ]
+    },
+    "typeInfo": {
+        "displayImage": {"@propertyType": "Boolean"},
+        "maxResults": {"@propertyType": "String"},
+        "dimensionList": {"@propertyType": "List"},
+        "title": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "@name": "Dimension Search Auto-Suggest",
+        "displayImage": true,
+        "maxResults": "8",
+        "dimensionList": [],
+        "title": "Search Suggestions:"
+    },
+    "locales": {}
+}

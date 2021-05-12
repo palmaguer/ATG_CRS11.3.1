@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 
+  input: currentContentItem.randomizeItems - boolean.  true if should execute targetingRandom.  False or undefined otherwise
+  input: currentContentItem.itemCount - integer. Number of items for the targeter to return
+  input: currentContentItem.componentPath - String. Name of the targeter to for targetingRandom or targetingForEach to use
+  input: currentContentItem.pathPrefix. - String. prefix of the component referenced by component path.
+  input: currentContentItem.repository -Repository. Repository that the targeted items should be contaianed in
+  
+  output: an array of item data (differs for product and promotional content) as an array named "items"
+ -->
+<actor-template default-chain-id="executeTargeter" xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <actor-chain id="executeTargeter" transaction="TX_SUPPORTS">
+    <actor id="getFullComponentPath" name="/atg/endeca/assembler/cartridge/actor/HomepageTargetedItemsActor"
+      return-model-var="getFullComponentPathOutput" chain-id="getFullComponentPath">
+      <input name="pComponentPath"   value="${currentContentItem.componentPath}"/>
+      <input name="pPathPrefix"      value="${currentContentItem.pathPrefix}"/>
+    </actor>
+    
+    <actor id="getTargetedItems" name="/atg/endeca/assembler/cartridge/actor/TargetedItemsActor"
+      return-model-var="items" chain-id="getTargetedItems">
+      <input name="randomize"        value="${currentContentItem.randomizeItems}"/>
+      <input name="componentPath"    value="${getFullComponentPathOutput.fullComponentPath}"/>
+      <input name="count"            value="${currentContentItem.itemCount}"/>
+      <input name="repositoryName"   value="${currentContentItem.repository.repositoryName}"/>
+      
+      <!-- Output items -->
+      <output name="items" id="items" value="${items.items}"/>
+    </actor>
+   
+  </actor-chain>
+  
+  <!--  
+    Gets full component path from partial component path
+    
+    input:  pComponentPath - either partial or full component path
+    input:  pPathPrefix - component path prefix
+    
+    output: fullComponentPath - full path to componentPath (either pathPrefix +componentPath or just componentPath
+            if it is already the full component path
+   -->
+  <actor-chain id="getFullComponentPath" transaction="TX_SUPPORTS">
+    <droplet id="isFullPathSwitch" name="/atg/dynamo/droplet/Switch" var="switch">
+      <input  name="value" value="${pComponentPath.startsWith('/') or pComponentPath.startsWith(pPathPrefix)}"/>
+      
+      <oparam name="true">
+        <output name="fullComponentPath" id="fullComponentPath" value="${pComponentPath}"/>
+      </oparam>
+      
+      <oparam name="default">
+        <droplet id="separateWithSlashSwitch" name="/atg/dynamo/droplet/Switch" var="switch">
+          <input name="value" value="${pPathPrefix.endsWith('/')}"/>
+          <oparam name="true">
+            <output name="fullComponentPath" id="fullComponentPath" value="${pPathPrefix}${pComponentPath}"/>
+          </oparam>
+          <oparam name="default">
+            <output name="fullComponentPath" id="fullComponentPath" value="${pPathPrefix}/${pComponentPath}"/>
+          </oparam>
+        </droplet>
+      </oparam>
+      
+    </droplet>
+  </actor-chain>
+  
+  
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Endeca/Assembler/config/atg/endeca/assembler/cartridge/actor/homepageTargetedItemsActor.xml#1 $$Change: 1497274 $-->

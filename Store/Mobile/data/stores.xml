@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+
+  <!-- add mobile sites to stores -->
+  <update-item item-descriptor="store" id="CRSHome-SanAntonio185">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Rutherford152">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-NewYork158">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Fairborn169">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-NewYork159">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Bloomington142">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Tampa126">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Brookfield191">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Bozeman147">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Phoenix100">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-SantaClara114">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-FortLauderdale120">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-ColoradoSprings116">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Lexington135">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Bozeman146">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Rochester161">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Frisco184">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Itasca132">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Cordova179">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-CulverCity102">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Houston183">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Tarrytown162">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Mineola160">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Broomfield115">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Pleasanton109">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Bridgewater151">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Irving182">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Corvallis170">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-BalaCynwyd174">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Irvine107">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Independence167">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Harrisburg175">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Portland171">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Indianapolis133">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Orlando123">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Jacksonville121">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-ElSegundo103">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Burlington140">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Minneapolis143">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Bellevue188">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-BlueAsh165">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Tucson101">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Monrovia108">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Atlanta127">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Atlanta128">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Denver117">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Chicago130">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-SanFrancisco113">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Columbus168">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Chicago131">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Bozeman148">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Denver118">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Austin181">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-MoonTownship177">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Onalaska192">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Bozeman145">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Albuquerque156">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-SanDiego112">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-OverlandPark134">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Raleigh164">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Burlington139">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Columbia137">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Cincinnati166">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Omaha149">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Hillsboro173">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Chesterfield144">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Charlotte163">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Hillsboro172">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Encino104">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Boise129">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Sunrise124">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-SanDiego111">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-LibertyCorner153">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Stamford119">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Austin180">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Washington190">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Miami122">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Sandy186">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Rocklin110">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-KingofPrussia176">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Princeton155">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Albany157">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-MtLaurel154">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Troy141">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Fullerton105">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Tallahassee125">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-Conshohocken178">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Washington189">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Nashua150">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-GlenAllen187">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSStore-RedwoodShores106">
+    <set-property name="sites"><![CDATA[storeSiteUS,mobileStoreSiteUS]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-AnnapolisJunction136">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+  <update-item item-descriptor="store" id="CRSHome-Boston138">
+    <set-property name="sites"><![CDATA[homeSite,mobileHomeSite]]></set-property>
+  </update-item>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/data/stores.xml#1 $$Change: 1497274 $-->

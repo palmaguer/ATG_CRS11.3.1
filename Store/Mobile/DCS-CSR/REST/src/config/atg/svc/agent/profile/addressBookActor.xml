@@ -1,0 +1,33 @@
+<actor-template>
+  <actor-chain id="addAddress">
+    <form id="addressBookFormHandler">
+	  <input name="addressMetaInfo.nickname" value="${param.nickname}"/>
+	</form>
+  </actor-chain>
+  <actor-chain id="addAddress-success">
+    <!-- When an address has been successfully added, get their latest info. -->
+    <actor id="customerOutput" name="/atg/userprofiling/ServiceCustomerProfileActor" chain-id="detailed" return-model-var="profile">
+      <output id="profile" add-map-children="true" value="${profile}"/>
+    </actor>
+  </actor-chain> 	
+
+  <actor-chain id="updateAddress">
+    <form id="addressBookFormHandler">
+	  <input name="addressMetaInfo.nickname" value="${param.nickname}"/>
+	</form>
+  </actor-chain>
+  <actor-chain id="updateAddress-success">
+    <!-- When an address has been successfully updated, get their latest info. -->
+    <actor id="customerOutput" name="/atg/userprofiling/ServiceCustomerProfileActor" chain-id="detailed" return-model-var="profile">
+      <output id="profile" add-map-children="true" value="${profile}"/>
+    </actor>
+  </actor-chain> 
+
+  <actor-chain id="deleteAddress-success">
+    <!-- When an address has been successfully deleted, get their latest info. -->
+    <actor id="customerOutput" name="/atg/userprofiling/ServiceCustomerProfileActor" chain-id="detailed" return-model-var="profile">
+      <output id="profile" add-map-children="true" value="${profile}"/>
+    </actor>
+  </actor-chain>	
+ </actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/svc/agent/profile/addressBookActor.xml#1 $$Change: 1497274 $-->

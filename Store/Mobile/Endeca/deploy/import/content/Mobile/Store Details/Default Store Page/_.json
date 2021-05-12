@@ -1,0 +1,21 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-03-21T09:10:56.745+01:00",
+    "priority": "20",
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Mobile Page",
+        "@type": "MobilePage",
+        "SecondaryContent": [],
+        "MainContent": [{
+            "@name": "Default Store Details",
+            "@type": "StoreDetail",
+            "storeImagePath": "/crsdocroot/content/images/Store-Details-Generic.jpg"
+        }]
+    }
+}

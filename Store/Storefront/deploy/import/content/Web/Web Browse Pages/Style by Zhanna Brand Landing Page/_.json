@@ -1,0 +1,64 @@
+{
+    "mdexMerchRuleID": 4,
+    "workflowState": "ACTIVE",
+    "previewable": true,
+    "priority": 10,
+    "triggers": [
+        {
+            "exactLocation": true,
+            "dvalIDs": ["4294967041"]
+        },
+        {
+            "searchTermExpansions": {
+                "2": {"zhanna": ["zhanna"]},
+                "1": {"by": ["by"]},
+                "0": {"style": ["styles"]}
+            },
+            "exactLocation": true,
+            "searchTerms": "Style by Zhanna",
+            "matchmode": "MATCHEXACT"
+        }
+    ],
+    "workflowNote": "",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "HeaderContent": [],
+        "@name": "Content",
+        "@type": "TwoColumnPage",
+        "MainContent": [
+            {
+                "@name": "Style By Zhanna Media Banner",
+                "@type": "MediaBanner",
+                "imageURL": "/crsdocroot/content/images/blp_styleByZhanna_home.jpg",
+                "link": {
+                    "@class": "com.endeca.infront.cartridge.model.LinkBuilder",
+                    "linkType": "Navigation State"
+                }
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Results List",
+                "templateTypes": ["MainContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Main",
+                "contentPaths": ["/content/Shared/Results List"]
+            }
+        ],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "Breadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Guided Navigation",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Guided Navigation"]
+            }
+        ]
+    },
+    "userSegments": ["NoPriceRange"]
+}

@@ -1,0 +1,15 @@
+{
+   "ecr:type":"editor",
+   "config":{
+      "useMediaBrowser":"false",
+      "mediaRoots":{
+         "default":"http://@@HOST@@:@@WORKBENCH_PORT@@/ifcr/sites/@@PROJECT_NAME@@/media/",
+         "MediaSource":"http://@@HOST@@:@@WORKBENCH_PORT@@/@@PROJECT_NAME@@-authoring/images/"
+      },
+      "mdexPort":"@@AUTHORING_DGRAPH_PORT@@",
+      "mdexHost":"@@HOST@@",
+       "videoFormats":"mp4|ogg|ogv|webm",
+       "imageFormats":"jpg|jpeg|png|gif",
+      "mediaURI":"/ifcr/sites/@@PROJECT_NAME@@/media/"
+   }
+}

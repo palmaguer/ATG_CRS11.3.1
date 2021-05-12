@@ -1,0 +1,6 @@
+{
+   "ecr:type":"editor",
+   "config":{
+      "pattern":"[A-Za-z0-9_ ]{5,}"
+   }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rules_template>
+   <product>
+      <name>ATG CommerceReferenceStore</name>
+      <version>11.3.1</version>
+   </product>
+</rules_template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/atginstall/blueprint/PITH_config/setup_rule.xml#2 $$Change: 1510603 $-->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapping>
+  <item type="CRSArticle" output-item-descriptor-name="storeArticle" repository="/atg/store/stores/StoreContentRepository" xml-combine="append">
+    <property name="article.headline" xml-combine="remove"/>
+    <property name="article.subheadline" xml-combine="remove"/>
+    <property name="article.author" xml-combine="remove"/>
+    <property name="article.abstract" xml-combine="remove"/>
+    <property name="article.body" xml-combine="remove"/>
+    <property name="article.headline" type="string" output-name="headlineDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.subheadline" type="string" output-name="subheadlineDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.author" type="string" output-name="authorDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.abstract" type="string" output-name="abstractDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.body" type="string" output-name="bodyDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSImage" output-item-descriptor-name="storeImage" repository="/atg/store/stores/StoreContentRepository" xml-combine="append">
+    <property name="asset.name" xml-combine="remove"/>
+    <property name="asset.name" type="string" output-name="nameDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSVideo" output-item-descriptor-name="storeVideo" repository="/atg/store/stores/StoreContentRepository" xml-combine="append">
+    <property name="asset.name" xml-combine="remove"/>
+    <property name="asset.name" type="string" output-name="nameDefault" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSArticleTranslation" output-item-descriptor-name="storeArticleTranslation" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id" xml-combine="append">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" id-property="true"/>
+    <property name="article.headline" type="string" output-name="headline" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.subheadline" type="string" output-name="subheadline" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.author" type="string" output-name="author" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.abstract" type="string" output-name="abstract" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.body" type="string" output-name="body" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSImageTranslation" output-item-descriptor-name="storeImageTranslation" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id" xml-combine="append">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" id-property="true"/>
+    <property name="asset.name" type="string" output-name="name" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSVideoTranslation" output-item-descriptor-name="storeVideoTranslation" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id" xml-combine="append">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" id-property="true"/>
+    <property name="asset.name" type="string" output-name="name" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+</mapping>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Endeca/International/Reader/config/atg/endeca/reader/creator/input-config.xml#1 $$Change: 1497274 $-->

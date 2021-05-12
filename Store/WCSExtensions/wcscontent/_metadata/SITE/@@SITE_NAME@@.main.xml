@@ -1,0 +1,159 @@
+<object-stream>
+  <com.fatwire.realtime.ResourceDataImpl>
+    <id class="string">@@SITE_NAME@@</id>
+    <resourceType>SITE</resourceType>
+    <deps class="empty-set"/>
+    <data class="com.openmarket.xcelerate.site.Publication">
+      <m__oAbstractNode>
+        <m__sListName>PublicationTree</m__sListName>
+        <m__aValue serialization="custom">
+          <unserializable-parents/>
+          <hashtable>
+            <default>
+              <loadFactor>0.75</loadFactor>
+              <threshold>24</threshold>
+            </default>
+            <int>32</int>
+            <int>7</int>
+            <string>ncode</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>nrank</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>1</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>nparentid</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>0</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>oid</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>1000000000377</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>nid</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>1000000000380</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>otype</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>Publication</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>oversion</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+          </hashtable>
+        </m__aValue>
+        <m__bParentChange>false</m__bParentChange>
+      </m__oAbstractNode>
+      <m__oAbstractObject>
+        <m__sListName>Publication</m__sListName>
+        <m__aValue serialization="custom">
+          <unserializable-parents/>
+          <hashtable>
+            <default>
+              <loadFactor>0.75</loadFactor>
+              <threshold>24</threshold>
+            </default>
+            <int>32</int>
+            <int>8</int>
+            <string>pubroot</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>description</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>Oracle Commerce @@SITE_NAME@@</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>id</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>1000000000377</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>cs_preview</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>cs_previewasset</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>cs_wrapperasset</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>name</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string>@@SITE_NAME@@</string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+            <string>cs_prefix</string>
+            <COM.FutureTense.Interfaces.FTVAL serialization="custom">
+              <COM.FutureTense.Interfaces.FTVAL>
+                <int>30</int>
+                <string></string>
+              </COM.FutureTense.Interfaces.FTVAL>
+            </COM.FutureTense.Interfaces.FTVAL>
+          </hashtable>
+        </m__aValue>
+        <m__bNew>false</m__bNew>
+        <m__bAllocated>false</m__bAllocated>
+      </m__oAbstractObject>
+      <adminSite>AdminSite</adminSite>
+      <specobjects/>
+    </data>
+  </com.fatwire.realtime.ResourceDataImpl>
+</object-stream>
+<!--==================___ METADATA ___================
+<dependencies>
+  <list/>
+</dependencies>
+==================______________________==================
+#
+#Thu Jun 20 11:12:12 UTC 2013
+key=@SITE-@@SITE_NAME@@
+type=SITE
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/SITE/%40%40SITE_NAME%40%40.main.xml#2 $$Change: 1505503 $-->

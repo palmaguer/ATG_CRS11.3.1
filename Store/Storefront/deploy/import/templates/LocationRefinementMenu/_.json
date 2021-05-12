@@ -1,0 +1,108 @@
+{
+    "@description": "${template.description}",
+    "@group": "Navigation",
+    "ecr:createDate": "2016-12-07T09:49:28.270Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "editors/DimensionSelectorEditor",
+                "idProperty": "dimensionId",
+                "propertyName": "dimensionName",
+                "label": "${property.dimensionName.label}",
+                "enabled": true
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.order.label}"
+            },
+            {
+                "editor": "editors/ChoiceEditor",
+                "propertyName": "sort",
+                "label": "${property.sort.label}",
+                "choices": [
+                    {
+                        "label": "${property.sort.default.label}",
+                        "value": "default"
+                    },
+                    {
+                        "label": "${property.sort.static.label}",
+                        "value": "static"
+                    },
+                    {
+                        "label": "${property.sort.dynRank.label}",
+                        "value": "dynRank"
+                    }
+                ]
+            },
+            {
+                "editor": "editors/BoostBuryEditor",
+                "buryProperty": "buryRefinements",
+                "propertyName": "boostRefinements",
+                "label": "${property.boostBury.label}",
+                "dimensionIdProperty": "dimensionId",
+                "enabled": true
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.size.label}"
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "propertyName": "numRefinements",
+                "maxValue": 10000,
+                "label": "${property.numRefinements.label}",
+                "enabled": true
+            },
+            {
+                "editor": "GroupLabel",
+                "label": "${group.moreLink.label}"
+            },
+            {
+                "editor": "editors/BooleanEditor",
+                "propertyName": "showMoreLink",
+                "label": "${group.moreLink.label}",
+                "enabled": true
+            },
+            {
+                "editor": "editors/StringEditor",
+                "propertyName": "moreLinkText",
+                "label": "${property.moreLinkText.label}",
+                "enabled": true
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "propertyName": "maxNumRefinements",
+                "maxValue": 100000,
+                "label": "${property.maxNumRefinements.label}",
+                "enabled": true
+            }
+        ]
+    },
+    "typeInfo": {
+        "numRefinements": {"@propertyType": "String"},
+        "buryRefinements": {"@propertyType": "List"},
+        "dimensionId": {"@propertyType": "String"},
+        "moreLinkText": {"@propertyType": "String"},
+        "boostRefinements": {"@propertyType": "List"},
+        "maxNumRefinements": {"@propertyType": "String"},
+        "sort": {"@propertyType": "String"},
+        "showMoreLink": {"@propertyType": "Boolean"},
+        "dimensionName": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "numRefinements": "10",
+        "buryRefinements": [],
+        "@name": "Dimension Navigation",
+        "dimensionId": "",
+        "moreLinkText": "Show More Refinements...",
+        "boostRefinements": [],
+        "maxNumRefinements": "200",
+        "sort": "default",
+        "showMoreLink": false,
+        "dimensionName": ""
+    },
+    "locales": {}
+}

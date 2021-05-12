@@ -1,0 +1,17 @@
+{
+    "mdexMerchRuleID": 16,
+    "workflowState": "ACTIVE",
+    "previewable": true,
+    "priority": 10,
+    "triggers": [{"exactLocation": false}],
+    "workflowNote": "",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Recommended Products (ATG Mobile Home) - ATGTargeter",
+        "@type": "ProductSpotlight-ATGTargeter",
+        "componentPath": "ProductCatalog/MobilePromotionChild2",
+        "randomizeItems": true,
+        "itemCount": "12"
+    },
+    "userSegments": ["site.mobileHomeSite"]
+}

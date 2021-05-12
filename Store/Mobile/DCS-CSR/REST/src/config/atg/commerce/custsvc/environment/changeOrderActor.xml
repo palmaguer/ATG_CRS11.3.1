@@ -1,0 +1,50 @@
+<actor-template>
+
+  <!-- When the order has changed, return the current site since changing orders can change sites -->
+  <actor-chain id="changeOrder">
+   <actor id="selectSite" name="/atg/svc/agent/environment/ChangeSiteActor"
+           chain-id="selectSite" return-model-var="result">
+   </actor>
+  </actor-chain>
+  
+  <!-- output the updated list of orders when changing the current cart -->
+  <actor-chain id="changeOrder-success" transaction="TX_SUPPORTS">
+    <actor id="shoppingCartAndSavedOrders" name="/atg/commerce/custsvc/order/ViewOrderActor" chain-id="loadShoppingCartAndSavedOrders" return-model-var="model">
+      <output id="orders" name="orders" value="${model}"/>
+    </actor>
+  </actor-chain>
+
+  <!-- Pass some additional inputs from the client -->
+  <actor-chain id="newOrder" transaction="TX_SUPPORTS">
+    <form id="changeOrder" name="/atg/commerce/custsvc/environment/ChangeOrder" var="changeOrder" handle="changeEnvironment">
+      <input name="environmentChangeKey" value="createNewOrder"/>
+      <input name="doWarnings" value="${param.doWarnings}"/>
+      <input name="doTicketDispositionPrompt" value="${param.doTicketDispositionPrompt}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.dispositionOption" value="${param.dispositionOption}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.reasonCode" value="${param.reasonCode}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.ticketNote" value="${param.ticketNote}"/>
+      <input name="environmentChangeState.ticketDispositionOptions.publicNote" value="${param.publicNote}"/>
+
+      <input name="errorURL" value="${errorURL != null ? errorURL : '/model/atg/commerce/custsvc/environment/ChangeOrderActor/newOrder-error'}"/>
+      <input name="successURL" value="${successURL != null ? successURL : '/model/atg/commerce/custsvc/environment/ChangeOrderActor/newOrder-success'}"/>
+      <input name="confirmURL" value="${confirmURL != null ? confirmURL : '/model/atg/commerce/custsvc/environment/ChangeOrderActor/changeOrder-confirm'}"/>
+    </form>
+  </actor-chain>
+
+  <!-- When creation of a new order has failed, return the error -->
+  <actor-chain id="newOrder-error" transaction="TX_SUPPORTS">
+    <actor id="error" name="/atg/commerce/custsvc/environment/ChangeOrderActor" chain-id="error" return-model-var="model">
+      <output id="model" add-map-children="true" value="${model}"/>
+    </actor>
+  </actor-chain>
+  
+  <!-- When a new order has created, return that order in the success chain and the updated saved orders list (since the previous
+       cart order may become a saved order). -->
+  <actor-chain id="newOrder-success" transaction="TX_SUPPORTS">
+    <actor id="cartAndSavedOrders" name="/atg/commerce/custsvc/order/ViewOrderActor" chain-id="loadShoppingCartAndSavedOrders" return-model-var="model">
+      <output id="orders" name="orders" value="${model}"/>
+    </actor>
+  </actor-chain>
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/commerce/custsvc/environment/changeOrderActor.xml#1 $$Change: 1497274 $-->

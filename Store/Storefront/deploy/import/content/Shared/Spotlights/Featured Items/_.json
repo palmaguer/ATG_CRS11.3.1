@@ -1,0 +1,36 @@
+{
+    "mdexMerchRuleID": 12,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:37.005Z",
+    "priority": "10",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ruleLimit": "1",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Featured Items",
+        "maxNumRecords": "4",
+        "@type": "HorizontalRecordSpotlight",
+        "seeAllLinkText": "See All",
+        "showSeeAllLink": false,
+        "title": "",
+        "recordSelection": {
+            "augment": "true",
+            "@class": "com.endeca.infront.cartridge.RecordSpotlightSelection",
+            "recordLimit": "4",
+            "sortOption": {
+                "@class": "com.endeca.infront.navigation.model.SortOption",
+                "label": "sku.margin | Ascending",
+                "sorts": [{
+                    "@class": "com.endeca.infront.navigation.model.SortSpec",
+                    "key": "sku.margin",
+                    "descending": "false"
+                }]
+            },
+            "filterState": {"@class": "com.endeca.infront.cartridge.support.SpotlightFilterState"}
+        }
+    } 
+}

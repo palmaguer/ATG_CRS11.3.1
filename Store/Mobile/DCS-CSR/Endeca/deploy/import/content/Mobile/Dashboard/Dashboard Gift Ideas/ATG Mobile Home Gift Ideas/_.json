@@ -1,0 +1,30 @@
+{
+    "mdexMerchRuleID": 20,
+    "workflowState": "ACTIVE",
+    "priority": 10,
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Spotlight Records",
+        "maxNumRecords": "12",
+        "@type": "HorizontalRecordSpotlight",
+        "seeAllLinkText": "See All",
+        "showSeeAllLink": false,
+        "title": "",
+        "recordSelection": {
+            "augment": "true",
+            "@class": "com.endeca.infront.cartridge.RecordSpotlightSelection",
+            "filterState": {
+                "@class": "com.endeca.infront.navigation.model.FilterState",
+                "navigationFilters": [
+                    "4294967016",
+                    "2225892774"
+                ]
+            }
+        }
+    },
+    "userSegments": ["site.mobileHomeSite"]
+}

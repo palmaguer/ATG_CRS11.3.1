@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bean-filtering>
+  <repository name="/atg/userprofiling/ProfileAdapterRepository">
+    <item-descriptor name="inStoreDeviceUser" default-filter="summary">
+      <filter id="summary">
+        <property name="repositoryId"/>
+        <property name="profileId"/>
+        <property name="storeRepositoryId" target="store"/>
+        <property name="lastSeenTime" target="lastSeen"/>
+        <property name="helpRequested"/>
+        <property name="helpRequestedTime" target="helpRequestTimestamp"/>
+        <property name="userDisplayName"/>
+      </filter>
+    </item-descriptor>
+  </repository>
+
+</bean-filtering>
+  <!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/config/atg/dynamo/service/filter/bean/beanFilteringConfiguration.xml#1 $$Change: 1497274 $-->

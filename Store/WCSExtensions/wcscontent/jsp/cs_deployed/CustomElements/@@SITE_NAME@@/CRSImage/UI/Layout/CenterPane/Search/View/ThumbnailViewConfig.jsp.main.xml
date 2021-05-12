@@ -1,0 +1,32 @@
+<object-stream>
+  <com.fatwire.realtime.ResourceDataImpl>
+    <id class="string">CustomElements/@@SITE_NAME@@/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig</id>
+    <resourceType>ELEMENTCATALOG</resourceType>
+    <deps class="empty-set"/>
+    <data class="com.openmarket.xcelerate.common.ElementCatalogEntry" serialization="custom">
+      <com.openmarket.xcelerate.common.ElementCatalogEntry>
+        <int>1</int>
+        <string>CustomElements/@@SITE_NAME@@/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig</string>
+        <string></string>
+        <string>merge=false</string>
+        <string></string>
+        <string>CustomElements/@@SITE_NAME@@/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig.jsp</string>
+        <string></string>
+        <string></string>
+      </com.openmarket.xcelerate.common.ElementCatalogEntry>
+    </data>
+  </com.fatwire.realtime.ResourceDataImpl>
+</object-stream>
+<!--==================___ METADATA ___================
+<dependencies>
+  <list/>
+</dependencies>
+==================______________________==================
+#
+#Mon Apr 02 20:55:02 EDT 2012
+storable0=/ELEMENTS/JSP/CustomElements/@@SITE_NAME@@/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig.jsp|null|_storable_type\=%2FELEMENTS%2FJSP%2FCustomElements%2F@@SITE_NAME@@%2FCRSImage%2FUI%2FLayout%2FCenterPane%2FSearch%2FView%2FThumbnailViewConfig.jsp
+key=@ELEMENTCATALOG-CustomElements/@@SITE_NAME@@/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig
+type=ELEMENTCATALOG
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/jsp/cs_deployed/CustomElements/%40%40SITE_NAME%40%40/CRSImage/UI/Layout/CenterPane/Search/View/ThumbnailViewConfig.jsp.main.xml#2 $$Change: 1505503 $-->

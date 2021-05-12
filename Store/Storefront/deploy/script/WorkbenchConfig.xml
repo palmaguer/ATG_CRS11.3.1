@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 1994, 2018, Oracle and/or its affiliates. All rights reserved.
+  ~ Oracle and Java are registered trademarks of Oracle and/or its
+  ~ affiliates. Other names may be trademarks of their respective owners.
+  ~ UNIX is a registered trademark of The Open Group.
+  ~
+  ~ This software and related documentation are provided under a license
+  ~ agreement containing restrictions on use and disclosure and are
+  ~ protected by intellectual property laws. Except as expressly permitted
+  ~ in your license agreement or allowed by law, you may not use, copy,
+  ~ reproduce, translate, broadcast, modify, license, transmit, distribute,
+  ~ exhibit, perform, publish, or display any part, in any form, or by any
+  ~ means. Reverse engineering, disassembly, or decompilation of this
+  ~ software, unless required by law for interoperability, is prohibited.
+  ~ The information contained herein is subject to change without notice
+  ~ and is not warranted to be error-free. If you find any errors, please
+  ~ report them to us in writing.
+  ~ U.S. GOVERNMENT END USERS: Oracle programs, including any operating
+  ~ system, integrated software, any programs installed on the hardware,
+  ~ and/or documentation, delivered to U.S. Government end users are
+  ~ "commercial computer software" pursuant to the applicable Federal
+  ~ Acquisition Regulation and agency-specific supplemental regulations.
+  ~ As such, use, duplication, disclosure, modification, and adaptation
+  ~ of the programs, including any operating system, integrated software,
+  ~ any programs installed on the hardware, and/or documentation, shall be
+  ~ subject to license terms and license restrictions applicable to the
+  ~ programs. No other rights are granted to the U.S. Government.
+  ~ This software or hardware is developed for general use in a variety
+  ~ of information management applications. It is not developed or
+  ~ intended for use in any inherently dangerous applications, including
+  ~ applications that may create a risk of personal injury. If you use
+  ~ this software or hardware in dangerous applications, then you shall
+  ~ be responsible to take all appropriate fail-safe, backup, redundancy,
+  ~ and other measures to ensure its safe use. Oracle Corporation and its
+  ~ affiliates disclaim any liability for any damages caused by use of this
+  ~ software or hardware in dangerous applications.
+  ~ This software or hardware and documentation may provide access to or
+  ~ information on content, products, and services from third parties.
+  ~ Oracle Corporation and its affiliates are not responsible for and
+  ~ expressly disclaim all warranties of any kind with respect to
+  ~ third-party content, products, and services. Oracle Corporation and
+  ~ its affiliates will not be responsible for any loss, costs, or damages
+  ~ incurred due to your access to or use of third-party content, products,
+  ~ or services.
+  -->
+
+<spr:beans xmlns:spr="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:tx="http://www.springframework.org/schema/tx"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xmlns="http://www.endeca.com/schema/eacToolkit"
+  xsi:schemaLocation="
+      http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+      http://www.endeca.com/schema/eacToolkit http://www.endeca.com/schema/eacToolkit/eacToolkit.xsd">
+
+  <!--
+    ########################################################################
+    # ReleaseUpdateLock - A script that releases the update lock.
+  -->
+  <script id="ReleaseUpdateLock">
+   <log-dir>./logs/provisioned_scripts</log-dir>
+   <provisioned-script-command>./control/release_update_locks.@@SCRIPT_SUFFIX@@</provisioned-script-command>
+   <bean-shell-script>
+     <![CDATA[ 
+       LockManager.releaseLock("update_lock");
+     ]]>
+   </bean-shell-script>
+  </script>
+  
+  <!--
+    ########################################################################
+    # Promotes a snapshot of the current dgraph configuration (e.g. rules, thesaurus, phrases)
+    # from the IFCR to the LiveDgraphCluster.
+  -->
+  <script id="PromoteAuthoringToLive">
+      <log-dir>./logs/provisioned_scripts</log-dir>
+      <provisioned-script-command>./control/promote_content.@@SCRIPT_SUFFIX@@</provisioned-script-command>
+      <bean-shell-script>
+          <![CDATA[
+          // Exports a snapshot of the current dgraph config for the Live
+          // dgraph cluster. Writes the config into a single zip file.
+          // The zip is written to the local config directory for the live
+          // dgraph cluster.  A key file is stored along with the zip.
+          // This key file keeps the latest version of the zip file.
+          IFCR.exportConfigSnapshot(LiveDgraphCluster);
+
+          // IFCR exportApplication
+          // Used to export a particular node to disk. This on disk format will represent
+          // all nodes as JSON files.  Can be used to update the Assembler.
+          // Note that these updates are "Application Specific". You can only export nodes
+          // that represent content and configuration relevant to this Application.
+          IFCR.exportApplication();
+
+          // Applies the latest config of each dgraph in the Live Dgraph cluster
+          // using the zip file written in a previous step.
+          // The LiveDgraphCluster is the name of a defined dgraph-cluster
+          // in the application config. If the name of the cluster is
+          // different or there are multiple clusters, You will need to add
+          // a line for each cluster defined.
+          LiveDgraphCluster.applyConfigSnapshot();
+
+          // AssemblerUpdate updateAssemblers
+          // Updates all the assemblers configured for your deployment template application.
+          // The AssemblerUpdate component can take a list of Assembler Clusters which it
+          // should work against, and will build URLs and POST requests accordingly for each
+          // in order to update them with the contents of the given directory.
+          AssemblerUpdate.updateAssemblers();
+          
+          // To promote using a direct connection, as in prior versions (3.X) of Tools
+          // and Frameworks, comment out the prior lines and uncomment the following line.
+          // IFCR.promoteFromAuthoringToLive();
+
+          ]]>
+      </bean-shell-script>
+  </script>
+ 
+  <!--
+    ########################################################################
+    # IFCR - A component that interfaces with the Workbench repository.
+  -->
+  <custom-bean id="csfManager" class="com.endeca.soleng.eac.toolkit.util.CSFManager">
+      <property name="jpsConfigPath" value="@@JPSCONFIG_LOCATION@@" />
+      <property name="mapName" value="endecaToolsAndFrameworks"/>
+  </custom-bean>
+
+  <custom-component id="IFCR" host-id="ITLHost" class="com.endeca.soleng.eac.toolkit.component.IFCRComponent">
+    <properties>
+      <property name="repositoryUrl" value="http://@@HOST@@:@@WORKBENCH_PORT@@/ifcr" />
+      <property name="applicationExportDir" value="@@APPLICATION_EXPORT_DIRECTORY@@"/>
+      <property name="numExportBackups" value="3" />
+      <property name="credentialsKey" value="ifcr"/>
+    </properties>
+    <custom-bean ref="csfManager"/>
+  </custom-component>
+
+</spr:beans>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/deploy/script/WorkbenchConfig.xml#2 $$Change: 1503965 $-->

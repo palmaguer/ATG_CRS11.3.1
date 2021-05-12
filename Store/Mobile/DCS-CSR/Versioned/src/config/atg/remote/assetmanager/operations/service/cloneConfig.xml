@@ -1,0 +1,5 @@
+<item-clone-config>
+<item-type-clone-config item-type="/atg/store/stores/StoreContentRepository:storeAnnouncement"   make-unique-names="true" honor-use-now-as-default="true">
+</item-type-clone-config>
+</item-clone-config>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/Versioned/config/atg/remote/assetmanager/operations/service/cloneConfig.xml#1 $$Change: 1497274 $-->

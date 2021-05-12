@@ -1,0 +1,171 @@
+<!DOCTYPE gsa-template PUBLIC "-//Art Technology Group, Inc.//DTD Dynamo Security//EN"
+"http://www.atg.com/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+  <item-descriptor name="storeImage" id-space-name="storeImage"
+                   display-name-resource="image"
+                   display-property="name" last-modified-property="lastModified">
+                                   	
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="updateLastModified" value="true"/>
+
+    <attribute name="categoryBasicsPriority" value="10"/>
+    <attribute name="categoryContentPriority" value="20"/>
+    <attribute name="categoryInfoPriority" value="30"/>
+
+    <table name="crs_store_image" type="primary" id-column-name="image_id">
+      <property name="name" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="name"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="15"/>
+      </property>
+      <property name="url" data-type="string" column-name="url"
+                category-resource="categoryContent" display-name-resource="url"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="created" data-type="timestamp" column-name="creation_date" 
+                category-resource="categoryInfo" display-name-resource="created"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="useNowForDefault" value="true"/>
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="lastModified" data-type="timestamp" column-name="last_modified_date" 
+                category-resource="categoryInfo" display-name-resource="lastModified"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeVideo" id-space-name="storeVideo"
+                   display-name-resource="video"
+                   display-property="name" last-modified-property="lastModified">
+
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="updateLastModified" value="true"/>
+
+    <attribute name="categoryBasicsPriority" value="10"/>
+    <attribute name="categoryContentPriority" value="20"/>
+    <attribute name="categoryInfoPriority" value="30"/>
+
+    <table name="crs_store_video" type="primary" id-column-name="video_id">
+      <property name="name" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="name"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="15"/>
+      </property>
+      <property name="url" data-type="string" column-name="url"
+                category-resource="categoryContent" display-name-resource="url"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="created" data-type="timestamp" column-name="creation_date" 
+                category-resource="categoryInfo" display-name-resource="created"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="useNowForDefault" value="true"/>
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="lastModified" data-type="timestamp" column-name="last_modified_date" 
+                category-resource="categoryInfo" display-name-resource="lastModified"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeArticle" id-space-name="storeArticle"
+                   display-name-resource="article"
+                   display-property="name" last-modified-property="lastModified">
+
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+
+    <attribute name="updateLastModified" value="true"/>
+
+    <attribute name="categoryBasicsPriority" value="10"/>
+    <attribute name="categoryContentPriority" value="20"/>
+    <attribute name="categoryPublishingPriority" value="30"/>
+    <attribute name="categoryInfoPriority" value="40"/>
+
+    <table name="crs_store_article" type="primary" id-column-name="article_id">
+      <property name="name" data-type="string" column-name="name"
+                category-resource="categoryBasics" display-name-resource="name"
+                required="true">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="externalId" data-type="string" column-name="external_id"
+                category-resource="categoryBasics" display-name-resource="externalId">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="15"/>
+      </property>
+      <property name="headline" data-type="string" column-name="headline"
+                category-resource="categoryContent" display-name-resource="headline">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="subheadline" data-type="string" column-name="subheadline"
+                category-resource="categoryContent" display-name-resource="subheadline">
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+      <property name="abstract" data-type="big string" column-name="abstract"
+                category-resource="categoryContent" display-name-resource="abstract">
+        <attribute name="propertySortPriority" value="30"/>
+      </property>
+      <property name="body" data-type="big string" column-name="article_body"
+                category-resource="categoryContent" display-name-resource="body">
+        <attribute name="propertySortPriority" value="40"/>
+      </property>
+      <property name="mainImage" item-type="storeImage" column-name="main_image_id"
+                category-resource="categoryContent" display-name-resource="mainImage">
+        <attribute name="propertySortPriority" value="50"/>
+      </property>
+      <property name="author" data-type="string" column-name="author"
+                category-resource="categoryContent" display-name-resource="author">
+        <attribute name="propertySortPriority" value="60"/>
+      </property>
+      <property name="postDate" data-type="timestamp" column-name="post_date" 
+                category-resource="categoryContent" display-name-resource="postDate">
+        <attribute name="propertySortPriority" value="70"/>
+      </property>
+      <property name="startDate" data-type="timestamp" column-name="start_date" 
+                category-resource="categoryPublishing" display-name-resource="startDate">
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="endDate" data-type="timestamp" column-name="end_date" 
+                category-resource="categoryPublishing" display-name-resource="endDate">
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+      <property name="created" data-type="timestamp" column-name="creation_date" 
+                category-resource="categoryInfo" display-name-resource="created"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="useNowForDefault" value="true"/>
+        <attribute name="propertySortPriority" value="10"/>
+      </property>
+      <property name="lastModified" data-type="timestamp" column-name="last_modified_date" 
+                category-resource="categoryInfo" display-name-resource="lastModified"
+                expert="true">
+        <attribute name="uiwritable" value="false"/>
+        <attribute name="propertySortPriority" value="20"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/config/atg/store/stores/storeContent.xml#1 $$Change: 1497274 $-->
+

@@ -1,0 +1,32 @@
+<object-stream>
+  <com.fatwire.realtime.ResourceDataImpl>
+    <id class="string">CustomElements/@@SITE_NAME@@/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm</id>
+    <resourceType>ELEMENTCATALOG</resourceType>
+    <deps class="empty-set"/>
+    <data class="com.openmarket.xcelerate.common.ElementCatalogEntry" serialization="custom">
+      <com.openmarket.xcelerate.common.ElementCatalogEntry>
+        <int>1</int>
+        <string>CustomElements/@@SITE_NAME@@/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm</string>
+        <string></string>
+        <string>merge=false</string>
+        <string></string>
+        <string>CustomElements/@@SITE_NAME@@/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm.xml</string>
+        <string></string>
+        <string></string>
+      </com.openmarket.xcelerate.common.ElementCatalogEntry>
+    </data>
+  </com.fatwire.realtime.ResourceDataImpl>
+</object-stream>
+<!--==================___ METADATA ___================
+<dependencies>
+  <list/>
+</dependencies>
+==================______________________==================
+#
+#Mon Mar 26 16:06:27 EDT 2012
+storable0=/ELEMENTS/JSP/CustomElements/@@SITE_NAME@@/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm.xml|null|_storable_type\=%2FELEMENTS%2FJSP%2FCustomElements%2F@@SITE_NAME@@%2FOpenMarket%2FGator%2FFlexibleAssets%2FFlexGroups%2FContentForm.xml
+key=@ELEMENTCATALOG-CustomElements/@@SITE_NAME@@/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm
+type=ELEMENTCATALOG
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/jsp/cs_deployed/CustomElements/%40%40SITE_NAME%40%40/OpenMarket/Gator/FlexibleAssets/FlexGroups/ContentForm.xml.main.xml#2 $$Change: 1505503 $-->

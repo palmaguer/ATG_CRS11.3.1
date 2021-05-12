@@ -1,0 +1,3 @@
+ATG-Product: The Commerce Reference Store International Endeca
+Manifest-Version: 1.0
+ATG-Required: Store.WCSExtensions.Endeca.International.Index

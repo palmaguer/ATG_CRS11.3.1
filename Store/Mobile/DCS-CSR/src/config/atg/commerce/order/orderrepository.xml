@@ -1,0 +1,38 @@
+<gsa-template>
+
+  <!-- Add "InStore" as a valid originOfOrder and salesChannel value.-->
+  <item-descriptor name="order">
+    <table name="dcspp_order">
+	  <property name="originOfOrder" xml-combine="append">
+        <option value="InStore" code="200"/>
+      </property>
+	  <property name="salesChannel" xml-combine="append">
+        <option value="InStore" code="200"/>
+      </property>
+	</table>
+  </item-descriptor>
+
+  <item-descriptor name="shippingGroup">
+    <table name="dcspp_ship_group">
+      <property name="type">
+        <option value="inStoreSaleShippingGroup" code="200"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+<item-descriptor name="inStoreSaleShippingGroup" super-type="shippingGroup" sub-type-value="inStoreSaleShippingGroup"
+              cache-mode="simple" display-name-resource="itemDescriptorInStoreSaleShippingGroup" item-cache-timeout="180000">
+    <attribute name="resourceBundle" value="atg.commerce.OrderRepositoryTemplateResources"/>
+
+    <attribute name="categoryBasicsPriority" value="10"/>
+    <attribute name="categorySchedulePriority" value="20"/>
+    <attribute name="categoryInstructionsPriority" value="30"/>
+    <attribute name="categoryContactPriority" value="60"/>
+    <attribute name="categoryInfoPriority" value="70"/>
+
+    <table name="crs_iss_ship_grp" id-column-name="shipping_group_id">
+      <property name="locationId" column-name="location_id" data-type="string" category-resource="categoryBasics" display-name-resource="locationId"/>
+    </table>
+  </item-descriptor>
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/config/atg/commerce/order/orderrepository.xml#1 $$Change: 1497274 $-->

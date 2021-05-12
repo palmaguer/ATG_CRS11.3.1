@@ -1,0 +1,3 @@
+ATG-Product: The Mobile Commerce Store International Versioned module
+Manifest-Version: 1.0
+ATG-Required: Store.Mobile.Versioned Store.Mobile.International

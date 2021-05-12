@@ -1,0 +1,28 @@
+{
+    "mdexMerchRuleID": 3,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.932Z",
+    "priority": "10",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ruleLimit": "1",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Auto-Suggest Panel",
+        "@type": "AutoSuggestPanel",
+        "autoSuggest": [{
+            "@name": "Dimension Search Auto-Suggest",
+            "displayImage": false,
+            "@type": "DimensionSearchAutoSuggestItem",
+            "maxResults": "8",
+            "dimensionList": [
+                "10093",
+                "10007"
+            ],
+            "title": "Search Suggestions:"
+        }]
+    }
+}

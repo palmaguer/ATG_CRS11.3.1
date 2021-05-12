@@ -1,0 +1,26 @@
+{
+    "@description": "${template.description}",
+    "@group": "SecondaryContent",
+    "ecr:createDate": "2016-12-07T09:49:28.391Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [{
+            "editor": "editors/StringEditor",
+            "propertyName": "defaultSearchRadius",
+            "bottomLabel": "${property.searchradiusbottom.label}",
+            "label": "${property.searchradius.label}"
+        }]
+    },
+    "typeInfo": {
+        "geoProperty": {"@propertyType": "String"},
+        "defaultSearchRadius": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "@name": "Store Location Search By Current Location",
+        "geoProperty": "store.geocode",
+        "defaultSearchRadius": "100"
+    },
+    "locales": {}
+}

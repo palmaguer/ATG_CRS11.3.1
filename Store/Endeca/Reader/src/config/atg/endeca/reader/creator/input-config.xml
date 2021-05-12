@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//Art Technology Group, Inc.//DTD Repository Input Specifier 1.0//EN" "http://www.atg.com/dtds/input-config.dtd">
+
+<mapping>
+  <item type="CRSArticle" output-item-descriptor-name="storeArticle" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="asset.name" type="string" output-name="name" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    
+    <property name="asset.startDate" type="string" output-name="startDate" 
+              property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" 
+              formatter="/atg/endeca/reader/creator/formatter/DateFormatter"/>
+    <property name="asset.endDate" type="string" output-name="endDate" 
+              property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" 
+              formatter="/atg/endeca/reader/creator/formatter/DateFormatter"/>
+    
+    <property name="article.headline" type="string" output-name="headline" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.subheadline" type="string" output-name="subheadline" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.author" type="string" output-name="author" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.abstract" type="string" output-name="abstract" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.body" type="string" output-name="body" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="article.postDate" type="string" output-name="postDate" 
+              property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" 
+              formatter="/atg/endeca/reader/creator/formatter/DateFormatter"/>
+    <property name="atricle.mainImageId" type="string" output-name="mainImage" 
+              property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor" 
+              formatter="/atg/endeca/reader/creator/formatter/ImageToRepositoryItemFormatter"/>
+  </item>
+  <item type="CRSImage" output-item-descriptor-name="storeImage" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="asset.name" type="string" output-name="name" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    
+    <property name="image.url" type="string" output-name="url" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+  <item type="CRSVideo" output-item-descriptor-name="storeVideo" repository="/atg/store/stores/StoreContentRepository" use-external-id="false" external-id-property="asset.id">
+    <property name="asset.id" type="string" output-name="externalId" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    <property name="asset.name" type="string" output-name="name" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+    
+    <property name="video.url" type="string" output-name="url" property-accessor="/atg/endeca/reader/creator/RecordPropertyAccessor"/>
+  </item>
+</mapping>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Endeca/Reader/config/atg/endeca/reader/creator/input-config.xml#1 $$Change: 1497274 $-->

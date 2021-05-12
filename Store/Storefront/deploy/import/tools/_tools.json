@@ -1,0 +1,33 @@
+{
+  "ecr:type": "tools",
+  "eac-admin-console": {
+    "ecr:type": "tool"
+  },
+  "phrases": {
+    "ecr:type": "tool"
+  },
+  "preview-settings": {
+    "ecr:type": "tool"
+  },
+  "redirects": {
+    "ecr:type": "tool"
+  },
+  "relrank": {
+    "ecr:type": "tool"
+  },
+  "report-settings": {
+    "ecr:type": "tool"
+  },
+  "reports": {
+    "ecr:type": "tool"
+  },
+  "thesaurus": {
+    "ecr:type": "tool"
+  },
+  "user-segments": {
+    "ecr:type": "tool"
+  },
+  "xmgr": {
+    "ecr:type": "tool"
+  }
+}

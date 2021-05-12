@@ -1,0 +1,4 @@
+ATG-Product: The Commerce Reference Store Endeca Assembler Versioned
+Manifest-Version: 1.0
+ATG-Required: Store.Endeca.Assembler DCS.Endeca.Assembler.Versioned
+

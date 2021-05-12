@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<gsa-template>
+
+  <item-descriptor name="storeAnnouncement"
+                   display-name-resource="storeAnnouncement"
+                   display-property="titleDefault">
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+    <attribute name="flexIconResource" value="item.storeAnnouncements.iconSmall"/>
+    <attribute name="largeFlexIconResource" value="item.storeAnnouncements.iconLarge"/>
+
+    <table name="crs_store_ancmnt" type="primary" id-column-names="id">
+
+
+      <!-- id property -->
+      <property column-name="id" 
+		display-name-resource="id" 
+		data-type="string" 
+		name="id" 
+		backing-map-property="false" 
+		required="true" 
+		cache-mode="inherit">
+        <attribute name="uiwritable" value="false"/>
+      </property>	      
+
+      <property name="title" xml-combine="remove"/>
+      
+      <property name="titleDefault"
+                column-name="title"
+                data-type="string"
+		writable="true"
+                category-resource="categoryStoreAnnouncement"
+                display-name-resource="title">
+        <attribute name="propertySortPriority" value="100"/>
+      </property>
+
+      <property name="content" xml-combine="remove"/>
+
+      <property name="contentDefault"
+                column-name="content"
+                data-type="big string"
+                category-resource="categoryStoreAnnouncement"
+                display-name-resource="content">
+        <attribute name="propertySortPriority" value="110"/>
+      </property>  
+     
+    </table>
+    
+     <property name="title"
+              data-type="string"
+              writable="true"
+              hidden="true"
+              queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>titleDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="titleDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <property name="content"
+              data-type="big string"
+              writable="true"
+              hidden="true"
+              queryable="true">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>contentDefault</expression>
+      </derivation>
+      
+      <attribute name="defaultProperty" value="contentDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+         
+   <table name="crs_ancmnt_xlate"
+           type="multi"
+           multi-column-name="locale"
+           id-column-name="announcement_id">
+
+      <property name="translations"
+                column-name="translation_id"
+                data-type="map"
+                component-item-type="storeAnnouncementTranslation" 
+                category-resource="categoryStoreAnnouncementTranslation"
+                display-name-resource="translations">
+      </property>
+    </table>
+  </item-descriptor>
+
+  <item-descriptor name="storeAnnouncementTranslation"
+                   id-space-name="storeAnnouncementTranslation"
+                   display-name-resource="storeAnnouncementTranslation"
+                   display-property="title"
+                   item-cache-size="1000"
+                   query-cache-size="1000"
+                   cache-mode="simple">
+                   
+    <attribute name="resourceBundle" value="atg.projects.store.stores.StoreContentRepositoryTemplateResources"/>
+    <attribute name="flexIconResource" value="item.longStoreText.iconSmall"/>
+    <attribute name="largeFlexIconResource" value="item.longStoreText.iconLarge"/>
+    <attribute name="categoryStoreAnnouncementTranslationPriority" value="20"/>
+
+    <table name="crs_ancmnt_cntnt_xlate"
+           type="primary"
+           id-column-name="translation_id">
+           
+      <property name="title"
+                column-name="title"
+                data-type="string"
+                category-resource="categoryStoreAnnouncementTranslation"
+                display-name-resource="title">
+        <attribute name="propertySortPriority" value="100"/>
+      </property>  
+
+      <property name="content"
+                column-name="content"
+                data-type="big string"
+                category-resource="categoryStoreAnnouncementTranslation"
+                display-name-resource="content">
+        <attribute name="propertySortPriority" value="110"/>
+      </property>  
+    </table>
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/International/config/atg/store/stores/storeContent.xml#1 $$Change: 1497274 $-->

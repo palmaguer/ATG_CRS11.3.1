@@ -1,0 +1,13 @@
+{
+  "ecr:type":"page",
+  "contentType": "Page",
+    "contentItem": {
+        "ruleLimit": "1",
+        "@name": "Static Page Slot",
+        "templateTypes": ["Page"],
+        "templateIds": [],
+        "@type": "PageSlot",
+        "contentPaths": ["/content/Web/Web Browse Pages"]
+    }
+}
+

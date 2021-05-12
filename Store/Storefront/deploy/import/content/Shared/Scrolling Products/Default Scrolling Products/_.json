@@ -1,0 +1,20 @@
+{
+    "mdexMerchRuleID": 15,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.997Z",
+    "priority": 10,
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ruleLimit": "1",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "ScrollableProductSpotlight-ATGSlot",
+        "@type": "ScrollableProductSpotlight-ATGSlot",
+        "componentPath": "/atg/registry/Slots/FeaturedProducts",
+        "randomizeItems": true,
+        "itemCount": "15"
+    }
+}

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+  <import-items>
+    <add-item id="m008" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Workout wow]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_workout_wow.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Workout wow]]></set-property>
+      <set-property name="title"><![CDATA[Workout wow]]></set-property>
+      
+    </add-item>
+    <add-item id="m009" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Gear Update]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/gear_upgrade.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Gear Update]]></set-property>
+      <set-property name="title"><![CDATA[Gear Update]]></set-property>
+      
+    </add-item>
+    <add-item id="m013" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Spring Sprung]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/spring_sprung.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="title"><![CDATA[Spring Sprung]]></set-property>
+      
+    </add-item>
+    <add-item id="m004" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Marathon mania]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_marathon_mania.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="title"><![CDATA[Marathon mania]]></set-property>
+      
+    </add-item>
+    <add-item id="m014" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Travelling light]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/traveling_light.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Travelling light]]></set-property>
+      <set-property name="title"><![CDATA[Travelling light]]></set-property>
+      
+    </add-item>
+    <add-item id="m005" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Sizzling Style]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_sizzling_style.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="title"><![CDATA[Sizzling Style]]></set-property>
+      
+    </add-item>
+    <add-item id="m011" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Marathon mania]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/marathon_mania.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Marathon mania]]></set-property>
+      <set-property name="title"><![CDATA[Marathon mania]]></set-property>
+      
+    </add-item>
+    <add-item id="m006" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Spring Sprung]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_spring_sprung.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Spring Sprung]]></set-property>
+      <set-property name="title"><![CDATA[Spring Sprung]]></set-property>
+      
+    </add-item>
+    <add-item id="m012" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Sizzling Style]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/sizzling_style.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="title"><![CDATA[Sizzling Style]]></set-property>
+      
+    </add-item>
+    <add-item id="m007" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Travelling light]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_traveling_light.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Travelling light]]></set-property>
+      <set-property name="title"><![CDATA[Travelling light]]></set-property>
+      
+    </add-item>
+    <add-item id="m001" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Budget Conscious]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_budget_conscious.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="title"><![CDATA[Budget Conscious]]></set-property>
+      
+    </add-item>
+    <add-item id="m015" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Workout wow]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/workout_wow.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Workout wow]]></set-property>
+      <set-property name="title"><![CDATA[Workout wow]]></set-property>
+      
+    </add-item>
+    <add-item id="m002" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Gear Update]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_gear_upgrade.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Gear Update]]></set-property>
+      <set-property name="title"><![CDATA[Gear Update]]></set-property>
+      
+    </add-item>
+    <add-item id="m016" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Budget Conscious]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/budget_conscious.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="title"><![CDATA[Budget Conscious]]></set-property>
+      
+    </add-item>
+    <add-item id="m003" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Golden Fiber]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/spot_golden_fiber.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="title"><![CDATA[Golden Fiber]]></set-property>
+      
+    </add-item>
+    <add-item id="m010" item-descriptor="mediaContent" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="mediaType" add="false" remove="false"><![CDATA[Image]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="description"><![CDATA[Golden Fiber]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Autgor]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="url" add="false" remove="false"><![CDATA[/crsdocroot/content/images/articles/banner/golden_fiber.jpg]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author]]></set-property>
+      <set-property name="lastModifiedDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Golden Fiber]]></set-property>
+      <set-property name="title"><![CDATA[Golden Fiber]]></set-property>
+      
+    </add-item>
+    <add-item id="a001" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Traveling Light]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m007]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m014]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod2522,xprod2517,xprod1064,prod10002,prod20002,prod20012]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Traveling Light]]></set-property>
+    </add-item>
+    <add-item id="a002" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Workout Wow]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m008]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m015]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod1039,xprod1044,xprod2527,xprod2530,xprod1006,prod20006]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Workout Wow]]></set-property>
+    </add-item>
+    <add-item id="a003" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[The Golden Fiber]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m003]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m010]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod1067,xprod2503,xprod2510,xprod2070,xprod2504,xprod1069]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Golden Fiber]]></set-property>
+    </add-item>
+    <add-item id="a004" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Marathon Mania]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m004]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m011]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod1039,xprod1044,xprod2527,xprod2530,xprod1006,prod20006]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Marathon Mania]]></set-property>
+    </add-item>
+    <add-item id="a005" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Spring has Sprung]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m006]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m013]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod2019,xprod1060,xprod2101,xprod1011,xprod2077,prod20006]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Spring has Sprung]]></set-property>
+    </add-item>
+    <add-item id="a006" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Sizzling Style]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m005]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m012]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod2109,xprod2046,prod20006,prod20009,xprod2503,xprod1038]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Sizzling Style]]></set-property>
+    </add-item>
+    <add-item id="a007" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Budget Conscious]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m001]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m016]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod1045,xprod1042,xprod1002,xprod2077,xprod2035,xprod2126]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Budget Conscious]]></set-property>
+    </add-item>
+    <add-item id="a008" item-descriptor="article" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <set-property name="headline"><![CDATA[Gear Upgrade]]></set-property>
+      <set-property name="thumbnailImage" add="false" remove="false"><![CDATA[m002]]></set-property>
+      <set-property name="abstract"><![CDATA[This paragraph is an example of an article abstract. An article abstract is a brief summary of what is covered in the article.]]></set-property>
+      <set-property name="body"><![CDATA[This is an example of the body of an article. The body is the main content of the article.]]></set-property>
+      <set-property name="mainImage" add="false" remove="false"><![CDATA[m009]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="creationUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      
+      <set-property name="relatedProducts" add="false" remove="false"><![CDATA[xprod2099,xprod1004,xprod1011,xprod2504,prod20019,xprod1043]]></set-property>
+      <set-property name="author" add="false" remove="false"><![CDATA[John Doe]]></set-property>
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="startDate" add="false" remove="false"><![CDATA[01/01/1900 00:00:00]]></set-property>
+      <set-property name="endDate" add="false" remove="false"><![CDATA[01/01/3000 00:00:00]]></set-property>
+      <set-property name="siteIds" add="false" remove="false"><![CDATA[storeSiteUS,storeSiteDE]]></set-property>
+      <set-property name="lastModifiedUser" add="false" remove="false"><![CDATA[Author Name]]></set-property>
+      <set-property name="tags" add="false" remove="false"><![CDATA[t002,t001]]></set-property>
+      <set-property name="postDate" add="false" remove="false"><![CDATA[1/1/2014 00:00:00]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Gear Upgrade]]></set-property>
+    </add-item>
+    <add-item id="t001" item-descriptor="tag" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="tag" add="false" remove="false"><![CDATA[Shoes]]></set-property>
+    </add-item>
+    <add-item id="t002" item-descriptor="tag" repository="/atg/content/ContentManagementRepository" no-checkin="false">
+      <!-- export is false   <set-property name="version"><![CDATA[0]]></set-property>  -->
+      <set-property name="tag" add="false" remove="false"><![CDATA[Women's Shoes]]></set-property>
+    </add-item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <add-item id="imageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Images]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Images]]></set-property>
+    </add-item>
+    <add-item id="messageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Messages]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Messages]]></set-property>
+    </add-item>
+    <add-item id="productImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <set-property name="parentFolder" add="false" remove="false"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Images/Product]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Product]]></set-property>
+    </add-item>
+    <add-item id="promoContentImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <set-property name="parentFolder" add="false" remove="false"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Images/Promotional Content]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Promotional Content]]></set-property>
+    </add-item>
+    <add-item id="promoContentMessageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <set-property name="parentFolder" add="false" remove="false"><![CDATA[messageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Messages/Promotional Content]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Promotional Content]]></set-property>
+    </add-item>
+    <add-item id="swatchImageFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <set-property name="parentFolder" add="false" remove="false"><![CDATA[imageFolder]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Images/Swatches]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Swatches]]></set-property>
+    </add-item>
+    <add-item id="templateFolder" item-descriptor="folder" repository="/atg/commerce/catalog/ProductCatalog" no-checkin="false">
+      <!-- export is false   <set-property name="version"><![CDATA[1]]></set-property>  -->
+      <set-property name="creationDate" add="false" remove="false"><![CDATA[8/4/2010 09:07:25]]></set-property>
+      <set-property name="path" add="false" remove="false"><![CDATA[Templates]]></set-property>
+      <set-property name="name" add="false" remove="false"><![CDATA[Templates]]></set-property>
+    </add-item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </import-items>
+</gsa-template><!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/data/content-management-i18n.xml#1 $$Change: 1497274 $-->

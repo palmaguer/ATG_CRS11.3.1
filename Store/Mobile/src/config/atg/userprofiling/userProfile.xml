@@ -1,0 +1,47 @@
+<gsa-template>
+
+  <header>
+    <name>Mobile Device Additions</name>
+    <author>ATG</author>
+  </header>
+  
+  <!--///////////////////////////////-->
+  <!--     User Profile Addition     -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="user" default="true" sub-type-property="userType">
+    <table name="crs_mobile_device" type="multi" id-column-name="user_id">
+      <property name="mobileDevices" data-type="set" column-name="device_id" component-item-type="mobileDevice" cascade="update,delete" 
+        hidden="true" expert="true" />
+    </table>
+  </item-descriptor>
+  
+  <!--///////////////////////////////-->
+  <!--         mobile device         -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="mobileDevice"  display-name-resource="itemDescriptorMobileDevice">
+    <table name="crs_mobile_device" id-column-name="device_id" type="primary" >
+      <property name="id" data-type="string" column-name="device_id" hidden="true" expert="true"/>
+      <property name="uniqueId" data-type="string" column-name="unique_id" required="true" hidden="true" expert="true"/>
+      <property name="pushToken" data-type="string" column-name="push_token" hidden="true" expert="true"/>
+      <property name="profile" column-name="user_id" data-type="string" hidden="true" expert="true" />
+      <property name="os" data-type="enumerated" required="true" hidden="true" expert="true" column-name="os" default="unknown">
+        <attribute name="useCodeForValue" value="false" />
+        <option resource="unknown" value="unknown" code="0" />
+        <option resource="iOS" value="ios" code="1" />
+        <option resource="android" value="andriod" code="2" />
+        <option resource="windows" value="windows" code="3" />
+        <option resource="blackBerry" value="bb" code="4" />
+      </property>
+      <property name="osVersion" column-name="os_ver" data-type="string" required="true" hidden="true" expert="true" />
+      <property name="app" data-type="enumerated" column-name="app" required="true" hidden="true" expert="true">
+        <attribute name="useCodeForValue" value="false" />
+        <option resource="iua" value="iua" code="0" />
+        <option resource="asa" value="asa" code="1" />
+      </property>
+      <property name="appVersion" column-name="app_ver" data-type="string" required="true" hidden="true" expert="true" />
+      <property name="registeredOn" column-name="reg_date" data-type="timestamp" required="true" hidden="true" expert="true" />
+      <property name="seenOn" column-name="seen_date" data-type="timestamp" required="true" hidden="true" expert="true" />
+    </table>
+  </item-descriptor>
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/userprofiling/userProfile.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,22 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-03-21T09:10:56.877+01:00",
+    "priority": "10",
+    "triggers": [{
+        "exactLocation": false,
+        "dvalIDs": ["4294966986"],
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Mobile Page",
+        "@type": "MobilePage",
+        "SecondaryContent": [],
+        "MainContent": [{
+            "@name": "Store Specific Detail",
+            "@type": "StoreDetail",
+            "storeImagePath": "/crsdocroot/content/images/Store-Details-Unique.jpg"
+        }]
+    }
+}

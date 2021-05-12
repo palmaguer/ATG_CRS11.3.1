@@ -1,0 +1,23 @@
+{
+    "@description": "${template.description}",
+    "@group": "HeaderContent",
+    "ecr:createDate": "2016-12-07T09:49:28.017Z",
+    "@thumbnailUrl": "thumbnail.png",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": []
+    },
+    "typeInfo": {
+        "backgroundBannerURL": {"@propertyType": "String"},
+        "promotionalContentId": {"@propertyType": "String"},
+        "headerTitle": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "backgroundBannerURL": "",
+        "@name": "ATG Category Header Banner",
+        "promotionalContentId": "",
+        "headerTitle": ""
+    },
+    "locales": {}
+}

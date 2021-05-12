@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE ftcs SYSTEM "futuretense_cs.dtd">
+<ftcs version="1.2">
+
+  <CALLELEMENT NAME="OpenMarket/Xcelerate/UIFramework/Util/RowSpacer"/>
+  <tr>
+    <td class="form-label-text">Image:</td>
+    <td></td>
+    <td class="form-inset">
+      <ASSETSET.SETASSET NAME="currentAsset" TYPE="Variables.AssetType" ID="Variables.id" />
+      <ASSETSET.GETATTRIBUTEVALUES NAME="currentAsset" ATTRIBUTE="externalURL" TYPENAME="CRSContentAttribute" LISTVARNAME="imageURLList" />
+      <ics.listget listname="imageURLList" fieldname="value" output="imageURL" />
+      <img src="Variables.imageURL" REPLACEALL="Variables.imageURL"/>
+    </td>
+  </tr>
+
+</ftcs>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/jsp/cs_deployed/CustomElements/%40%40SITE_NAME%40%40/OpenMarket/Gator/FlexibleAssets/FlexAssets/CRSImage/ImageDetails.xml#2 $$Change: 1505503 $-->

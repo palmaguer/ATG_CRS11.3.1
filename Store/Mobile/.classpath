@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/Java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Store"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Store.Storefront"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar"/>
+	<classpathentry kind="output" path="lib/classes.jar_"/>
+</classpath>

@@ -1,0 +1,32 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-03-21T09:10:58.327+01:00",
+    "priority": "10",
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Store Results List",
+        "@type": "LocationResultsList",
+        "recordsPerPage": "12",
+        "sortOption": {
+            "@class": "com.endeca.infront.navigation.model.SortOption",
+            "label": "City: A-Z",
+            "sorts": [
+                {
+                    "@class": "com.endeca.infront.navigation.model.SortSpec",
+                    "key": "store.city",
+                    "descending": "false"
+                },
+                {
+                    "@class": "com.endeca.infront.navigation.model.SortSpec",
+                    "key": "store.name",
+                    "descending": "false"
+                }
+            ]
+        }
+    } 
+}

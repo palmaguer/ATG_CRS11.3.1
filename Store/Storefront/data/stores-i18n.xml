@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+<import-items>
+
+<!-- items of type store -->
+
+<add-item item-descriptor="store" id="ArtUndWeisepark">
+  <set-property name="sites"><![CDATA[storeSiteDE]]></set-property>
+  <set-property name="name"><![CDATA[Art- und Weisepark]]></set-property>
+  <set-property name="address1"><![CDATA[Reisingerstrasse 12]]></set-property>
+  <set-property name="address2"><![CDATA[__NULL__]]></set-property>
+  <set-property name="address3"><![CDATA[__NULL__]]></set-property>
+  <set-property name="city"><![CDATA[Muenster]]></set-property>
+  <set-property name="stateAddress"><![CDATA[__NULL__]]></set-property>
+  <set-property name="postalCode"><![CDATA[48147]]></set-property>
+  <set-property name="country"><![CDATA[Deutschland]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[0251 343 80 14]]></set-property>
+  <set-property name="faxNumber"><![CDATA[0251 343 80 14]]></set-property>
+  <set-property name="email"><![CDATA[Weisepark@example.de]]></set-property>
+  <set-property name="latitude"><![CDATA[51.975]]></set-property>
+  <set-property name="longitude"><![CDATA[7.636]]></set-property>
+  <set-property name="hours"><![CDATA[Montag - Samstag 9:30 Uhr - 20:00 Uhr]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[193]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="SudkustePiazza">
+  <set-property name="sites"><![CDATA[storeSiteDE]]></set-property>
+  <set-property name="name"><![CDATA[Südküste-Piazza]]></set-property>
+  <set-property name="address1"><![CDATA[Alfred-Brehm-Platz 16]]></set-property>
+  <set-property name="address2"><![CDATA[__NULL__]]></set-property>
+  <set-property name="address3"><![CDATA[__NULL__]]></set-property>
+  <set-property name="city"><![CDATA[Frankfurt am Main]]></set-property>
+  <set-property name="stateAddress"><![CDATA[__NULL__]]></set-property>
+  <set-property name="postalCode"><![CDATA[60316]]></set-property>
+  <set-property name="country"><![CDATA[Deutschland]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[069 592 80 12]]></set-property>
+  <set-property name="faxNumber"><![CDATA[069 592 80 12]]></set-property>
+  <set-property name="email"><![CDATA[Piazza@example.de]]></set-property>
+  <set-property name="latitude"><![CDATA[50.116395]]></set-property>
+  <set-property name="longitude"><![CDATA[8.698808]]></set-property>
+  <set-property name="hours"><![CDATA[Montag - Samstag 9:30 Uhr - 20:00 Uhr]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[195]]></set-property>
+</add-item>
+
+<add-item item-descriptor="store" id="Bekleidungsgeschaft">
+  <set-property name="sites"><![CDATA[storeSiteDE]]></set-property>
+  <set-property name="name"><![CDATA[Bekleidungsgeschäft]]></set-property>
+  <set-property name="address1"><![CDATA[Museumsinsel 1]]></set-property>
+  <set-property name="address2"><![CDATA[__NULL__]]></set-property>
+  <set-property name="address3"><![CDATA[__NULL__]]></set-property>
+  <set-property name="city"><![CDATA[Muenster]]></set-property>
+  <set-property name="stateAddress"><![CDATA[__NULL__]]></set-property>
+  <set-property name="postalCode"><![CDATA[48149]]></set-property>
+  <set-property name="country"><![CDATA[Deutschland]]></set-property>
+  <set-property name="phoneNumber"><![CDATA[0251 914 43 31]]></set-property>
+  <set-property name="faxNumber"><![CDATA[0251 914 43 31]]></set-property>
+  <set-property name="email"><![CDATA[Beklei@example.de]]></set-property>
+  <set-property name="latitude"><![CDATA[51.961]]></set-property>
+  <set-property name="longitude"><![CDATA[7.599]]></set-property>
+  <set-property name="hours"><![CDATA[Montag - Samstag 9:30 Uhr - 20:00 Uhr]]></set-property>
+  <set-property name="externalLocationId"><![CDATA[194]]></set-property>
+</add-item>
+
+</import-items>
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/data/stores-i18n.xml#1 $$Change: 1497274 $-->

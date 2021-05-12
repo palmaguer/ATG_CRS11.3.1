@@ -1,0 +1,29 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:28.798Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.generalSettings.label}"
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "minValue": 1,
+                "propertyName": "numberOfRecords",
+                "maxValue": 100,
+                "label": "${property.numberOfRecords.label}"
+            }
+        ]
+    },
+    "typeInfo": {"numberOfRecords": {"@propertyType": "String"}},
+    "defaultContentItem": {
+        "@name": "Category Related Products",
+        "numberOfRecords": "4"
+    },
+    "locales": {}
+}

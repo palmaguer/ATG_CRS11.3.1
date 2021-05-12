@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database-initializer SYSTEM "http://www.atg.com/dtds/dbinit_1_0.dtd">
+<database-initializer>
+
+  <schema id="inStoreUsersSchema">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/crs_profile_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_crs_profile_ddl.sql
+        </drop>
+      </path>
+    </sql>
+  </schema>
+
+  <schema id="announcementsSchema">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/storeannouncements_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_storeannouncements_ddl.sql
+        </drop>
+      </path>
+    </sql>
+
+  </schema>
+  
+  <schema id="sitesNonSwitchingCoreSchema">
+    <data-import start-up-module="Store.EStore,Store.Mobile.DCS-CSR">
+      <requires-addon-id id="storefront-full-setup"/>
+      <incompatible-addon-id id="international"/>
+      <repository-path>/atg/store/stores/StoreContentRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/DCS-CSR/data/store-announcements.xml</import-file-path>
+    </data-import>
+  </schema>
+
+  <schema id="sitesSwitchingSchema">
+    <data-import start-up-module="Store.EStore,Store.Mobile.DCS-CSR" required-datasources="switchingCore">
+      <requires-addon-id id="storefront-full-setup"/>
+      <incompatible-addon-id id="international"/>
+      <repository-path>/atg/store/stores/StoreContentRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/DCS-CSR/data/store-announcements.xml</import-file-path>
+    </data-import>
+  </schema>
+  
+  <schema id="coreSchema">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/order_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_order_ddl.sql
+        </drop>
+      </path>
+    </sql>
+  </schema>
+
+  <server-instance-type id="production">
+    <datasource id="nonswitchingCore">
+      <schema id="coreSchema"/>
+      <schema id="inStoreUsersSchema"/>
+      <schema id="announcementsSchema"/>
+      <schema id="sitesNonSwitchingCoreSchema"/>
+    </datasource>
+
+    <datasource id="switchingCore">
+      <schema id="coreSchema"/>
+      <schema id="inStoreUsersSchema"/>
+    </datasource>
+
+    <datasource id="switchingA">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+    <datasource id="switchingB">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+  <server-instance-type id="staging">
+    <datasource id="stagingnonswitchingCore">
+      <schema id="coreSchema"/>
+      <schema id="announcementsSchema"/>
+      <schema id="sitesNonSwitchingCoreSchema"/>
+      <schema id="inStoreUsersSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingCore">
+      <schema id="coreSchema"/>
+      <schema id="inStoreUsersSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingA">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingB">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+  <server-instance-type id="management">
+
+    <datasource id="management">
+      <schema id="coreSchema"/>
+      <schema id="inStoreUsersSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+
+</database-initializer>
+  <!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/cim/dbinit.xml#1 $$Change: 1497274 $-->

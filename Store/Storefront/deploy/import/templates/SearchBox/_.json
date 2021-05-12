@@ -1,0 +1,47 @@
+{
+    "@description": "${template.description}",
+    "@group": "SearchBox",
+    "ecr:createDate": "2016-12-07T09:49:29.319Z",
+    "@thumbnailUrl": "thumbnail.png",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.autoSuggestConfig.label}"
+            },
+            {
+                "editor": "editors/BooleanEditor",
+                "propertyName": "autoSuggestEnabled",
+                "label": "${property.enableAutoSuggest.label}",
+                "enabled": true
+            },
+            {"editor": "editors/DynamicSlotEditor"},
+            {
+                "editor": "editors/NumericStepperEditor",
+                "propertyName": "minAutoSuggestInputLength",
+                "label": "${property.minAutoSuggestInputLength.label}",
+                "enabled": true
+            }
+        ]
+    },
+    "typeInfo": {
+        "ruleLimit": {"@propertyType": "String"},
+        "templateTypes": {"@propertyType": "List"},
+        "minAutoSuggestInputLength": {"@propertyType": "String"},
+        "templateIds": {"@propertyType": "List"},
+        "autoSuggestEnabled": {"@propertyType": "Boolean"},
+        "contentPaths": {"@propertyType": "List"}
+    },
+    "defaultContentItem": {
+        "ruleLimit": "1",
+        "@name": "Search Box",
+        "templateTypes": ["AutoSuggestPanel"],
+        "minAutoSuggestInputLength": "3",
+        "templateIds": [],
+        "autoSuggestEnabled": true,
+        "contentPaths": ["/content/Shared/Auto-Suggest Panels"]
+    },
+    "locales": {}
+}

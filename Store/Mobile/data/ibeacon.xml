@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+<gsa-template>
+
+  <!-- iBeacon demo data -->
+  <import-items>
+    <add-item item-descriptor="ibeaconAlert" id="beaconAlert001">
+      <set-property name="name"><![CDATA[10% Off Order]]></set-property>
+      <set-property name="text"><![CDATA[You have received 10% off your next order]]></set-property>
+      <set-property name="isPushNotification"><![CDATA[true]]></set-property>
+    </add-item>
+    <add-item item-descriptor="ibeaconAlert" id="beaconAlert002">
+      <set-property name="name"><![CDATA[Housewares]]></set-property>
+      <set-property name="text"><![CDATA[Tap here to check out the latest from Style by Zhanna]]></set-property>
+      <set-property name="linkUrl"><![CDATA[/browse/Brand-Style-by-Zhanna/_/N-1z141s1]]></set-property>
+    </add-item>
+
+    <add-item item-descriptor="ibeacon" id="beacon001">
+      <set-property name="name"><![CDATA[Entry beacon]]></set-property>
+      <set-property name="UUID"><![CDATA[74278BDA-B644-4520-8F0C-720EAF059935]]></set-property>
+      <set-property name="major"><![CDATA[150]]></set-property>
+      <set-property name="minor"><![CDATA[1]]></set-property>
+      <set-property name="store"><![CDATA[CRSHome-Nashua150]]></set-property>
+      <set-property name="enterAlerts"><![CDATA[beaconAlert001]]></set-property>
+    </add-item>
+    <add-item item-descriptor="ibeacon" id="beacon002">
+      <set-property name="name"><![CDATA[Housewares beacon]]></set-property>
+      <set-property name="UUID"><![CDATA[74278BDA-B644-4520-8F0C-720EAF059935]]></set-property>
+      <set-property name="major"><![CDATA[150]]></set-property>
+      <set-property name="minor"><![CDATA[2]]></set-property>
+      <set-property name="store"><![CDATA[CRSHome-Nashua150]]></set-property>
+      <set-property name="enterAlerts"><![CDATA[beaconAlert002]]></set-property>
+    </add-item>
+  </import-items>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/data/ibeacon.xml#1 $$Change: 1497274 $-->
+

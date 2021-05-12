@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:assetBean xmlns:ns2="http://www.fatwire.com/schema/rest/1.0">
+    <id>Dimension:1000000000061</id>
+    <name>de</name>
+    <createdby>fwadmin</createdby>
+    <createddate>2013-07-25T12:53:34.905Z</createddate>
+    <description>de</description>
+    <publist>@@SITE_NAME@@</publist>
+    <status>PL</status>
+    <subtype>Locale</subtype>
+    <updatedby>fwadmin</updatedby>
+    <updateddate>2013-07-25T12:53:34.905Z</updateddate>
+    <attribute>
+        <name>startdate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>enddate</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>filename</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>path</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>template</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldoc</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>externaldoctype</name>
+        <data>
+            <stringValue></stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>urlexternaldocxml</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>fw_uid</name>
+        <data>
+            <stringValue>Dimension-de</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>id</name>
+        <data>
+            <longValue>1000000000061</longValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>fwtags</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>Webreference</name>
+        <data/>
+    </attribute>
+    <associations>
+        <href>myPathassociations</href>
+    </associations>
+</ns2:assetBean>
+
+<!--==================___ METADATA ___================
+<dependencies>
+  <linked-hash-set>
+    <dependency>
+      <depType>N</depType>
+      <resType>Dimension</resType>
+      <resId>1000000000061</resId>
+      <uid>Dimension-de</uid>
+    </dependency>
+  </linked-hash-set>
+</dependencies>
+==================______________________==================
+#
+key=Dimension-Dimension-de
+type=ASSETDATA
+sites=@@SITE_NAME@@
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ASSET/Dimension/de(Dimension-de).main.xml#1 $$Change: 1497274 $-->

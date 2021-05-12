@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<dynamo-message-system>
+  <patchbay>
+
+    <message-filter>
+      <nucleus-name>
+        /atg/commerce/fulfillment/OrderFulfiller
+      </nucleus-name>
+
+      <output-port>
+        <port-name>
+          InStoreSaleFulfillerPort
+        </port-name>
+        <output-destination>
+          <destination-name>
+            patchbay:/Fulfillment/InStoreSale
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+        </output-destination>
+      </output-port>
+
+    </message-filter>
+
+    <message-filter>
+      <nucleus-name>
+        /atg/commerce/fulfillment/InStoreSaleFulfiller
+      </nucleus-name>
+
+      <input-port>
+        <port-name>
+          DEFAULT
+        </port-name>
+
+        <input-destination>
+          <destination-name>
+            patchbay:/Fulfillment/InStoreSale
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+          <durable-subscriber-name>
+            InStoreSaleFulfiller-Fulfiller-InStoreSale
+          </durable-subscriber-name>
+          <redelivery>
+            <max-attempts>3</max-attempts>
+            <delay>60000</delay>
+            <failure-output-port>FulfillmentError</failure-output-port>
+          </redelivery>
+        </input-destination>
+
+        <input-destination>
+          <destination-name>
+            patchbay:/Fulfillment/UpdateInventory
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+          <durable-subscriber-name>
+            InStoreSaleFulfiller-UpdateInventory
+          </durable-subscriber-name>
+          <redelivery>
+            <max-attempts>3</max-attempts>
+            <delay>60000</delay>
+            <failure-output-port>UpdateInventoryError</failure-output-port>
+          </redelivery>
+        </input-destination>
+      </input-port>
+
+      <output-port>
+        <port-name>
+          DEFAULT
+        </port-name>
+      </output-port>
+
+      <output-port>
+        <port-name>
+          ModifyNotificationPort
+        </port-name>
+        <output-destination>
+          <destination-name>
+            patchbay:/Fulfillment/ModifyOrderNotification
+          </destination-name>
+          <destination-type>
+            Topic
+          </destination-type>
+        </output-destination>
+      </output-port>
+
+      <redelivery-port>
+        <port-name>FulfillmentError</port-name>
+        <output-destination>
+          <destination-name>patchbay:/Fulfillment/ErrorNotification</destination-name>
+          <destination-type>Queue</destination-type>
+        </output-destination>
+        <output-destination>
+          <destination-name>patchbay:/Fulfillment/DeadMessageQueue</destination-name>
+          <destination-type>Queue</destination-type>
+        </output-destination>
+      </redelivery-port>
+
+      <redelivery-port>
+        <port-name>UpdateInventoryError</port-name>
+        <output-destination>
+          <destination-name>patchbay:/Fulfillment/UpdateInventoryErrorNotification</destination-name>
+          <destination-type>Queue</destination-type>
+        </output-destination>
+        <output-destination>
+          <destination-name>patchbay:/Fulfillment/UpdateInventoryDeadMessageQueue</destination-name>
+          <destination-type>Queue</destination-type>
+        </output-destination>
+      </redelivery-port>
+
+    </message-filter>
+
+  </patchbay>
+</dynamo-message-system>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/Fulfillment/config/atg/dynamo/messaging/dynamoMessagingSystem.xml#1 $$Change: 1497274 $-->

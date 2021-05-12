@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE app-descriptor [
+  <!ELEMENT app-descriptor ( dir-structure+, copy-pattern+ ) >
+  <!ATTLIST app-descriptor
+    update (true|false) #IMPLIED
+    id CDATA #IMPLIED
+    default-name CDATA #IMPLIED
+  >
+
+  <!ELEMENT dir-structure ( dir+ ) >
+
+  <!ELEMENT dir ( #PCDATA ) >
+  <!ATTLIST dir
+    primary (true|false) #IMPLIED
+    platform (win|unix) #IMPLIED
+  >
+
+  <!ELEMENT copy-pattern ( copy+ ) >
+  <!ATTLIST copy-pattern src-root CDATA #REQUIRED >
+
+  <!ELEMENT copy ( src-dir, src-file, dest-dir ) >
+  <!ATTLIST copy
+    clear-dest-dir (true|false) #IMPLIED
+    recursive (true|false) #IMPLIED
+    preserve-subdirs (true|false) #IMPLIED
+    filter-files (true|false) #IMPLIED
+    mode CDATA #IMPLIED
+    primary (true|false) #IMPLIED
+    platform (win|unix) #IMPLIED
+    endeca-version (460|470|480|500) #IMPLIED
+  >
+
+  <!ELEMENT dest-dir ( #PCDATA ) >
+  <!ELEMENT src-dir ( #PCDATA ) >
+  <!ELEMENT src-file ( #PCDATA ) >
+]>
+<app-descriptor update="true" id="CRSApp" default-name="CRS">
+
+  <custom-tokens>
+      <token name="WORKBENCH_PORT">
+      <prompt-question>Enter the port where workbench is running. [Default: 8006]</prompt-question>
+      <install-config-option>workbench-port</install-config-option>
+      <default-value>8006</default-value>
+    </token>
+    <token name="DGRAPH_1_PORT">
+      <prompt-question>Enter the port to use for Dgraph1. [Default: 15000]</prompt-question>
+      <install-config-option>dgraph1Port</install-config-option>
+      <default-value>15000</default-value>
+    </token>
+    <token name="AUTHORING_DGRAPH_PORT">
+      <prompt-question>Enter the port to use for AuthoringDgraph. [Default: 15002]</prompt-question>
+      <install-config-option>authoringDgraphPort</install-config-option>
+      <default-value>15002</default-value>
+    </token>
+    <token name="LOGSERVER_PORT">
+      <prompt-question>Enter the port to use for LogServer. [Default: 15010]</prompt-question>
+      <install-config-option>logserverPort</install-config-option>
+      <default-value>15010</default-value>
+    </token>
+    <token name="CAS_ROOT">
+      <prompt-question>Please enter the CAS install directory using Unix-style forward slashes, including the version number (e.g. C:/Endeca/CAS/11.2.0).</prompt-question>
+      <install-config-option>casRoot</install-config-option>
+    </token>
+    <token name="CAS_JAR_VERSION">
+      <prompt-question>Please enter the version for CAS jar files (or hit 'enter' to use the default).  [Default: 11.2.0]</prompt-question>
+      <install-config-option>casJarVersion</install-config-option>
+      <default-value>11.2.0</default-value>
+    </token>
+    <token name="CAS_HOST">
+      <prompt-question>Please enter the hostname where CAS is running (or hit 'enter' to use the default). [Default: localhost]</prompt-question>
+      <install-config-option>casHost</install-config-option>
+      <default-value>localhost</default-value>
+    </token>
+    <token name="CAS_PORT">
+      <prompt-question>Please enter the port where CAS is running (or hit 'enter' to use the default). [Default: 8500]</prompt-question>
+      <install-config-option>casPort</install-config-option>
+      <default-value>8500</default-value>
+    </token>    
+    <token name="LANGUAGE_ID">
+      <prompt-question>Please enter the language code to use (or hit 'enter' to use the default). [Default: en]</prompt-question>
+      <install-config-option>languageId</install-config-option>
+      <default-value>en</default-value>
+    </token>
+    <token name="HOST">
+      <prompt-question>Please enter the fully-qualified Workbench hostname, including domain.</prompt-question>
+      <install-config-option>host</install-config-option>
+    </token>
+    <token name="PRODUCTION_APP_SERVER_HOST">
+      <prompt-question>Please enter the production application server hostname. [Default: localhost]</prompt-question>
+      <install-config-option>productionAppServerHost</install-config-option>
+      <default-value>localhost</default-value>
+    </token>
+    <token name="PRODUCTION_APP_SERVER_PORT">
+      <prompt-question>Please enter the production application server port number, Typical values are 7003 for WebLogic, 8080 for JBoss and Tomcat, and 9080 for WebSphere.</prompt-question>
+      <install-config-option>productionAppServerPort</install-config-option>
+    </token>
+    <token name="PREVIEW_HOST">
+      <prompt-question>Please enter the preview hostname. [Default: localhost]</prompt-question>
+      <install-config-option>previewHost</install-config-option>
+      <default-value>localhost</default-value>
+    </token>
+    <token name="PREVIEW_PORT">
+      <prompt-question>Please enter the preview port number. Typical values are 7003 for WebLogic, 8080 for JBoss and Tomcat, and 9080 for WebSphere.</prompt-question>
+      <install-config-option>previewPort</install-config-option>
+    </token>
+    <token name="PREVIEW_CONTEXT_ROOT">
+      <prompt-question>Please enter the context root of the preview application. [Default: crs]</prompt-question>
+      <install-config-option>previewContextRoot</install-config-option>
+      <default-value>crs</default-value>
+    </token>
+    <token name="USER_SEGMENTS_HOST">
+      <prompt-question>Enter the hostname of the user segment server. Oracle recommends using the 
+Publishing server for this purpose. If your environment does not have a 
+Publishing server, enter the Production server host name and refer to the 
+Guided Search Integration Guide for additional configuration requirements. 
+[Default: localhost]</prompt-question>
+      <install-config-option>userSegmentsHost</install-config-option>
+      <default-value>localhost</default-value>
+    </token>
+    <token name="USER_SEGMENTS_PORT">
+      <prompt-question>Enter the HTTP port of the user segment server. Oracle recommends using the 
+Publishing server for this purpose. If your environment does not have a 
+Publishing server, enter the Production server HTTP port and refer to the 
+Guided Search Integration Guide for additional configuration requirements. 
+[Default: 8080]</prompt-question>
+      <install-config-option>userSegmentsPort</install-config-option>
+      <default-value>8080</default-value>
+    </token>
+    <token name="JPSCONFIG_LOCATION">
+      <prompt-question>Specify the path for the Oracle Wallet jps-config.xml file. [Default: ABS_PATH(../../server/workspace/credential_store/jps-config.xml)]</prompt-question>
+      <install-config-option>jpsConfigFileLocation</install-config-option>
+      <default-value>ABS_PATH(../../server/workspace/credential_store/jps-config.xml)</default-value>
+    </token>
+    <token name="APPLICATION_EXPORT_DIRECTORY">
+      <prompt-question>Which directory will application configuration archives be exported to. [Default: ABS_PATH(../../../../Apps/CRS/data/workbench/application_export_archive)]</prompt-question>
+      <install-config-option>applicationConfigExportArchive</install-config-option>
+      <default-value>ABS_PATH(../../../../Apps/CRS/data/workbench/application_export_archive)</default-value>
+    </token>
+    <token name="AUTHORING_APPLICATION_EXPORT_DIRECTORY">
+      <prompt-question>Specify the path for the authoring application configuration to be exported to during publish (use only / for path separator): [Default: ABS_PATH_WITH_UNIX_PATH_SEPARATOR(../../server/workspace/state/generation_data)]</prompt-question>
+      <install-config-option>authoringApplicationExportDirectory</install-config-option>
+      <default-value>ABS_PATH_WITH_UNIX_PATH_SEPARATOR(../../server/workspace/state/generation_data)</default-value>
+    </token>
+  </custom-tokens>
+  
+  <dir-structure>
+    <dir>config/mdex</dir>
+    <dir>config/cas</dir>
+    <dir>config/script</dir>
+    <dir>config/report_templates</dir>
+    <dir>config/lib/java</dir>
+    <dir>config/ifcr</dir>
+    <dir>control</dir>
+    <dir>data/workbench/application_export_archive</dir>
+    <dir>logs</dir>
+    <dir>test_data</dir>
+  </dir-structure>
+
+<copy-pattern src-root=".">
+  <!-- Pipeline config -->
+  <copy filter-files="true" clear-dest-dir="true" recursive="true" mode="640">
+    <src-dir>./mdex</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/mdex</dest-dir>
+  </copy>
+  
+  <copy clear-dest-dir="true" preserve-subdirs="true" recursive="true">
+    <src-dir>./ifcr</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/ifcr</dest-dir>
+  </copy>
+  
+  <copy clear-dest-dir="true" preserve-subdirs="true" recursive="true" filter-files="true" mode="640">
+    <src-dir>./index_config</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/index_config</dest-dir>
+  </copy>
+
+  <copy filter-files="true" clear-dest-dir="true" preserve-subdirs="true" recursive="true" mode="640">
+    <src-dir>./import</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/import</dest-dir>
+  </copy>
+  
+  <!-- Crawl and record store config -->
+  <copy filter-files="true" clear-dest-dir="false" recursive="true" mode="640">
+    <src-dir>./cas</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/cas</dest-dir>
+  </copy>
+
+  <!-- Config Scripts -->
+  <copy filter-files="true" clear-dest-dir="false" recursive="true" mode="640">
+    <src-dir>./script</src-dir>
+    <src-file>*.xml</src-file>
+    <dest-dir>./config/script</dest-dir>
+  </copy>
+
+  <copy filter-files="true" clear-dest-dir="false" recursive="true" mode="640">
+    <src-dir>./script</src-dir>
+    <src-file>*.properties</src-file>
+    <dest-dir>./config/script</dest-dir>
+  </copy>
+
+  <copy filter-files="true" clear-dest-dir="false">
+    <src-dir>./script</src-dir>
+    <src-file>beanshell.imports</src-file>
+    <dest-dir>./config/script</dest-dir>
+  </copy>
+
+  <copy filter-files="true" platform="win">
+    <src-dir>./script/</src-dir>
+    <src-file>set_environment.bat</src-file>
+    <dest-dir>./config/script</dest-dir>
+  </copy>
+  <copy filter-files="true" platform="unix" mode="640">
+    <src-dir>./script/</src-dir>
+    <src-file>set_environment.sh</src-file>
+    <dest-dir>./config/script</dest-dir>
+  </copy>
+
+  <!-- Libs -->
+  <copy clear-dest-dir="false" recursive="true" preserve-subdirs="true" filter-files="false">
+    <src-dir>./lib</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/lib/java</dest-dir>
+  </copy>
+  
+  <!-- Control Scripts -->
+  <copy clear-dest-dir="false" recursive="true" preserve-subdirs="false" platform="win" filter-files="true">
+    <src-dir>./control</src-dir>
+    <src-file>*.bat</src-file>
+    <dest-dir>./control</dest-dir>
+  </copy>
+
+  <copy clear-dest-dir="false" recursive="true" preserve-subdirs="false" platform="unix" mode="550" filter-files="true">
+    <src-dir>./control</src-dir>
+    <src-file>*.sh</src-file>
+    <dest-dir>./control</dest-dir>
+  </copy>
+  
+  <!-- Data -->
+  <copy clear-dest-dir="true" recursive="true" preserve-subdirs="true" mode="640">
+	<src-dir>./test_data</src-dir>
+	<src-file>*</src-file>
+	<dest-dir>./test_data</dest-dir>
+  </copy>
+
+  <!-- Report Templates -->
+  <copy clear-dest-dir="true" recursive="true" preserve-subdirs="true" filter-files="true" mode="640">
+    <src-dir>./report_templates/</src-dir>
+    <src-file>*</src-file>
+    <dest-dir>./config/report_templates</dest-dir>
+  </copy>
+  
+</copy-pattern>
+
+</app-descriptor>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Storefront/deploy/deploy.xml#1 $$Change: 1497274 $-->

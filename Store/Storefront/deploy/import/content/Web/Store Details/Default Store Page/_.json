@@ -1,0 +1,21 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:37.042Z",
+    "priority": "20",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "HeaderContent": [],
+        "@name": "Content",
+        "@type": "OneColumnPage",
+        "MainContent": [{
+            "@name": "Default Store Detail",
+            "@type": "StoreDetail",
+            "storeImagePath": "/crsdocroot/content/images/Store-Details-Generic.jpg"
+        }]
+    }
+}

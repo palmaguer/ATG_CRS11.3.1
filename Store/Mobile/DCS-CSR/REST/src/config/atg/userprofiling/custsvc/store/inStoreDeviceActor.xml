@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor-template default-chain-id="customers"
+                xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- Gets the customers who are currently in the specified store -->
+  <actor-chain id="customers">
+    <component id="deviceLocationManager"
+               name="/atg/commerce/device/DeviceLocationManager"
+               method="usersInStore"
+               method-return-var="usersObj">
+      <input name="pStoreId"  class-name="java.lang.String" value="${param.storeId}" />
+    </component>
+
+    <droplet id="forEach" name="/atg/dynamo/droplet/ForEach" var="forEachCustomer">
+      <input name="array" value="${usersObj}" />
+      <oparam name="output">
+        <!--output the in-store customers-->
+        <output id="users" name="result[${forEachCustomer.index}]" value="${forEachCustomer.element}"
+                filter-id="summary"/>
+
+        <droplet id="isNull" name="/atg/dynamo/droplet/IsNull" var="isNullDroplet">
+          <input name="value" value="${forEachCustomer.element.profileId}" />
+          <oparam name="false">
+            <!-- Get the user info if the profileId isn't null -->
+            <droplet id="customerLookup" name="/atg/userprofiling/CustomerProfileLookup"
+                     var="customerLookup">
+              <input name="id" value="${forEachCustomer.element.profileId}" />
+              <input name="elementName" value="customer" />
+              <!--Profile found-->
+              <oparam name="output">
+                <output id="anonUser" name="result[${forEachCustomer.index}].isAnonymous" value="${false}"/>
+                <output id="profile" name="result[${forEachCustomer.index}].customer" value="${customerLookup.customer}"/>
+              </oparam>
+              <!--Profile not found, must be an anon user-->
+              <oparam name="empty">
+                <output id="anonUser" name="result[${forEachCustomer.index}].isAnonymous" value="${true}"/>
+              </oparam>
+            </droplet>
+
+            <!--lookup the beacon information-->
+            <droplet id="beaconLookup" name="/atg/commerce/locations/BeaconLookup"
+                     var="beaconLookup">
+              <input name="id" value="${forEachCustomer.element.beacon}" />
+              <input name="elementName" value="beacon" />
+              <!--Beacon found-->
+              <oparam name="output">
+                <output id="beaconName" name="result[${forEachCustomer.index}].beaconName" value="${beaconLookup.beacon.name}"/>
+              </oparam>
+              <!--beacon not found, so use the id instead-->
+              <oparam name="empty">
+                <output id="beaconName" name="result[${forEachCustomer.index}].beaconName" value="${forEachCustomer.element.beacon}"/>
+              </oparam>
+            </droplet>
+
+          </oparam>
+        </droplet>
+      </oparam>
+    </droplet>
+  </actor-chain>
+
+
+  <!-- Gets the customers in the specified store who have request help from an associate -->
+  <actor-chain id="customersRequiringHelp">
+    <component id="deviceLocationManager"
+               name="/atg/commerce/device/DeviceLocationManager"
+               method="usersRequiringHelp"
+               method-return-var="usersObj">
+      <input name="pStoreId"  class-name="java.lang.String" value="${param.storeId}" />
+    </component>
+    <droplet id="forEach" name="/atg/dynamo/droplet/ForEach" var="forEachCustomer">
+      <input name="array" value="${usersObj}" />
+      <oparam name="output">
+        <!--output the in-store customers-->
+        <output id="users" name="result[${forEachCustomer.index}]" value="${forEachCustomer.element}"
+                filter-id="summary"/>
+
+        <!-- Get the user info if the profileId isn't null -->
+        <droplet id="customerLookup" name="/atg/userprofiling/CustomerProfileLookup" var="customerLookup">
+          <input name="id" value="${forEachCustomer.element.profileId}" />
+          <input name="elementName" value="customer" />
+          <!--Profile found-->
+          <oparam name="output">
+            <output id="anonUser" name="result[${forEachCustomer.index}].isAnonymous" value="${false}"/>
+            <output id="profile" name="result[${forEachCustomer.index}].customer" value="${customerLookup.customer}"/>
+          </oparam>
+          <!--Profile not found, must be an anon user-->
+          <oparam name="empty">
+            <output id="anonUser" name="result[${forEachCustomer.index}].isAnonymous" value="${true}"/>
+          </oparam>
+        </droplet>
+
+        <!--lookup the beacon information-->
+        <droplet id="beaconLookup" name="/atg/commerce/locations/BeaconLookup"
+                 var="beaconLookup">
+          <input name="id" value="${forEachCustomer.element.beacon}" />
+          <input name="elementName" value="beacon" />
+          <!--Beacon found-->
+          <oparam name="output">
+            <output id="beaconName" name="result[${forEachCustomer.index}].beaconName" value="${beaconLookup.beacon.name}"/>
+          </oparam>
+          <!--beacon not found, so use the id instead-->
+          <oparam name="empty">
+            <output id="beaconName" name="result[${forEachCustomer.index}].beaconName" value="${forEachCustomer.element.beacon}"/>
+          </oparam>
+        </droplet>
+
+      </oparam>
+    </droplet>
+  </actor-chain>
+
+  <actor-chain id="customersRequiringHelpCount">
+    <component id="deviceLocationManager"
+               name="/atg/commerce/device/DeviceLocationManager"
+               method="usersRequiringHelpCount"
+               method-return-var="usersCount">
+      <input name="pStoreId"  class-name="java.lang.String" value="${param.storeId}" />
+      <output id="customersRequiringHelpCount"  name="result" value="${usersCount}"/>
+    </component>
+  </actor-chain>
+
+  <!-- Deletes a help request for the specified user in a specified store. -->
+  <actor-chain id="deleteHelpRequest">
+    <component id="deviceLocationManager"
+               name="/atg/commerce/device/DeviceLocationManager"
+               method="deleteHelpRequest">
+      <input name="pStoreId" class-name="java.lang.String" value="${param.storeId}"/>
+      <input name="pUserId"  class-name="java.lang.String" value="${param.userId}"/>
+    </component>
+
+    <!-- Get the customers requiring help-->
+    <actor id="customersRequiringHelpActor" name="/atg/userprofiling/custsvc/store/InStoreDeviceActor"
+           chain-id="customersRequiringHelp" return-model-var="usersRequestingHelp">
+      <input name="pStoreId" class-name="java.lang.String" value="${param.storeId}"/>
+      <output id="users"  name="result" value="${usersRequestingHelp.result}"/>
+    </actor>
+  </actor-chain>
+
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/userprofiling/custsvc/store/inStoreDeviceActor.xml#1 $$Change: 1497274 $-->

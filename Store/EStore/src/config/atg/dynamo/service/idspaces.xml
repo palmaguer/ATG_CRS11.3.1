@@ -1,0 +1,6 @@
+<id-spaces>
+  <id-space name="user" seed="1" batch-size="10000" prefix="profile"/>
+  <id-space name="storeOMSTransaction" seed="1" batch-size="10000" prefix="ostr"/>
+  <id-space name="asSeenIn" seed="1" batch-size="10000" prefix="asi"/>
+</id-spaces>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/EStore/config/atg/dynamo/service/idspaces.xml#1 $$Change: 1497274 $-->

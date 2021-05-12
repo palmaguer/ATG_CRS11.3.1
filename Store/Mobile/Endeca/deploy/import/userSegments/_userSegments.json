@@ -1,0 +1,13 @@
+{
+    "segments": [
+	    {"name": "CategoryOnly"},
+        {"name": "NoPriceRange"},
+        {"name": "site.homeSite"},
+        {"name": "site.StoreSiteDE"},
+        {"name": "site.storeSiteUS"},
+        {"name": "site.mobileHomeSite"},
+        {"name": "site.mobileStoreSiteDE"},
+        {"name": "site.mobileStoreSiteUS"}
+    ],
+    "ecr:type": "user-segments"
+}

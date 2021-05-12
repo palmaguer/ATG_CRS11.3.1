@@ -1,0 +1,30 @@
+<!-- Copyright (C) 1994, 2018, Oracle and/or its affiliates. All rights reserved. -->
+<div class="oj-flex">
+    <!-- To ensure uniqueness, generated unique id for label and input tags. -->
+    <!-- Example: Generated Id will be in the format editor_<number> -->
+    <div class="oj-flex-item editorLabel">
+        <label data-bind="attr:{for: editorId}"><span data-bind="text : labelText"/></label>
+    </div>
+    <div class="oj-flex-item editorInput">
+        <!-- invalidComponentTracker is required in case of any validation needed for editor. So if an editor has validations defined, then
+          add  invalidComponentTracker: $parents[3].tracker as a property of ojComponent-->
+        <input title="" data-bind="attr : {'id': editorId ,'aria-label' : editorBundle.getMessage('editor.aria.label')}, ojComponent: { component: 'ojInputText', value : property().value , disabled : !isEnabled() || isReadOnly(),
+                                                                         help :{definition :helpText},
+                                                                         rootAttributes: {style:'max-width:68.5rem'},
+                                                                         displayOptions: {messages: 'inline'},
+                                                                         optionChange: handleInputKey.bind($data),
+                                                                         validators : [
+                                                                         {
+                                                                            type : 'regExp',
+                                                                            options : {
+                                                                                        pattern : requiredPattern
+                                                                                      }
+                                                                         }
+                                                                         ],
+                                                                         invalidComponentTracker: $parents[3].tracker
+                                                                         }"/><br>
+        <span data-bind="text: bottomLabel" class="bottomLabel"></span>
+    </div>
+	</div>
+</div>
+

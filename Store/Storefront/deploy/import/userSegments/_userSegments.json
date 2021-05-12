@@ -1,0 +1,10 @@
+{
+    "segments": [
+        {"name": "CategoryOnly"},
+        {"name": "NoPriceRange"},
+        {"name": "site.homeSite"},
+        {"name": "site.storeSiteDE"},
+        {"name": "site.storeSiteUS"}
+    ],
+    "ecr:type": "user-segments"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:assetBean xmlns:ns2="http://www.fatwire.com/schema/rest/1.0">
+    <id>CRSContentDef:1000000000054</id>
+    <name>CRSVideo</name>
+    <createdby>fwadmin</createdby>
+    <createddate>2013-07-25T12:53:34.905Z</createddate>
+    <description>CRS Video</description>
+    <publist>@@SITE_NAME@@</publist>
+    <status>PL</status>
+    <subtype></subtype>
+    <updatedby>fwadmin</updatedby>
+    <updateddate>2013-07-25T12:53:34.905Z</updateddate>
+    <attribute>
+        <name>fw_uid</name>
+        <data>
+            <stringValue>00000000-0000-0000-0000-00E8D4A51036</stringValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>id</name>
+        <data>
+            <longValue>1000000000054</longValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>renderid</name>
+        <data/>
+    </attribute>
+    <attribute>
+        <name>Attributes</name>
+        <data>
+            <listValue>
+                <item>
+                    <item>
+                        <name>ordinal</name>
+                        <data>
+                            <integerValue>1</integerValue>
+                        </data>
+                    </item>
+                    <item>
+                        <name>required</name>
+                        <data>
+                            <stringValue>true</stringValue>
+                        </data>
+                    </item>
+                    <item>
+                        <name>assetid</name>
+                        <data>
+                            <stringValue>CRSContentAttribute:1000000000050</stringValue>
+                        </data>
+                    </item>
+                </item>
+            </listValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>Groups</name>
+        <data>
+            <listValue>
+                <item>
+                    <item>
+                        <name>ordinal</name>
+                        <data>
+                            <integerValue>1</integerValue>
+                        </data>
+                    </item>
+                    <item>
+                        <name>required</name>
+                        <data>
+                            <stringValue>false</stringValue>
+                        </data>
+                    </item>
+                    <item>
+                        <name>multiple</name>
+                        <data>
+                            <stringValue>false</stringValue>
+                        </data>
+                    </item>
+                    <item>
+                        <name>assetid</name>
+                        <data>
+                            <stringValue>CRSContentParentDef:1000000000055</stringValue>
+                        </data>
+                    </item>
+                </item>
+            </listValue>
+        </data>
+    </attribute>
+    <attribute>
+        <name>Filters</name>
+        <data/>
+    </attribute>
+    <associations>
+        <href>myPathassociations</href>
+    </associations>
+</ns2:assetBean>
+
+<!--==================___ METADATA ___================
+<dependencies>
+  <list>
+    <dependency>
+      <depType>E</depType>
+      <resType>CRSContentAttribute</resType>
+      <resId>1000000000050</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51032</uid>
+    </dependency>
+    <dependency>
+      <depType>E</depType>
+      <resType>CRSContentParentDef</resType>
+      <resId>1000000000055</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51037</uid>
+    </dependency>
+    <dependency>
+      <depType>N</depType>
+      <resType>CRSContentDef</resType>
+      <resId>1000000000054</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51036</uid>
+    </dependency>
+    <dependency>
+      <depType>E</depType>
+      <resType>@ASSET_TYPE</resType>
+      <resId>CRSContentDef</resId>
+      <uid>00000000-0000-0000-0000-00E8D4A51045</uid>
+    </dependency>
+  </list>
+</dependencies>
+==================______________________==================
+#
+#Thu Jun 20 11:11:11 UTC 2013
+key=CRSContentDef-00000000-0000-0000-0000-00E8D4A51036
+type=ASSETDATA
+sites=@@SITE_NAME@@
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ASSET/CRSContentDef/CRSVideo(00000000-0000-0000-0000-00E8D4A51036).main.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,40 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:28.067Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.spotlight.label}"
+            },
+            {
+                "editor": "editors/SpotlightSelectionEditor",
+                "maxNumRecords": "maxNumRecords",
+                "propertyName": "recordSelection",
+                "seeAllLinkText": "seeAllLinkText",
+                "showSeeAllLink": "showSeeAllLink",
+                "label": "${property.recordSelection.label}"
+            }
+        ]
+    },
+    "typeInfo": {
+        "recordSelection": {"@propertyType": "Item"},
+        "maxNumRecords": {"@propertyType": "String"},
+        "seeAllLinkText": {"@propertyType": "String"},
+        "showSeeAllLink": {"@propertyType": "Boolean"},
+        "title": {"@propertyType": "String"}
+    },
+    "defaultContentItem": {
+        "@name": "Spotlight Records",
+        "maxNumRecords": "4",
+        "seeAllLinkText": "See All",
+        "showSeeAllLink": false,
+        "title": "Featured Items",
+        "recordSelection": {"@class": "com.endeca.infront.cartridge.RecordSpotlightSelection"}
+    },
+    "locales": {}
+}

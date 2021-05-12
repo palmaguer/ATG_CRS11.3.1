@@ -1,0 +1,7 @@
+ATG-Product: The Commerce Reference Store International Endeca Index Versioned
+Manifest-Version: 1.0
+ATG-Required: Store.WCSExtensions.Endeca.Index
+ATG-Config-Path: config/config.jar
+ATG-StagingConfig-Path: configlayers/stagingandprod
+
+

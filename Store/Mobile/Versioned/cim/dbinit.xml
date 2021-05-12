@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database-initializer SYSTEM "http://www.atg.com/dtds/dbinit_1_0.dtd">
+<database-initializer>
+
+  <schema id="versionedIBeaconSchema">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/versioned_location_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_versioned_location_ddl.sql
+        </drop>
+      </path>
+    </sql>
+    <data-import start-up-module="Store.Mobile.Versioned">
+    <requires-addon-id id="storefront-full-setup"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <incompatible-addon-id id="international"/>
+      <repository-path>/atg/commerce/locations/LocationRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/data/ibeacon.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_ibeacon</workspace>
+      <comment>initial_ibeacon_import</comment>
+    </data-import>
+  </schema>
+
+  <schema id="versionedIBeaconSchemaInternational">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/versioned_location_i18n_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_versioned_location_i18n_ddl.sql
+        </drop>
+      </path>
+    </sql>
+    <data-import start-up-module="Store.Mobile.International.Versioned">
+    <requires-addon-id id="storefront-full-setup"/>
+      <requires-addon-id id="international"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <repository-path>/atg/commerce/locations/LocationRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/data/ibeacon-i18n.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_ibeacon</workspace>
+      <comment>initial_ibeacon_import</comment>
+    </data-import>
+  </schema>
+
+  <schema id="versionedSitesTemplates">
+    <data-import start-up-module="Store.EStore.Versioned,Store.Mobile">
+      <requires-addon-id id="storefront-full-setup"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <incompatible-addon-id id="search"/>
+      <repository-path>/atg/multisite/SiteRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/Versioned/install/data/sites-templates.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_sites_templates</workspace>
+      <comment>initial_mobile_sites_templates_import</comment>
+    </data-import>
+    <data-import start-up-module="DAF.Search.Versioned,Store.EStore.Versioned,Store.Mobile">
+      <requires-addon-id id="storefront-full-setup"/>
+      <requires-addon-id id="search"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <repository-path>/atg/multisite/SiteRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/Versioned/install/data/sites-templates.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_sites_templates</workspace>
+      <comment>initial_mobile_sites_templates_import</comment>
+    </data-import>
+  </schema>
+  
+  <schema id="versionedSitesTemplatesInternational">
+    <data-import start-up-module="Store.EStore.International,Store.EStore.Versioned,Store.Mobile">
+      <requires-addon-id id="storefront-full-setup"/>
+      <requires-addon-id id="international"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <incompatible-addon-id id="search"/>
+      <repository-path>/atg/multisite/SiteRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/Versioned/install/data/sites-templates-i18n.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_sites_templates_i11l</workspace>
+      <comment>initial_mobile_sites_templates_i11l_import</comment>
+    </data-import>
+    <data-import start-up-module="DAF.Search.Versioned,Store.EStore.International,Store.EStore.Versioned,Store.Mobile">
+      <requires-addon-id id="storefront-full-setup"/>
+      <requires-addon-id id="international"/>
+      <requires-addon-id id="search"/>
+      <incompatible-addon-id id="StoreNoSite"/>
+      <repository-path>/atg/multisite/SiteRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/Versioned/install/data/sites-templates-i18n.xml</import-file-path>
+      <user>publishing</user>
+      <workspace>mobile_store_sites_templates_i11l</workspace>
+      <comment>initial_mobile_sites_templates_i11l_import</comment>
+    </data-import>
+  </schema>
+
+  <!-- schema for extensions to the promotionalContent item -->
+  <schema id="versionedPromotionalContent">
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/versioned_mobile_catalog_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_versioned_mobile_catalog_ddl.sql
+        </drop>
+      </path>
+    </sql>
+  </schema>
+
+  <server-instance-type id="management">
+    <datasource id="management">
+      <schema id="versionedPromotionalContent"/>
+      <schema id="versionedSitesTemplates"/>
+      <schema id="versionedSitesTemplatesInternational"/>
+      <schema id="versionedIBeaconSchema"/>
+      <schema id="versionedIBeaconSchemaInternational"/>
+    </datasource>
+  </server-instance-type>
+</database-initializer>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/Versioned/cim/dbinit.xml#1 $$Change: 1497274 $-->

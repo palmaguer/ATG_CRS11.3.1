@@ -1,0 +1,55 @@
+{
+  "indexConfig" : {
+    "system" : {
+      "attributes" : {
+        "jcr:primaryType" : "endeca:unstructured",
+        "record.id" : {
+          "propertyDataType" : "ALPHA",
+          "jcr:primaryType" : "endeca:property",
+          "isRecordFilterable" : true
+        },
+        "content.repositoryId" : {
+          "propertyDataType" : "ALPHA",
+          "mergeAction" : "UPDATE",
+          "isRollupKey" : true,
+          "jcr:primaryType" : "endeca:property",
+          "isRecordFilterable" : true
+        },
+        "product.repositoryId" : {
+          "propertyDataType" : "ALPHA",
+          "mergeAction" : "UPDATE",
+          "isRollupKey" : true,
+          "jcr:primaryType" : "endeca:property",
+          "isRecordFilterable" : true
+        },
+        "store.repositoryId" : {
+          "propertyDataType" : "ALPHA",
+          "mergeAction" : "UPDATE",
+          "isRollupKey" : true,
+          "jcr:primaryType" : "endeca:property",
+          "isRecordFilterable" : true
+        },
+        "article.repositoryId" : {
+          "propertyDataType" : "ALPHA",
+          "mergeAction" : "UPDATE",
+          "isRollupKey" : true,
+          "jcr:primaryType" : "endeca:property",
+          "isRecordFilterable" : true
+        },
+        "sku.margin" : {
+          "propertyDataType" : "DOUBLE",
+          "mergeAction" : "UPDATE",
+          "jcr:primaryType" : "endeca:property"
+        }
+      },
+      "precedenceRules" : {
+      },
+      "searchIndexConfig" : {
+        "isWildcardEnabledInDimensionSearch" : true,
+        "spellingDictMaxWordLength" : 16,
+        "spellingDictMinNumWordOccurrences" : 4,
+        "spellingDictMinWordLength" : 3
+      }
+    }
+  }
+}

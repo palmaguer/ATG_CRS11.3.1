@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE gsa-template
+  PUBLIC "-//Art Technology Group, Inc.//DTD General SQL Adapter//EN"
+  "http://www.atg.com/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+
+  <header>
+    <name>Mobile Location Internationalization Additions</name>
+    <author>ATG</author>
+  </header>
+
+  <!--///////////////////////////////-->
+  <!--     ibeaconAlertTranslation   -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="ibeaconAlertTranslation"
+                   display-name-resource="itemDescriptoribeaconAlertTranslation"
+                   display-property="text">
+
+    <table name="crs_ibcnalrt_xlate" type="primary" id-column-name="translation_id">
+      <property name="text" column-names="alert_text" data-type="string"
+                category-resource="ibeaconAlertPresentation" display-name-resource="ibeaconAlert.text"/>
+    </table>
+  </item-descriptor>
+
+  <!--///////////////////////////////-->
+  <!--     ibeaconAlert              -->
+  <!--///////////////////////////////-->
+  <item-descriptor name="ibeaconAlert" display-property="name" xml-combine="append">
+
+    <table name="crs_ibeacon_alert" type="primary" id-column-name="alert_id">
+      <property name="text" xml-combine="remove"/>
+
+      <property name="textDefault" column-name="alert_text" data-type="string"
+                category-resource="ibeaconAlertDetails" display-name-resource="ibeaconAlert.text">
+        <attribute name="propertySortPriority" value="120"/>
+      </property>
+    </table>
+
+    <property name="text" data-type="string"
+              writable="false" hidden="true" display-name-resource="ibeaconAlert.text">
+      <derivation user-method="atg.repository.dp.LanguageTranslation">
+        <expression>textDefault</expression>
+      </derivation>
+      <attribute name="defaultProperty" value="textDefault"/>
+      <attribute name="defaultLocale" value="en_US"/>
+    </property>
+
+    <table name="crs_alrt_alrt_xlate" type="multi" multi-column-name="locale" id-column-name="alert_id">
+      <property name="translations" display-name="Translations" column-name="translation_id" data-type="map"
+                component-item-type="ibeaconAlertTranslation" category-resource="categoryAppearance"
+                display-name-resource="ibeaconAlert.translations">
+        <attribute name="propertySortPriority" value="-12"/>
+      </property>
+    </table>
+  </item-descriptor>
+
+</gsa-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/International/config/atg/commerce/locations/locationRepository.xml#1 $$Change: 1497274 $-->

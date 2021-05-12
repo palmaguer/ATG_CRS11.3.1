@@ -1,0 +1,9 @@
+<actor-template>
+  <actor-chain id="viewCustomer-success">
+    <!-- When a customer has been successfully selected for viewing, output that customer's profile information. -->
+    <actor id="customerOutput" name="/atg/userprofiling/ServiceCustomerProfileActor" chain-id="detailed" return-model-var="profile">
+      <output id="profile" add-map-children="true" value="${profile}"/>
+    </actor>
+  </actor-chain>
+ </actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/REST/config/atg/svc/agent/ui/formhandlers/serviceUIProfileActor.xml#1 $$Change: 1497274 $-->

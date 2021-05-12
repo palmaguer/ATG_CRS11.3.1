@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE FTCS SYSTEM "futuretense_cs.dtd">
+
+<FTCS Version="1.1">
+<!-- 
+$Logfile: /VerticalApps/XcelerateA/install/Gator/Populate/ElementCatalog/OpenMarket/Gator/FlexibleAssets/AssetMaker/FlexTmpls/PostUpdate.xml $ 
+$Revision: #1 $ 
+$Modtime: 11/16/01 5:59p $ 
+-->
+
+<!--
+- Confidential and Proprietary Information of FutureTense Inc.
+-					All Rights Reserved.
+-
+- PostUpdate.xml
+-
+- DESCRIPTION
+-	
+-
+- HISTORY 
+-->
+ <callelement NAME="OpenMarket/Gator/FlexibleAssets/Common/PostUpdate"/>
+</FTCS>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ELEMENTS/OpenMarket/Xcelerate/AssetType/CRSContentDef/PostUpdate.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,27 @@
+{
+    "@description": "${template.description}",
+    "@group": "Page",
+    "ecr:createDate": "2016-12-08T14:22:36.859Z",
+    "@thumbnailUrl": "thumbnail.jpg",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": []
+    },
+    "typeInfo": {
+        "MainContent": {
+            "@propertyType": "ContentItemList",
+            "@group": "MainContent"
+        },
+        "SecondaryContent": {
+            "@propertyType": "ContentItemList",
+            "@group": "SecondaryContent"
+        }
+    },
+    "defaultContentItem": {
+        "@name": "Mobile Page",
+        "MainContent": [],
+        "SecondaryContent": []
+    },
+    "locales": {}
+}

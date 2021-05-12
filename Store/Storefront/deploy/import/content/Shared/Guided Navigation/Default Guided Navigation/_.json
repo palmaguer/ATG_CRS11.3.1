@@ -1,0 +1,223 @@
+{
+    "mdexMerchRuleID": 8,
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:36.951Z",
+    "priority": "20",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Guided Navigation",
+        "@type": "GuidedNavigation",
+        "navigation": [
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Category",
+                "dimensionId": "10011",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": false,
+                "dimensionName": "product.category",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "@name": "Price",
+                "priceProperty": "sku.activePrice",
+                "@type": "PriceSlider"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Size",
+                "dimensionId": "10002",
+                "moreLinkText": "Show More Refinements...",
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "clothing-sku.size",
+                "displayNamePropertyAlias": "displayName",
+                "boostRefinements": [
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "2",
+                        "id": "4294967147"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "4",
+                        "id": "4294967146"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "5",
+                        "id": "4294967153"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "6",
+                        "id": "4294967160"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "7",
+                        "id": "4294967159"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "8",
+                        "id": "4294967158"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "9",
+                        "id": "4294967157"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "10",
+                        "id": "4294967156"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "11",
+                        "id": "4294967155"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "12",
+                        "id": "4294967154"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "28",
+                        "id": "4294967211"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "30",
+                        "id": "4294967241"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "32",
+                        "id": "4294967237"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "34",
+                        "id": "4294967236"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "36",
+                        "id": "4294967235"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "38",
+                        "id": "4294967212"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "40",
+                        "id": "4294967182"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "S",
+                        "id": "4294967284"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "M",
+                        "id": "4294967274"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "L",
+                        "id": "4294967273"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "XL",
+                        "id": "4294967272"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "XXL",
+                        "id": "4294967129"
+                    },
+                    {
+                        "@class": "com.endeca.infront.navigation.model.DvalSpec",
+                        "name": "One Size",
+                        "id": "4294967219"
+                    }
+                ]
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Brand",
+                "dimensionId": "10093",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": false,
+                "dimensionName": "product.brand",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Color",
+                "dimensionId": "10001",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "clothing-sku.color",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Wood Finish",
+                "dimensionId": "10003",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "furniture-sku.woodFinish",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "Feature",
+                "dimensionId": "10007",
+                "moreLinkText": "Show More Refinements...",
+                "boostRefinements": [],
+                "@type": "RefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "product.features.displayName",
+                "displayNamePropertyAlias": "displayName"
+            }
+        ]
+    }    
+}

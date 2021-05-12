@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wizards SYSTEM "http://www.atg.com/dtds/wizard_1_0.dtd">
+<wizards>
+
+  <!--
+    This wizard is always executed when custom cim plugin is launched.
+    The Wizard id and process id must be unique within all wizard.xml files.
+  -->
+  <wizard id="CRSKeyStoreMenu">
+    <title resource-key="wizards.xml.crs.main.menu.title" resource-bundle="atg.cim.ProductResources">
+      Set security credentials for CRS key store
+    </title>
+    <detail></detail>
+
+    <!--
+      Keystore configuration process. This process:
+      - creates a keystore
+      - puts the keystore password in OPSS
+      - puts the encrypt/decrypt password in OPSS
+    -->
+    <process id="CRSKeyStoreConfiguration">
+
+      <!-- Display the first menu options during the process -->
+      <step id="DisplayKeyStoreMenu">
+        <title resource-key="wizards.xml.crs.configuration.title" resource-bundle="atg.cim.ProductResources">
+          Key store configuration
+        </title>
+        <detail resource-key="wizards.xml.crs.configuration.detail" resource-bundle="atg.cim.ProductResources">
+          Key store in CRS is used to store encryption/decryption keys for securing credit card numbers. The passwords you specify here would be used to protect a freshly generated key and a key store. As these passwords are saved in the OPSS file, you must deploy it using OPSS security option from main menu after this step. Additionally, CRS application data must be reloaded to get credit cards encrypted using newly generated key.
+        </detail>
+
+        <navoption id="install">
+          <label>Key store configuration</label>
+          <command type="GOTO_STEP" value="KeyStoreSetup"/>
+        </navoption>
+
+        <validator id="CRSEnabledValidator" phase="PRESTEP">
+          <if-false>
+            <command type="DISPLAY_TEXT" value="Oracle Commerce Reference Store needs to be selected in order to proceed with key store configuration."/>
+            <command type="GOTO_STEP" value="end"/>
+          </if-false>
+        </validator>
+
+        <error>
+          <step id="KeyStoreMenuErrorStep">
+            <title resource-key="wizards.xml.crs.configuration.error.title" resource-bundle="atg.cim.ProductResources">
+              Unexpected error
+            </title>
+            <detail resource-key="wizards.xml.crs.configuration.error.detail" resource-bundle="atg.cim.ProductResources">
+              An unexpected error has occurred. Please check the cim.log for details
+            </detail>
+            <navoption id="continue">
+              <label resource-key="wizards.xml.crs.configuration.common.continue" resource-bundle="atg.cim.ProductResources">
+                Continue
+              </label>
+              <command type="GOTO_STEP" value="DisplayKeyStoreMenu"/>
+            </navoption>
+          </step>
+        </error>
+      </step>
+
+      <!-- Execute the tasks to generate the keystore and opss files -->
+      <step id="KeyStoreSetup">
+        <title>Enter Passwords</title>
+        <detail></detail>
+        <task id="KeyStorePasswordTask"/>
+        <task id="EncryptKeyPasswordTask"/>
+
+        <validator id="AlwaysTrueValidator" phase="PRENAVIGATION">
+          <if-true>
+            <command type="EXECUTE_STEP_TASKS"  />
+            <command type="GOTO_STEP" value="end"/>
+          </if-true>
+        </validator>
+      </step>
+
+      <!-- wizard complete -->
+      <step id="end">
+        <validator id="AlwaysTrueValidator" phase="PRENAVIGATION">
+          <if-true>
+            <command type="NEXT_STEP" />
+          </if-true>
+        </validator>
+      </step>
+
+    </process>
+  </wizard>
+</wizards>
+        <!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/EStore/cim/plugins/wizards.xml#1 $$Change: 1497274 $-->

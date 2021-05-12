@@ -1,0 +1,7 @@
+{
+   "ecr:type":"editor",
+   "config":{
+      "resourcePath":"/configuration/tools/xmgr/services/productdataservice.json"
+
+   }
+}

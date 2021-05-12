@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!DOCTYPE FTCS SYSTEM "futuretense_cs.dtd">
+<FTCS Version="1.2">
+<!-- OpenMarket/Gator/FlexibleAssets/AssetMaker/Filters/AppendSelectDetails
+-
+- INPUT
+-
+- OUTPUT
+-
+-->
+
+<CALLELEMENT NAME="OpenMarket/Gator/FlexibleAssets/Filters/AppendSelectDetailsSE"/>
+
+
+</FTCS>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/_metadata/ELEMENTS/OpenMarket/Xcelerate/AssetType/CRSContentFilter/AppendSelectDetailsSE.xml#1 $$Change: 1497274 $-->

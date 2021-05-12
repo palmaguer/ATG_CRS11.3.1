@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE item PUBLIC "-//Art Technology Group, Inc.//DTD Repository Ouput Specifier 1.0//EN" "http://www.atg.com/dtds/search/indexing-dependency-schema.dtd">
+
+<item item-descriptor-name="storeVideo">
+  <properties>
+    <property name="name" property-accessor="languagePropertyAccessor"/>
+  </properties>
+</item>
+
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/Endeca/International/Index/config/atg/commerce/endeca/index/store-content-video-output-config.xml#1 $$Change: 1497274 $-->

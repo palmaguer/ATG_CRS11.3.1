@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database-initializer SYSTEM "http://www.atg.com/dtds/dbinit_1_0.dtd">
+<database-initializer>
+
+  <schema id="announcementsSchema">
+
+    <sql>
+      <path>
+        <create>
+          sql/db_components/${database}/storeannouncements_i18n_ddl.sql
+        </create>
+        <drop>
+          sql/uninstall/${database}/drop_storeannouncements_i18n_ddl.sql
+        </drop>
+      </path>
+
+    </sql>
+    
+  </schema>
+  
+  <schema id="sitesSwitchingSchema">
+    <data-import start-up-module="Store.EStore.International, Store.Mobile.DCS-CSR.International" required-datasources="switchingCore">
+      <requires-addon-id id="international"/>
+      <requires-addon-id id="storefront-full-setup"/>
+      <repository-path>/atg/store/stores/StoreContentRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/DCS-CSR/International/data/store-announcements.xml</import-file-path>
+    </data-import>
+  </schema>
+
+  <schema id="sitesNonSwitchingCoreSchema">
+    <data-import start-up-module="Store.EStore.International, Store.Mobile.DCS-CSR.International">
+      <requires-addon-id id="international"/>
+      <requires-addon-id id="storefront-full-setup"/>
+      <repository-path>/atg/store/stores/StoreContentRepository</repository-path>
+      <import-file-path>/CommerceReferenceStore/Store/Mobile/DCS-CSR/International/data/store-announcements.xml</import-file-path>
+    </data-import>
+  </schema>
+
+  <server-instance-type id="production">
+    
+    <datasource id="nonswitchingCore">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesNonSwitchingCoreSchema"/>
+    </datasource>
+
+    <datasource id="switchingA">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+    <datasource id="switchingB">
+      <schema id="announcementsSchema"/>
+      <schema id="sitesSwitchingSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+  <server-instance-type id="staging">
+
+    <datasource id="stagingnonswitchingCore">
+      <schema id="announcementsSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingA">
+      <schema id="announcementsSchema"/>
+    </datasource>
+
+    <datasource id="stagingswitchingB">
+      <schema id="announcementsSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+
+</database-initializer>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/DCS-CSR/International/cim/dbinit.xml#1 $$Change: 1497274 $-->

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<output>
+  <item asset-type="CRSArticle">
+    <property name="$type" output-name="asset.type"/>
+    <property name="$id" output-name="asset.id"/>
+    <property name="$localeMaster" output-name="asset.localeMasterAssetId"/>
+    <property name="$locale" output-name="asset.locale"/>
+    <property name="name" output-name="asset.name"/>
+
+    <property name="headline" output-name="article.headline"/>
+    <property name="subheadline" output-name="article.subheadline"/>
+    <property name="abstract" output-name="article.abstract"/>
+    <property name="body" output-name="article.body"/>
+    <property name="mainImage" output-name="atricle.mainImageId"/>
+    <property name="author" output-name="article.author"/>
+    <property name="postDate" output-name="article.postDate"/>
+
+    <property name="startdate" output-name="asset.startDate"/>
+    <property name="enddate" output-name="asset.endDate"/>
+  </item>
+
+  <item asset-type="CRSVideo">
+    <property name="$type" output-name="asset.type"/>
+    <property name="$id" output-name="asset.id"/>
+    <property name="$localeMaster" output-name="asset.localeMasterAssetId"/>
+    <property name="$locale" output-name="asset.locale"/>
+    <property name="name" output-name="asset.name"/>
+
+    <property name="externalURL" output-name="video.url"/>
+  </item>
+
+  <item asset-type="CRSImage">
+    <property name="$type" output-name="asset.type"/>
+    <property name="$id" output-name="asset.id"/>
+    <property name="$localeMaster" output-name="asset.localeMasterAssetId"/>
+    <property name="$locale" output-name="asset.locale"/>
+    <property name="name" output-name="asset.name"/>
+
+    <property name="externalURL" output-name="image.url"/>
+  </item>
+</output>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/Endeca/wcsconfig/atg_wcs_extension/output-config.xml#1 $$Change: 1497274 $-->

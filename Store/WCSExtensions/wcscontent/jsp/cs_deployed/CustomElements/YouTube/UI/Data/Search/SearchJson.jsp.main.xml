@@ -1,0 +1,33 @@
+<object-stream>
+  <com.fatwire.realtime.ResourceDataImpl>
+    <id class="string">CustomElements/YouTube/UI/Data/Search/SearchJson</id>
+    <resourceType>ELEMENTCATALOG</resourceType>
+    <deps class="empty-set"/>
+    <data class="com.openmarket.xcelerate.common.ElementCatalogEntry" serialization="custom">
+      <com.openmarket.xcelerate.common.ElementCatalogEntry>
+        <int>1</int>
+        <string>CustomElements/YouTube/UI/Data/Search/SearchJson</string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string>CustomElements/YouTube/UI/Data/Search/SearchJson.jsp</string>
+        <string></string>
+        <string></string>
+      </com.openmarket.xcelerate.common.ElementCatalogEntry>
+    </data>
+  </com.fatwire.realtime.ResourceDataImpl>
+</object-stream>
+<!--==================___ METADATA ___================
+<dependencies>
+  <linked-hash-set/>
+</dependencies>
+==================______________________==================
+#
+#Fri Mar 22 14:25:09 CET 2013
+storable0=/ELEMENTS/JSP/CustomElements/YouTube/UI/Data/Search/SearchJson.jsp|null|_storable_type\=%2FELEMENTS%2FJSP%2FCustomElements%2FYouTube%2FUI%2FData%2FSearch%2FSearchJson.jsp
+@hashval=779265214
+key=@ELEMENTCATALOG-CustomElements/YouTube/UI/Data/Search/SearchJson
+type=ELEMENTCATALOG
+
+==================___ END METADATA ___==================-->
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/wcscontent/jsp/cs_deployed/CustomElements/YouTube/UI/Data/Search/SearchJson.jsp.main.xml#1 $$Change: 1497274 $-->

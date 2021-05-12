@@ -1,0 +1,29 @@
+{
+    "@description": "${template.description}",
+    "@group": "MainContent",
+    "ecr:createDate": "2016-12-07T09:49:28.678Z",
+    "@thumbnailUrl": "thumbnail.png",
+    "ecr:type": "template",
+    "editorPanel": {
+        "editor": "editors/DefaultEditorPanel",
+        "children": [
+            {
+                "editor": "GroupLabel",
+                "label": "${group.generalSettings.label}"
+            },
+            {
+                "editor": "editors/NumericStepperEditor",
+                "minValue": 1,
+                "propertyName": "recordsPerPage",
+                "maxValue": 100,
+                "label": "${property.recordsPerPage.label}"
+            }
+        ]
+    },
+    "typeInfo": {"recordsPerPage": {"@propertyType": "String"}},
+    "defaultContentItem": {
+        "@name": "Category Products",
+        "recordsPerPage": "12"
+    },
+    "locales": {}
+}

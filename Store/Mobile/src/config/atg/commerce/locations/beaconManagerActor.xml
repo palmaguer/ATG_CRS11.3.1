@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor-template xsi:noNamespaceSchemaLocation="http://www.atg.com/xsds/actorChain_1.0.xsd"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                default-chain-id="beacons">
+
+  <!--   public String getCompanyUuid() -->
+  <actor-chain id="UUIDs">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="getUUIDs"
+               method-return-var="uuids"
+               invoke-method-requires-session-confirmation="false">
+      <output id="uuids" name="uuids" value="${uuids}" />
+    </component>
+  </actor-chain>
+
+  <!--   public RepositoryItem getBeaconById(String pRepositoryId) -->
+  <actor-chain id="beaconById">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="getBeaconById"
+               method-return-var="beacon"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pRepositoryId"  class-name="java.lang.String" value="${param.id}"/>
+      <output id="beacon" name="beacon" value="${beacon}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem[] getBeacons(String pUUID, String pMajor, String pMinor) -->
+  <actor-chain id="beacons">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="getBeacons"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem getStoreForBeacon(String pUUID, String pMajor, String pMinor) -->
+  <actor-chain id="storeForBeacon">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="getStoreForBeacon"
+               method-return-var="store"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <output id="store" name="store" value="${store}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem[] enterBeaconRange(String pUUID, String pMajor, String pMinor) -->
+  <actor-chain id="enterBeaconRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="enterBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem[] enterBeaconRange(List pBeaconList) -->
+  <actor-chain id="enterBeaconListRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="enterBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pBeaconList" class-name="java.util.List" value="${objectParam.beacons}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem[] exitBeaconRange(String pUUID, String pMajor, String pMinor) -->
+  <actor-chain id="exitBeaconRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="exitBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem[] exitBeaconRange(List pBeaconList) -->
+  <actor-chain id="exitBeaconListRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="exitBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pBeaconList" class-name="java.util.List" value="${objectParam.beacons}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem enterStore(String pStoreId) -->
+  <actor-chain id="enterStore">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="enterStore"
+               method-return-var="store"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pStoreId"   class-name="java.lang.String" value="${param.id}"/>
+      <output id="store" name="store" value="${store}" />
+    </component>
+  </actor-chain>
+
+  <!-- RepositoryItem exitStore(String pStoreId) -->
+  <actor-chain id="exitStore">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="exitStore"
+               method-return-var="store"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pStoreId"  class-name="java.lang.String" value="${param.id}"/>
+      <output id="store" name="store" value="${store}" />
+    </component>
+  </actor-chain>
+
+  <!-- void requestedHelp(String pUserMessage) -->
+  <actor-chain id="requestHelp">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="requestHelp"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <input name="pParams"    class-name="java.util.Map"    value="${param.params}" />
+    </component>
+  </actor-chain>
+
+  <!-- void cancelledHelp(String pUserMessage) -->
+  <actor-chain id="cancelHelp">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="cancelHelp"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID"   class-name="java.lang.String" value="${param.deviceUID}"/>
+    </component>
+  </actor-chain>
+
+  <!-- void updateRanging(String pUUID, String pMajor, String pMinor) -->
+  <actor-chain id="updateBeaconRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="updateBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pUUID"  class-name="java.lang.String" value="${param.uuid}"/>
+      <input name="pMajor" class-name="java.lang.String" value="${param.major}"/>
+      <input name="pMinor" class-name="java.lang.String" value="${param.minor}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+  <actor-chain id="updateBeaconListRange">
+    <component id="beaconManager"
+               name="/atg/commerce/locations/BeaconManager"
+               method="updateBeaconRange"
+               method-return-var="beacons"
+               invoke-method-requires-session-confirmation="false">
+      <input name="pDeviceUID" class-name="java.lang.String" value="${param.deviceUID}"/>
+      <input name="pBeaconList" class-name="java.util.List" value="${objectParam.beacons}"/>
+      <output id="beacons" name="beacons" value="${beacons}" />
+    </component>
+  </actor-chain>
+
+</actor-template>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/Mobile/config/atg/commerce/locations/beaconManagerActor.xml#1 $$Change: 1497274 $-->

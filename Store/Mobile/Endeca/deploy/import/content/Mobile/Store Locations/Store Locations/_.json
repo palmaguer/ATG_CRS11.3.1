@@ -1,0 +1,44 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-03-21T09:10:57.015+01:00",
+    "priority": 10,
+    "triggers": [{
+        "exactLocation": false,
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Mobile Page",
+        "@type": "MobilePage",
+        "MainContent": [{
+            "ruleLimit": "1",
+            "@name": "Results List",
+            "templateTypes": ["MainContent"],
+            "templateIds": [],
+            "@type": "ContentSlot-Main",
+            "contentPaths": ["/content/Shared/Stores Results List"]
+        }],
+        "SecondaryContent": [
+            {
+                "@name": "Breadcrumbs",
+                "@type": "LocationBreadcrumbs",
+                "displayNamePropertyAlias": "displayName"
+            },
+            {
+                "@name": "Store Location Search",
+                "@type": "LocationSearch-CurrentLocation",
+                "geoProperty": "store.geocode",
+                "defaultSearchRadius": "100"
+            },
+            {
+                "ruleLimit": "1",
+                "@name": "Stores Guided Nav",
+                "templateTypes": ["SecondaryContent"],
+                "templateIds": [],
+                "@type": "ContentSlot-Secondary",
+                "contentPaths": ["/content/Shared/Stores Guided Navigation"]
+            }
+        ]
+    }
+}

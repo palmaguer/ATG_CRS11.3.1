@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database-initializer SYSTEM "http://www.atg.com/dtds/dbinit_1_0.dtd">
+<database-initializer>
+
+  <schema id="versionedSchema">
+
+    <sql>
+      <path>
+        <create>
+        sql/db_components/${database}/versioned_storecontent_ddl.sql
+        </create>
+      <drop>
+        sql/uninstall/${database}/drop_versioned_storecontent_ddl.sql
+      </drop>
+      </path>
+    </sql>
+    
+  </schema>
+  
+  <server-instance-type id="management">
+
+    <datasource id="management">
+      <schema id="versionedSchema"/>
+    </datasource>
+
+  </server-instance-type>
+
+
+</database-initializer>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/Versioned/cim/dbinit.xml#1 $$Change: 1497274 $-->

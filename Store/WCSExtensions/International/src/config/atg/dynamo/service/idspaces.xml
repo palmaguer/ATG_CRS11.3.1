@@ -1,0 +1,6 @@
+<id-spaces>
+  <id-space name="storeArticleTranslation" seed="1" batch-size="10000" prefix="at"/>
+  <id-space name="storeImageTranslation" seed="1" batch-size="10000" prefix="it"/>
+  <id-space name="storeVideoTranslation" seed="1" batch-size="10000" prefix="vt"/>
+</id-spaces>
+<!-- @version $Id: //hosting-blueprint/B2CBlueprint/version/11.3.1/WCSExtensions/International/config/atg/dynamo/service/idspaces.xml#1 $$Change: 1497274 $-->

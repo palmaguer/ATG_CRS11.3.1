@@ -1,0 +1,48 @@
+{
+    "workflowState": "ACTIVE",
+    "ecr:lastModified": "2014-01-27T14:54:37.014Z",
+    "priority": "10",
+    "triggers": [{
+        "inherit": "TRUE",
+        "ecr:type": "trigger"
+    }],
+    "ecr:lastModifiedBy": "admin",
+    "ecr:type": "content-item",
+    "contentItem": {
+        "@name": "Navigation Container",
+        "@type": "GuidedNavigation",
+        "navigation": [
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "State",
+                "dimensionId": "10102",
+                "moreLinkText": "Show More States...",
+                "boostRefinements": [],
+                "@type": "LocationRefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "store.state"
+            },
+            {
+                "numRefinements": "10",
+                "buryRefinements": [],
+                "@name": "City",
+                "dimensionId": "10100",
+                "moreLinkText": "Show More Cities...",
+                "boostRefinements": [],
+                "@type": "LocationRefinementMenu",
+                "maxNumRefinements": "200",
+                "sort": "default",
+                "showMoreLink": true,
+                "dimensionName": "store.city"
+            },
+            {
+                "@name": "Distance",
+                "@type": "LocationSearchRadius",
+                "geoProperty": "store.geocode"
+            }
+        ]
+    } 
+}
