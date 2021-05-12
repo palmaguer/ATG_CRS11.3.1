@@ -1,147 +1,161 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <eclipse-userlibraries version="2">
+    <library name="ATG__ADC" systemlibrary="false">
+        <archive path="O:/ATG/ATG11.3.2/ADC/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/ADC/lib/classes.jar"/>
+    </library>
     <library name="ATG__ContentMgmt" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/ContentMgmt/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/ContentMgmt/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/ContentMgmt/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/ContentMgmt/config/config.jar"/>
     </library>
     <library name="ATG__CSC.DCS-CSR" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/CSC11.3.2/DCS-CSR/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/CSC11.3.2/DCS-CSR/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/CSC11.3.2/DCS-CSR/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/CSC11.3.2/DCS-CSR/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Endeca.Assembler" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Assembler/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Assembler/lib/endeca_assembler_core.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Assembler/lib/endeca_assembler_navigation.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Assembler/lib/endeca_navigation.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Assembler/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Assembler/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Assembler/lib/endeca_assembler_core.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Assembler/lib/endeca_assembler_navigation.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Assembler/lib/endeca_navigation.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Assembler/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Endeca.Base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Base/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Base/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Base/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Base/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Endeca.Reader" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Reader/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Reader/lib/custom311/reader-custom.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Endeca/Reader/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Reader/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Reader/lib/custom311/reader-custom.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Endeca/Reader/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Search" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Search/common/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Search/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/common/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Search.Base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Search/Base/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Search/Base/lib/rmi-stub-classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Search/Base/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Base/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Base/lib/rmi-stub-classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Base/config/config.jar"/>
     </library>
     <library name="ATG__DAF.Search.Index" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAF/Search/Index/lib/bpi.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Search/Index/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAF/Search/Index/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Index/lib/bpi.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Index/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAF/Search/Index/config/config.jar"/>
     </library>
     <library name="ATG__DafEar.base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DafEar/base/config/dafconfig.jar"/>
-        <archive path="DYNAMO_ROOT/DafEar/base/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DafEar/base/j2ee-components/atg-bootstrap-ejb.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DafEar/base/config/dafconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DafEar/base/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DafEar/base/j2ee-components/atg-bootstrap-ejb.jar"/>
     </library>
     <library name="ATG__DafEar.WebLogic" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DafEar/WebLogic/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DafEar/WebLogic/config/wlconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DafEar/WebLogic/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DafEar/WebLogic/config/wlconfig.jar"/>
     </library>
     <library name="ATG__DAS" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAS/lib/atg-coherence-classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/atg-jaxb-invoker.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/commons-codec-1.12.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/commons-logging-1.2.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/httpclient-4.5.7.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/httpcore-4.4.11.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/javax.el-3.0.1-b11.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/opssclassloader.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/protocol.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/resources.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/servlet.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/subclassloader.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/lib/wls_hotfix.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/config/batchconfig.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/config/config.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/config/dtmconfig.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/config/jspbatchconfig.jar"/>
-        <archive path="DYNAMO_ROOT/DAS/config/oca-ldap.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/atg-coherence-classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/atg-jaxb-invoker.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/commons-codec-1.12.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/commons-logging-1.2.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/httpclient-4.5.7.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/httpcore-4.4.11.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/javax.el-3.0.1-b11.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/opssclassloader.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/protocol.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/resources.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/servlet.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/subclassloader.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/lib/wls_hotfix.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/config/batchconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/config/dtmconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/config/jspbatchconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS/config/oca-ldap.jar"/>
     </library>
     <library name="ATG__DAS-UI" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DAS-UI/lib/client-stubs.jar"/>
-        <archive path="DYNAMO_ROOT/DAS-UI/lib/jhall.jar"/>
-        <archive path="DYNAMO_ROOT/DAS-UI/lib/uiclasses.jar"/>
-        <archive path="DYNAMO_ROOT/DAS-UI/lib/uiresources.jar"/>
-        <archive path="DYNAMO_ROOT/DAS-UI/config/uiconfig.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS-UI/lib/client-stubs.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS-UI/lib/jhall.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS-UI/lib/uiclasses.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS-UI/lib/uiresources.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DAS-UI/config/uiconfig.jar"/>
     </library>
     <library name="ATG__DCS" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DCS/lib/resources.jar"/>
-        <archive path="DYNAMO_ROOT/DCS/lib/dcs-jersey-classloader.jar"/>
-        <archive path="DYNAMO_ROOT/DCS/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/lib/resources.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/lib/dcs-jersey-classloader.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/config/config.jar"/>
     </library>
     <library name="ATG__DCS.AbandonedOrderServices" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/AbandonedOrderServices/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/AbandonedOrderServices/config/config.jar"/>
+    </library>
+    <library name="ATG__DCS.ADC" systemlibrary="false">
+        <archive path="O:/ATG/ATG11.3.2/DCS/ADC/config/config.jar"/>
     </library>
     <library name="ATG__DCS.Endeca.Assembler" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/Endeca/Assembler/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/Endeca/Assembler/config/config.jar"/>
     </library>
     <library name="ATG__DCS.Endeca.Base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/Endeca/Base/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/Endeca/Base/config/config.jar"/>
     </library>
     <library name="ATG__DCS.Endeca.Index" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/Endeca/Index/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/Endeca/Index/config/config.jar"/>
     </library>
     <library name="ATG__DCS.Endeca.Index.SKUIndexing" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/Endeca/Index/SKUIndexing/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/Endeca/Index/SKUIndexing/config/config.jar"/>
     </library>
     <library name="ATG__DCS.PublishingAgent" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/PublishingAgent/config/config.jar"/>
-        <archive path="DYNAMO_ROOT/DCS/PublishingAgent/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/PublishingAgent/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/PublishingAgent/lib/classes.jar"/>
     </library>
     <library name="ATG__DCS.TextSearch.Order.Index" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DCS/TextSearch/Order/Index/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DCS/TextSearch/Order/Index/config/config.jar"/>
     </library>
     <library name="ATG__DPS" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DPS/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DPS/lib/resources.jar"/>
-        <archive path="DYNAMO_ROOT/DPS/lib/jersey-classloader.jar"/>
-        <archive path="DYNAMO_ROOT/DPS/lib/opssclassloader.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/lib/resources.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/lib/jersey-classloader.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/lib/opssclassloader.jar"/>
     </library>
     <library name="ATG__DPS.Endeca.Assembler" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DPS/Endeca/Assembler/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/Endeca/Assembler/config/config.jar"/>
     </library>
     <library name="ATG__DPS.TextSearch.Index" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DPS/TextSearch/Index/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DPS/TextSearch/Index/config/config.jar"/>
     </library>
     <library name="ATG__DSS" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/DSS/lib/classes.jar"/>
-        <archive path="DYNAMO_ROOT/DSS/lib/resources.jar"/>
-        <archive path="DYNAMO_ROOT/DSS/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DSS/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DSS/lib/resources.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/DSS/config/config.jar"/>
     </library>
     <library name="ATG__Fulfillment" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/Fulfillment/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/Fulfillment/config/config.jar"/>
     </library>
     <library name="ATG__PublishingAgent.base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/PublishingAgent/base/lib/agent.jar"/>
-        <archive path="DYNAMO_ROOT/PublishingAgent/base/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/PublishingAgent/base/lib/agent.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/PublishingAgent/base/lib/classes.jar"/>
     </library>
     <library name="ATG__REST" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/REST/client-lib/java/atg-rest-client-1.0.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/client-lib/java/atg-rest-client-1.0.jar"/>
     </library>
     <library name="ATG__REST.Actor" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/REST/Actor/config/config.jar"/>
-        <archive path="DYNAMO_ROOT/REST/Actor/lib/commons-fileupload-1.4.jar"/>
-        <archive path="DYNAMO_ROOT/REST/Actor/lib/commons-io-2.6.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/Actor/config/config.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/Actor/lib/commons-fileupload-1.4.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/Actor/lib/commons-io-2.6.jar"/>
     </library>
     <library name="ATG__REST.base" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/REST/base/lib/atg-rest-1.0.jar"/>
-        <archive path="DYNAMO_ROOT/REST/base/lib/commons-fileupload-1.4.jar"/>
-        <archive path="DYNAMO_ROOT/REST/base/lib/commons-io-2.6.jar"/>
-        <archive path="DYNAMO_ROOT/REST/base/lib/dom4j-2.1.1.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/base/lib/atg-rest-1.0.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/base/lib/commons-fileupload-1.4.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/base/lib/commons-io-2.6.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/REST/base/lib/dom4j-2.1.1.jar"/>
     </library>
     <library name="ATG__WebUI" systemlibrary="false">
-        <archive path="DYNAMO_ROOT/WebUI/lib/classes.jar"/>
+        <archive path="O:/ATG/ATG11.3.2/WebUI/lib/classes.jar"/>
+    </library>
+    <library name="WEBLOGIC" systemlibrary="false">
+        <archive path="O:/Middleware/WLS/wlserver/server/lib/weblogic.jar"/>
+        <archive path="O:/Middleware/WLS/wlserver/server/lib/wlclient.jar"/>
+        <archive path="O:/Middleware/WLS/wlserver/server/lib/wlconnector.jar"/>
+        <archive path="O:/Middleware/WLS/wlserver/server/lib/wldeploy.jar"/>
+        <archive path="O:/Middleware/WLS/wlserver/server/lib/wls-api.jar"/>
     </library>
 </eclipse-userlibraries>
